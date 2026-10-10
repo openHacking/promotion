@@ -1,0 +1,173 @@
+{
+  "mode": "procedural",
+  "bpm": 120,
+  "sampleRate": 48000,
+  "duration": 30,
+  "origin": "Original procedural sine pads, percussion and chirps",
+  "source": null,
+  "sourceOffsetSeconds": 0,
+  "duckAmount": 0.3,
+  "beatFrames": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270,
+    300,
+    330,
+    360,
+    390,
+    420,
+    450,
+    480,
+    510,
+    540,
+    570,
+    600,
+    630,
+    660,
+    690,
+    720,
+    750,
+    780,
+    810,
+    840,
+    870,
+    900,
+    930,
+    960,
+    990,
+    1020,
+    1050,
+    1080,
+    1110,
+    1140,
+    1170,
+    1200,
+    1230,
+    1260,
+    1290,
+    1320,
+    1350,
+    1380,
+    1410,
+    1440,
+    1470,
+    1500,
+    1530,
+    1560,
+    1590,
+    1620,
+    1650,
+    1680,
+    1710,
+    1740,
+    1770
+  ],
+  "phraseFrames": [
+    0,
+    240,
+    480,
+    720,
+    960,
+    1200,
+    1440,
+    1680
+  ],
+  "license": "MIT",
+  "credit": "Original Promotion electro groove",
+  "sourcePage": null,
+  "musicPeak": 0.30045305738652683,
+  "sfxPeak": 0.07872413189931403,
+  "cues": [
+    {
+      "time": 0.5,
+      "id": "opening",
+      "frame": 30,
+      "kind": "brand"
+    },
+    {
+      "time": 3,
+      "id": "home-enter",
+      "frame": 180,
+      "kind": "transition"
+    },
+    {
+      "time": 6,
+      "id": "explore",
+      "frame": 360,
+      "kind": "select"
+    },
+    {
+      "time": 7,
+      "id": "catalog-enter",
+      "frame": 420,
+      "kind": "transition"
+    },
+    {
+      "time": 12,
+      "id": "category-enter",
+      "frame": 720,
+      "kind": "transition"
+    },
+    {
+      "time": 16,
+      "id": "choose",
+      "frame": 960,
+      "kind": "select"
+    },
+    {
+      "time": 17,
+      "id": "detail-enter",
+      "frame": 1020,
+      "kind": "transition"
+    },
+    {
+      "time": 18,
+      "id": "detail-land",
+      "frame": 1080,
+      "kind": "resolve"
+    },
+    {
+      "time": 20,
+      "id": "maker",
+      "frame": 1200,
+      "kind": "select"
+    },
+    {
+      "time": 23,
+      "id": "return-enter",
+      "frame": 1380,
+      "kind": "transition"
+    },
+    {
+      "time": 24,
+      "id": "card-1",
+      "frame": 1440,
+      "kind": "select"
+    },
+    {
+      "time": 24.5,
+      "id": "card-2",
+      "frame": 1470,
+      "kind": "select"
+    },
+    {
+      "time": 25,
+      "id": "card-3",
+      "frame": 1500,
+      "kind": "select"
+    },
+    {
+      "time": 27,
+      "id": "closing",
+      "frame": 1620,
+      "kind": "brand"
+    }
+  ]
+}

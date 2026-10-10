@@ -1,0 +1,54 @@
+[
+  {
+    "id": "home",
+    "url": "https://saashunt.pro/",
+    "capturedAt": "2026-10-10T11:51:36.955Z",
+    "type": "public-browser-screenshot",
+    "viewport": [
+      1440,
+      900
+    ],
+    "note": "Read-only capture. Video navigation is authored illustration, not a recording of user actions.",
+    "sha256": "22b996393550188484351ba71a50850144be21bebcfea2fe6b1221c944d9b86d",
+    "capturePreparation": "Declined cookie consent to obtain unobstructed UI; no authenticated or product-mutating actions."
+  },
+  {
+    "id": "catalog",
+    "url": "https://saashunt.pro/products",
+    "capturedAt": "2026-10-10T11:51:44.778Z",
+    "type": "public-browser-screenshot",
+    "viewport": [
+      1440,
+      900
+    ],
+    "note": "Read-only capture. Video navigation is authored illustration, not a recording of user actions.",
+    "sha256": "61deb15e4cab8dc0d93585873a74c4842563255104b4490a861207d8e184fbf7",
+    "capturePreparation": "Declined cookie consent to obtain unobstructed UI; no authenticated or product-mutating actions."
+  },
+  {
+    "id": "category",
+    "url": "https://saashunt.pro/categories/ai",
+    "capturedAt": "2026-10-10T11:51:51.619Z",
+    "type": "public-browser-screenshot",
+    "viewport": [
+      1440,
+      900
+    ],
+    "note": "Read-only capture. Video navigation is authored illustration, not a recording of user actions.",
+    "sha256": "7d0cabb413d5bacb6adcc64577c28412cca36e27e5424d221ead6f7d57e72701",
+    "capturePreparation": "Declined cookie consent to obtain unobstructed UI; no authenticated or product-mutating actions."
+  },
+  {
+    "id": "detail",
+    "url": "https://saashunt.pro/products/hairforge",
+    "capturedAt": "2026-10-10T11:51:55.895Z",
+    "type": "public-browser-screenshot",
+    "viewport": [
+      1440,
+      900
+    ],
+    "note": "Read-only capture. Video navigation is authored illustration, not a recording of user actions.",
+    "sha256": "008d0bbb099605981cb81b470e0ba4d0f99479f4c511faf4d9e1319f1f5bb56d",
+    "capturePreparation": "Declined cookie consent to obtain unobstructed UI; no authenticated or product-mutating actions."
+  }
+]

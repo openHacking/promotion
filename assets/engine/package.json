@@ -1,0 +1,14 @@
+{
+  "name": "promotion-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node scripts/serve.mjs",
+    "render": "node scripts/render.mjs",
+    "check": "node scripts/check.mjs out/video.mp4",
+    "test": "node scripts/test.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.64.0"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Promotion"
+  short_description: "Create editable product videos with expressive motion and synchronized sound"
+  default_prompt: "Use $promotion to understand this product, recommend a visual direction, and create a product video."

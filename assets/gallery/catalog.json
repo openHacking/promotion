@@ -1,0 +1,66 @@
+[
+  {
+    "id": "minimal",
+    "name": "Minimal launch",
+    "description": "Make the product the main character.",
+    "preview": "minimal.mp4",
+    "cover": "minimal.png",
+    "replaceable": [
+      "brand",
+      "copy",
+      "palette",
+      "font",
+      "screenshots",
+      "timing",
+      "sound"
+    ]
+  },
+  {
+    "id": "window",
+    "name": "Window demo",
+    "description": "Show how an intention becomes an outcome.",
+    "preview": "window.mp4",
+    "cover": "window.png",
+    "replaceable": [
+      "brand",
+      "copy",
+      "palette",
+      "font",
+      "screenshots",
+      "timing",
+      "sound"
+    ]
+  },
+  {
+    "id": "command",
+    "name": "Quick command",
+    "description": "Explain speed through a simple action.",
+    "preview": "command.mp4",
+    "cover": "command.png",
+    "replaceable": [
+      "brand",
+      "copy",
+      "palette",
+      "font",
+      "screenshots",
+      "timing",
+      "sound"
+    ]
+  },
+  {
+    "id": "workflow",
+    "name": "Workflow cards",
+    "description": "Make a complex process easy to follow.",
+    "preview": "workflow.mp4",
+    "cover": "workflow.png",
+    "replaceable": [
+      "brand",
+      "copy",
+      "palette",
+      "font",
+      "screenshots",
+      "timing",
+      "sound"
+    ]
+  }
+]

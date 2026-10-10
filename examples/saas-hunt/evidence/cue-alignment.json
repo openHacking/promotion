@@ -1,0 +1,119 @@
+{
+  "method": "PCM SFX stem onset above 0.001 full-scale within 40ms of shared event frame; not a listening assessment",
+  "sampleRate": 48000,
+  "cues": [
+    {
+      "id": "opening",
+      "frame": 30,
+      "kind": "brand",
+      "time": 0.5,
+      "onsetAfterScheduledMs": 0.020833333333333332,
+      "within40ms": true
+    },
+    {
+      "id": "home-enter",
+      "frame": 180,
+      "kind": "transition",
+      "time": 3,
+      "onsetAfterScheduledMs": 14.291666666666666,
+      "within40ms": true
+    },
+    {
+      "id": "explore",
+      "frame": 360,
+      "kind": "select",
+      "time": 6,
+      "onsetAfterScheduledMs": 0.020833333333333332,
+      "within40ms": true
+    },
+    {
+      "id": "catalog-enter",
+      "frame": 420,
+      "kind": "transition",
+      "time": 7,
+      "onsetAfterScheduledMs": 14.291666666666666,
+      "within40ms": true
+    },
+    {
+      "id": "category-enter",
+      "frame": 720,
+      "kind": "transition",
+      "time": 12,
+      "onsetAfterScheduledMs": 14.291666666666666,
+      "within40ms": true
+    },
+    {
+      "id": "choose",
+      "frame": 960,
+      "kind": "select",
+      "time": 16,
+      "onsetAfterScheduledMs": 0.020833333333333332,
+      "within40ms": true
+    },
+    {
+      "id": "detail-enter",
+      "frame": 1020,
+      "kind": "transition",
+      "time": 17,
+      "onsetAfterScheduledMs": 14.291666666666666,
+      "within40ms": true
+    },
+    {
+      "id": "detail-land",
+      "frame": 1080,
+      "kind": "resolve",
+      "time": 18,
+      "onsetAfterScheduledMs": 0.020833333333333332,
+      "within40ms": true
+    },
+    {
+      "id": "maker",
+      "frame": 1200,
+      "kind": "select",
+      "time": 20,
+      "onsetAfterScheduledMs": 0.020833333333333332,
+      "within40ms": true
+    },
+    {
+      "id": "return-enter",
+      "frame": 1380,
+      "kind": "transition",
+      "time": 23,
+      "onsetAfterScheduledMs": 14.291666666666666,
+      "within40ms": true
+    },
+    {
+      "id": "card-1",
+      "frame": 1440,
+      "kind": "select",
+      "time": 24,
+      "onsetAfterScheduledMs": 0.020833333333333332,
+      "within40ms": true
+    },
+    {
+      "id": "card-2",
+      "frame": 1470,
+      "kind": "select",
+      "time": 24.5,
+      "onsetAfterScheduledMs": 0.020833333333333332,
+      "within40ms": true
+    },
+    {
+      "id": "card-3",
+      "frame": 1500,
+      "kind": "select",
+      "time": 25,
+      "onsetAfterScheduledMs": 0.020833333333333332,
+      "within40ms": true
+    },
+    {
+      "id": "closing",
+      "frame": 1620,
+      "kind": "brand",
+      "time": 27,
+      "onsetAfterScheduledMs": 0.020833333333333332,
+      "within40ms": true
+    }
+  ],
+  "allPassed": true
+}

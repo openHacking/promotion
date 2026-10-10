@@ -1,0 +1,89 @@
+{
+  "title": "Browse SaaS Products | SaaS Hunt",
+  "colors": {
+    "bg": "rgb(252, 252, 252)",
+    "font": "Manrope, Arial, Helvetica, sans-serif"
+  },
+  "relevantLinks": [
+    {
+      "text": "Products",
+      "url": "https://saashunt.pro/products",
+      "box": {
+        "x": 315.8125,
+        "y": 22,
+        "width": 88.03125,
+        "height": 36
+      }
+    },
+    {
+      "text": "hairforge",
+      "url": "https://saashunt.pro/products/hairforge",
+      "box": {
+        "x": 212,
+        "y": 518.640625,
+        "width": 94.546875,
+        "height": 28
+      }
+    },
+    {
+      "text": "AI",
+      "url": "https://saashunt.pro/categories/ai",
+      "box": {
+        "x": 212,
+        "y": 590.640625,
+        "width": 10.75,
+        "height": 16
+      }
+    },
+    {
+      "text": "toolina",
+      "url": "https://saashunt.pro/makers/toolina",
+      "box": {
+        "x": 293.3125,
+        "y": 590.640625,
+        "width": 38.171875,
+        "height": 16
+      }
+    },
+    {
+      "text": "AI",
+      "url": "https://saashunt.pro/categories/ai",
+      "box": {
+        "x": 212,
+        "y": 906.640625,
+        "width": 10.75,
+        "height": 16
+      }
+    },
+    {
+      "text": "AI",
+      "url": "https://saashunt.pro/categories/ai",
+      "box": {
+        "x": 212,
+        "y": 1066.640625,
+        "width": 10.75,
+        "height": 16
+      }
+    },
+    {
+      "text": "AI",
+      "url": "https://saashunt.pro/categories/ai",
+      "box": {
+        "x": 212,
+        "y": 3626.640625,
+        "width": 10.75,
+        "height": 16
+      }
+    },
+    {
+      "text": "AI",
+      "url": "https://saashunt.pro/categories/ai",
+      "box": {
+        "x": 212,
+        "y": 3946.640625,
+        "width": 10.75,
+        "height": 16
+      }
+    }
+  ]
+}

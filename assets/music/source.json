@@ -1,0 +1,11 @@
+{
+  "title": "Energetic Electro Tune",
+  "author": "TinyWorlds",
+  "source": "https://opengameart.org/content/energetic-electro-tune",
+  "download": "https://opengameart.org/sites/default/files/mixdown.ogg",
+  "license": "CC0-1.0",
+  "checked": "2026-10-10",
+  "sha256": "4a2360010627f1fc04eedb640285a032d6d4bdd3e1aed24b469a8b0c29f76dd4",
+  "bpmEstimate": 125,
+  "bpmNote": "onset autocorrelation estimate, not author-specified; align important cuts against actual waveform"
+}

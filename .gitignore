@@ -1,0 +1,10 @@
+node_modules/
+out/
+.cache/
+.DS_Store
+__pycache__/
+*.partial.mp4
+.env*
+!.env.example
+._*
+_site/

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "existingLocalFont": true,
+  "rendererRejected": true,
+  "error": "NetworkError: A network error occurred.\n    at cancelRenderInternal (http://localhost:3000/bundle.js:289304:21)\n    at cancelRender (http://localhost:3000/bundle.js:289317:10)\n    at http://localhost:3000/bundle.js:270275:41"
+}

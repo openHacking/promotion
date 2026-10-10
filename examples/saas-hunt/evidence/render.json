@@ -1,0 +1,503 @@
+{
+  "engine": "remotion",
+  "frames": 1800,
+  "config": {
+    "brand": "SaaS Hunt",
+    "tagline": "Discover standout SaaS early.",
+    "category": "PRODUCT DISCOVERY",
+    "accent": "#ed4b08",
+    "background": "#f4f1ed",
+    "foreground": "#191817",
+    "surface": "#ffffff",
+    "title": "Discover your next tool.",
+    "description": "Browse SaaS products, explore categories, and look closer.",
+    "task": "Explore the AI category",
+    "result": "Find your next tool.",
+    "features": [
+      "Discover",
+      "Explore",
+      "Look closer"
+    ],
+    "template": "story",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration": 30,
+    "sceneDurations": [
+      3,
+      4,
+      5,
+      5,
+      6,
+      4,
+      3
+    ],
+    "fontFamily": "VideoSans",
+    "fontFile": "font.ttf",
+    "fontFormat": "truetype",
+    "logo": "brand.png",
+    "url": "saashunt.pro",
+    "screenshots": [],
+    "evidenceLabel": "Captured public pages · authored navigation",
+    "audio": {
+      "mode": "procedural",
+      "bpm": 120,
+      "musicVolume": 0.8,
+      "sfxVolume": 0.8,
+      "duckAmount": 0.3,
+      "credit": "Original Promotion electro groove",
+      "license": "MIT",
+      "sourceOffsetSeconds": 0
+    },
+    "provenance": [
+      {
+        "kind": "public-screenshots",
+        "source": "https://saashunt.pro/",
+        "date": "2026-10-10",
+        "note": "Captured public UI with original editorial motion. Not a live recorded navigation session."
+      }
+    ],
+    "engine": "remotion",
+    "story": [
+      {
+        "id": "intro",
+        "kind": "brand",
+        "title": "Discover standout SaaS early.",
+        "subtitle": "A place for products, makers, and your next discovery."
+      },
+      {
+        "id": "home",
+        "kind": "page",
+        "title": "A new place to discover.",
+        "subtitle": "New launches. Interesting products. Real makers.",
+        "file": "home-full.png",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 566
+        },
+        "fromCrop": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 700
+        },
+        "focus": {
+          "x": 126,
+          "y": 529,
+          "width": 169,
+          "height": 46
+        },
+        "eventId": "explore"
+      },
+      {
+        "id": "catalog",
+        "kind": "cards",
+        "title": "Explore the catalog.",
+        "subtitle": "Go from a broad view to something worth a closer look.",
+        "file": "catalog-full.png",
+        "crop": {
+          "x": 70,
+          "y": 275,
+          "width": 1300,
+          "height": 512
+        },
+        "fromCrop": {
+          "x": 0,
+          "y": 100,
+          "width": 1440,
+          "height": 566
+        },
+        "scrollTo": 150
+      },
+      {
+        "id": "category",
+        "kind": "page",
+        "title": "Find your category.",
+        "subtitle": "Start with AI. Follow what interests you.",
+        "file": "category-full.png",
+        "crop": {
+          "x": 70,
+          "y": 90,
+          "width": 1300,
+          "height": 512
+        },
+        "fromCrop": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 566
+        },
+        "focus": {
+          "x": 139,
+          "y": 422,
+          "width": 1060,
+          "height": 115
+        },
+        "eventId": "choose"
+      },
+      {
+        "id": "detail",
+        "kind": "detail",
+        "title": "Look closer.",
+        "subtitle": "Understand the product. Meet the maker.",
+        "file": "detail-full.png",
+        "crop": {
+          "x": 75,
+          "y": 118,
+          "width": 1300,
+          "height": 512
+        },
+        "fromCrop": {
+          "x": 75,
+          "y": 190,
+          "width": 1050,
+          "height": 414
+        },
+        "focus": {
+          "x": 1035,
+          "y": 126,
+          "width": 365,
+          "height": 115
+        },
+        "eventId": "maker",
+        "carrierFile": "category-full.png",
+        "carrierCrop": {
+          "x": 120,
+          "y": 416,
+          "width": 1200,
+          "height": 156
+        }
+      },
+      {
+        "id": "return",
+        "kind": "cards",
+        "title": "Discover your next tool.",
+        "subtitle": "Keep exploring the public catalog.",
+        "file": "catalog-full.png",
+        "crop": {
+          "x": 75,
+          "y": 455,
+          "width": 1300,
+          "height": 512
+        },
+        "fromCrop": {
+          "x": 75,
+          "y": 455,
+          "width": 1150,
+          "height": 453
+        },
+        "cards": [
+          {
+            "crop": {
+              "x": 120,
+              "y": 488,
+              "width": 1200,
+              "height": 144
+            },
+            "eventId": "card-1"
+          },
+          {
+            "crop": {
+              "x": 120,
+              "y": 644,
+              "width": 1200,
+              "height": 144
+            },
+            "eventId": "card-2"
+          },
+          {
+            "crop": {
+              "x": 120,
+              "y": 800,
+              "width": 1200,
+              "height": 144
+            },
+            "eventId": "card-3"
+          }
+        ]
+      },
+      {
+        "id": "close",
+        "kind": "outro",
+        "title": "Your next discovery starts here.",
+        "subtitle": "Explore SaaS Hunt."
+      }
+    ],
+    "timeline": {
+      "events": [
+        {
+          "id": "opening",
+          "frame": 30,
+          "kind": "brand"
+        },
+        {
+          "id": "home-enter",
+          "frame": 180,
+          "kind": "transition"
+        },
+        {
+          "id": "explore",
+          "frame": 360,
+          "kind": "select"
+        },
+        {
+          "id": "catalog-enter",
+          "frame": 420,
+          "kind": "transition"
+        },
+        {
+          "id": "category-enter",
+          "frame": 720,
+          "kind": "transition"
+        },
+        {
+          "id": "choose",
+          "frame": 960,
+          "kind": "select"
+        },
+        {
+          "id": "detail-enter",
+          "frame": 1020,
+          "kind": "transition"
+        },
+        {
+          "id": "detail-land",
+          "frame": 1080,
+          "kind": "resolve"
+        },
+        {
+          "id": "maker",
+          "frame": 1200,
+          "kind": "select"
+        },
+        {
+          "id": "return-enter",
+          "frame": 1380,
+          "kind": "transition"
+        },
+        {
+          "id": "card-1",
+          "frame": 1440,
+          "kind": "select"
+        },
+        {
+          "id": "card-2",
+          "frame": 1470,
+          "kind": "select"
+        },
+        {
+          "id": "card-3",
+          "frame": 1500,
+          "kind": "select"
+        },
+        {
+          "id": "closing",
+          "frame": 1620,
+          "kind": "brand"
+        }
+      ],
+      "beatFrames": [
+        0,
+        30,
+        60,
+        90,
+        120,
+        150,
+        180,
+        210,
+        240,
+        270,
+        300,
+        330,
+        360,
+        390,
+        420,
+        450,
+        480,
+        510,
+        540,
+        570,
+        600,
+        630,
+        660,
+        690,
+        720,
+        750,
+        780,
+        810,
+        840,
+        870,
+        900,
+        930,
+        960,
+        990,
+        1020,
+        1050,
+        1080,
+        1110,
+        1140,
+        1170,
+        1200,
+        1230,
+        1260,
+        1290,
+        1320,
+        1350,
+        1380,
+        1410,
+        1440,
+        1470,
+        1500,
+        1530,
+        1560,
+        1590,
+        1620,
+        1650,
+        1680,
+        1710,
+        1740,
+        1770
+      ],
+      "phraseFrames": [
+        0,
+        240,
+        480,
+        720,
+        960,
+        1200,
+        1440,
+        1680
+      ]
+    },
+    "motionEvents": [
+      {
+        "id": "opening",
+        "frame": 30,
+        "kind": "brand"
+      },
+      {
+        "id": "home-enter",
+        "frame": 180,
+        "kind": "transition"
+      },
+      {
+        "id": "explore",
+        "frame": 360,
+        "kind": "select"
+      },
+      {
+        "id": "catalog-enter",
+        "frame": 420,
+        "kind": "transition"
+      },
+      {
+        "id": "category-enter",
+        "frame": 720,
+        "kind": "transition"
+      },
+      {
+        "id": "choose",
+        "frame": 960,
+        "kind": "select"
+      },
+      {
+        "id": "detail-enter",
+        "frame": 1020,
+        "kind": "transition"
+      },
+      {
+        "id": "detail-land",
+        "frame": 1080,
+        "kind": "resolve"
+      },
+      {
+        "id": "maker",
+        "frame": 1200,
+        "kind": "select"
+      },
+      {
+        "id": "return-enter",
+        "frame": 1380,
+        "kind": "transition"
+      },
+      {
+        "id": "card-1",
+        "frame": 1440,
+        "kind": "select"
+      },
+      {
+        "id": "card-2",
+        "frame": 1470,
+        "kind": "select"
+      },
+      {
+        "id": "card-3",
+        "frame": 1500,
+        "kind": "select"
+      },
+      {
+        "id": "closing",
+        "frame": 1620,
+        "kind": "brand"
+      }
+    ]
+  },
+  "sampleFrames": [
+    0,
+    90,
+    179,
+    180,
+    219,
+    300,
+    419,
+    420,
+    459,
+    570,
+    719,
+    720,
+    759,
+    870,
+    1019,
+    1020,
+    1059,
+    1200,
+    1379,
+    1380,
+    1419,
+    1500,
+    1619,
+    1620,
+    1659,
+    1710,
+    1799
+  ],
+  "cutFrames": [
+    180,
+    420,
+    720,
+    1020,
+    1380,
+    1620
+  ],
+  "determinism": [
+    {
+      "frame": 486,
+      "hashes": [
+        "c205b7e68655a602502f6e59b0199c8abeb874a5211d3f1ae7174ba0977a9546",
+        "c205b7e68655a602502f6e59b0199c8abeb874a5211d3f1ae7174ba0977a9546"
+      ],
+      "equal": true
+    },
+    {
+      "frame": 1044,
+      "hashes": [
+        "78b6213d3edb564d839f02c3dec91cad799dbc4252e09a590e89c38787124b0f",
+        "78b6213d3edb564d839f02c3dec91cad799dbc4252e09a590e89c38787124b0f"
+      ],
+      "equal": true
+    }
+  ],
+  "seconds": 172.43107716699998
+}

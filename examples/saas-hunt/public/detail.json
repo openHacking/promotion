@@ -1,0 +1,59 @@
+{
+  "title": "hairforge - SaaS Hunt",
+  "colors": {
+    "bg": "rgb(252, 252, 252)",
+    "font": "Manrope, Arial, Helvetica, sans-serif"
+  },
+  "relevantLinks": [
+    {
+      "text": "Products",
+      "url": "https://saashunt.pro/products",
+      "box": {
+        "x": 315.8125,
+        "y": 22,
+        "width": 88.03125,
+        "height": 36
+      }
+    },
+    {
+      "text": "Back to products",
+      "url": "https://saashunt.pro/products",
+      "box": {
+        "x": 80,
+        "y": 131,
+        "width": 110.796875,
+        "height": 20
+      }
+    },
+    {
+      "text": "AI",
+      "url": "https://saashunt.pro/categories/ai",
+      "box": {
+        "x": 221,
+        "y": 131,
+        "width": 12.140625,
+        "height": 20
+      }
+    },
+    {
+      "text": "AI",
+      "url": "https://saashunt.pro/categories/ai",
+      "box": {
+        "x": 234.859375,
+        "y": 229,
+        "width": 10.75,
+        "height": 16
+      }
+    },
+    {
+      "text": "toolina",
+      "url": "https://saashunt.pro/makers/toolina",
+      "box": {
+        "x": 969.375,
+        "y": 241,
+        "width": 370.625,
+        "height": 28
+      }
+    }
+  ]
+}

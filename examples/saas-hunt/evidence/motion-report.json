@@ -1,0 +1,147 @@
+{
+  "file": "examples/saas-hunt/out/video.mp4",
+  "fps": 60,
+  "decodedFrames": 1800,
+  "sceneDurations": [
+    3,
+    4,
+    5,
+    5,
+    6,
+    4,
+    3
+  ],
+  "durationVariation": 0.24037008503093266,
+  "analysisSize": [
+    160,
+    90
+  ],
+  "centralRegion": [
+    24,
+    18,
+    112,
+    60
+  ],
+  "quietThreshold": 0.35,
+  "centralQuietIntervals": [
+    {
+      "start": 0.016666666666666666,
+      "end": 0.08333333333333333,
+      "seconds": 0.06666666666666667
+    },
+    {
+      "start": 1.0333333333333334,
+      "end": 3.033333333333333,
+      "seconds": 2
+    },
+    {
+      "start": 3.3666666666666667,
+      "end": 7.033333333333333,
+      "seconds": 3.6666666666666665
+    },
+    {
+      "start": 7.35,
+      "end": 7.433333333333334,
+      "seconds": 0.08333333333333333
+    },
+    {
+      "start": 7.45,
+      "end": 7.466666666666667,
+      "seconds": 0.016666666666666666
+    },
+    {
+      "start": 8.1,
+      "end": 8.116666666666667,
+      "seconds": 0.016666666666666666
+    },
+    {
+      "start": 8.133333333333333,
+      "end": 8.166666666666666,
+      "seconds": 0.03333333333333333
+    },
+    {
+      "start": 8.183333333333334,
+      "end": 8.816666666666666,
+      "seconds": 0.6333333333333333
+    },
+    {
+      "start": 8.833333333333334,
+      "end": 8.85,
+      "seconds": 0.016666666666666666
+    },
+    {
+      "start": 9.5,
+      "end": 9.516666666666667,
+      "seconds": 0.016666666666666666
+    },
+    {
+      "start": 9.533333333333333,
+      "end": 12.05,
+      "seconds": 2.5166666666666666
+    },
+    {
+      "start": 12.35,
+      "end": 12.433333333333334,
+      "seconds": 0.08333333333333333
+    },
+    {
+      "start": 12.45,
+      "end": 12.466666666666667,
+      "seconds": 0.016666666666666666
+    },
+    {
+      "start": 12.483333333333333,
+      "end": 12.5,
+      "seconds": 0.016666666666666666
+    },
+    {
+      "start": 12.983333333333333,
+      "end": 13.016666666666667,
+      "seconds": 0.03333333333333333
+    },
+    {
+      "start": 13.033333333333333,
+      "end": 17.05,
+      "seconds": 4.016666666666667
+    },
+    {
+      "start": 18.116666666666667,
+      "end": 23.033333333333335,
+      "seconds": 4.916666666666667
+    },
+    {
+      "start": 23.35,
+      "end": 23.433333333333334,
+      "seconds": 0.08333333333333333
+    },
+    {
+      "start": 23.933333333333334,
+      "end": 24.2,
+      "seconds": 0.26666666666666666
+    },
+    {
+      "start": 24.4,
+      "end": 24.683333333333334,
+      "seconds": 0.2833333333333333
+    },
+    {
+      "start": 24.916666666666668,
+      "end": 27.05,
+      "seconds": 2.1333333333333333
+    },
+    {
+      "start": 27.35,
+      "end": 27.4,
+      "seconds": 0.05
+    },
+    {
+      "start": 28.066666666666666,
+      "end": 30,
+      "seconds": 1.9333333333333333
+    }
+  ],
+  "wholePeak": 2.560625,
+  "centerPeak": 4.570982142857143,
+  "semanticContinuity": "Not measured. Review named foreground carriers at planned boundaries.",
+  "note": "Difference curves include background, light and texture changes. Quiet intervals are diagnostic estimates, not proof of rest, readability or quality."
+}

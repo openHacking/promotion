@@ -1,0 +1,73 @@
+{
+  "file": "examples/saas-hunt/out/video.mp4",
+  "sha256": "7d4e4ff5c93a8d22ae21dd6fab7fa0e94b3a662831c36bf32bba32591585195e",
+  "checks": [
+    {
+      "name": "resolution",
+      "pass": true,
+      "actual": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "fps",
+      "pass": true,
+      "actual": 60
+    },
+    {
+      "name": "codec",
+      "pass": true,
+      "actual": [
+        "h264",
+        "yuv420p"
+      ]
+    },
+    {
+      "name": "duration",
+      "pass": true,
+      "actual": 30
+    },
+    {
+      "name": "decoded frame count",
+      "pass": true,
+      "actual": 1800
+    },
+    {
+      "name": "audio presence",
+      "pass": true,
+      "actual": true
+    },
+    {
+      "name": "complete frame scan",
+      "pass": true,
+      "actual": 1800
+    },
+    {
+      "name": "audio duration",
+      "pass": true,
+      "actual": 30
+    },
+    {
+      "name": "no digital clipping",
+      "pass": true,
+      "actual": -10.4535
+    }
+  ],
+  "scan": {
+    "frames": 1800,
+    "minStd": 3.500724957775741,
+    "candidates": [],
+    "method": "Every decoded frame, 96×54 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+  },
+  "audio": {
+    "peakDb": -10.4535,
+    "duration": 30,
+    "sampleRate": "48000"
+  },
+  "manualReviewRequired": [
+    "Each shot and transition in decoded MP4",
+    "Readable multilingual copy and product claims",
+    "Listen for cue alignment and music masking"
+  ]
+}

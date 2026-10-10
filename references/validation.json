@@ -1,0 +1,985 @@
+{
+  "date": "2026-10-10",
+  "templates": {
+    "minimal": {
+      "original-output": {
+        "sha256": "12a7c8fad8928d90867c16bc6cb3baa03bd942bac9618e79401e2a2824fb24cb",
+        "checks": [
+          {
+            "name": "resolution",
+            "pass": true,
+            "actual": [
+              1920,
+              1080
+            ]
+          },
+          {
+            "name": "fps",
+            "pass": true,
+            "actual": 60
+          },
+          {
+            "name": "codec",
+            "pass": true,
+            "actual": [
+              "h264",
+              "yuv420p"
+            ]
+          },
+          {
+            "name": "duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "decoded frame count",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio presence",
+            "pass": true,
+            "actual": true
+          },
+          {
+            "name": "complete frame scan",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "no digital clipping",
+            "pass": true,
+            "actual": -12.939361
+          }
+        ],
+        "scan": {
+          "frames": 720,
+          "minStd": 5.536041712556165,
+          "candidates": [],
+          "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+        },
+        "repeatFrames": [
+          {
+            "frame": 194,
+            "hashes": [
+              "a7bd471b3897e9d56f177fb1ec6896e6334d14ecdacc5d2c060567d357562ea1",
+              "a7bd471b3897e9d56f177fb1ec6896e6334d14ecdacc5d2c060567d357562ea1"
+            ],
+            "equal": true
+          },
+          {
+            "frame": 418,
+            "hashes": [
+              "8b10fe8e0370e8facb78d5a052c461040a0675921d363657bbc50aeb143248ce",
+              "8b10fe8e0370e8facb78d5a052c461040a0675921d363657bbc50aeb143248ce"
+            ],
+            "equal": true
+          }
+        ],
+        "renderSeconds": 98.801740667
+      },
+      "out": {
+        "sha256": "572531ae535d0d9160806d946d07bee9da55a6ead38db13ca0439b7f53dcef4c",
+        "checks": [
+          {
+            "name": "resolution",
+            "pass": true,
+            "actual": [
+              1920,
+              1080
+            ]
+          },
+          {
+            "name": "fps",
+            "pass": true,
+            "actual": 60
+          },
+          {
+            "name": "codec",
+            "pass": true,
+            "actual": [
+              "h264",
+              "yuv420p"
+            ]
+          },
+          {
+            "name": "duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "decoded frame count",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio presence",
+            "pass": true,
+            "actual": true
+          },
+          {
+            "name": "complete frame scan",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "no digital clipping",
+            "pass": true,
+            "actual": -12.939361
+          }
+        ],
+        "scan": {
+          "frames": 720,
+          "minStd": 6.665521594007285,
+          "candidates": [],
+          "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+        },
+        "repeatFrames": [
+          {
+            "frame": 194,
+            "hashes": [
+              "c281ff4d0741858921ab875bfd8173fd0d5fb9be6c68f5439a38f7c8860faeca",
+              "c281ff4d0741858921ab875bfd8173fd0d5fb9be6c68f5439a38f7c8860faeca"
+            ],
+            "equal": true
+          },
+          {
+            "frame": 418,
+            "hashes": [
+              "9e3497623b96de1e9fed4cef6a351fae71ceb01920e76fc2c766f8edff50ccc3",
+              "9e3497623b96de1e9fed4cef6a351fae71ceb01920e76fc2c766f8edff50ccc3"
+            ],
+            "equal": true
+          }
+        ],
+        "renderSeconds": 91.32158725
+      },
+      "replacementTests": [
+        {
+          "template": "minimal",
+          "frame": 490,
+          "hashes": [
+            "a2aea2f73db3c96e351fe32638cca09e01af2e80ea58ca997a8ce5f0fb19603c",
+            "a2aea2f73db3c96e351fe32638cca09e01af2e80ea58ca997a8ce5f0fb19603c"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 7156
+        },
+        {
+          "template": "window",
+          "frame": 490,
+          "hashes": [
+            "09a77223a7f5e76e36c8a1a23755686fc91e103fdf4d5a303b47468b2bf3edf7",
+            "09a77223a7f5e76e36c8a1a23755686fc91e103fdf4d5a303b47468b2bf3edf7"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 6253
+        },
+        {
+          "template": "command",
+          "frame": 360,
+          "hashes": [
+            "1bdb5e8af9ea3f72af4bc2f30ee904c7e9c69c4c1a4fac7c9aa5836dfb11042c",
+            "1bdb5e8af9ea3f72af4bc2f30ee904c7e9c69c4c1a4fac7c9aa5836dfb11042c"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 6474
+        },
+        {
+          "template": "workflow",
+          "frame": 490,
+          "hashes": [
+            "7ad25262a474877534d328beed6f06af9a4580d90f9ea3517aeeb8db72b6e72a",
+            "7ad25262a474877534d328beed6f06af9a4580d90f9ea3517aeeb8db72b6e72a"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 3612
+        }
+      ]
+    },
+    "window": {
+      "original-output": {
+        "sha256": "7e06aef47e521b5565c5f926e11e22a4cb6e1e46a44c27579f6c8ecab45b4080",
+        "checks": [
+          {
+            "name": "resolution",
+            "pass": true,
+            "actual": [
+              1920,
+              1080
+            ]
+          },
+          {
+            "name": "fps",
+            "pass": true,
+            "actual": 60
+          },
+          {
+            "name": "codec",
+            "pass": true,
+            "actual": [
+              "h264",
+              "yuv420p"
+            ]
+          },
+          {
+            "name": "duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "decoded frame count",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio presence",
+            "pass": true,
+            "actual": true
+          },
+          {
+            "name": "complete frame scan",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "no digital clipping",
+            "pass": true,
+            "actual": -12.939361
+          }
+        ],
+        "scan": {
+          "frames": 720,
+          "minStd": 2.3300354072595204,
+          "candidates": [],
+          "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+        },
+        "repeatFrames": [
+          {
+            "frame": 194,
+            "hashes": [
+              "6092bc4bdd2e23ef1feb5cb53e104bc047f8544a9f9b2c9cdfb7bd92a4881ada",
+              "6092bc4bdd2e23ef1feb5cb53e104bc047f8544a9f9b2c9cdfb7bd92a4881ada"
+            ],
+            "equal": true
+          },
+          {
+            "frame": 418,
+            "hashes": [
+              "1c40319acc44478ce51470cb0b1d7c1888c9a1613f08f417fd20f7cbf714cb2c",
+              "1c40319acc44478ce51470cb0b1d7c1888c9a1613f08f417fd20f7cbf714cb2c"
+            ],
+            "equal": true
+          }
+        ],
+        "renderSeconds": 88.875623125
+      },
+      "out": {
+        "sha256": "286dc98eaf6a68f120c911a8a79e4a9038a26439054a31339b6035c2f393c5c1",
+        "checks": [
+          {
+            "name": "resolution",
+            "pass": true,
+            "actual": [
+              1920,
+              1080
+            ]
+          },
+          {
+            "name": "fps",
+            "pass": true,
+            "actual": 60
+          },
+          {
+            "name": "codec",
+            "pass": true,
+            "actual": [
+              "h264",
+              "yuv420p"
+            ]
+          },
+          {
+            "name": "duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "decoded frame count",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio presence",
+            "pass": true,
+            "actual": true
+          },
+          {
+            "name": "complete frame scan",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "no digital clipping",
+            "pass": true,
+            "actual": -12.939361
+          }
+        ],
+        "scan": {
+          "frames": 720,
+          "minStd": 1.9144045277036887,
+          "candidates": [],
+          "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+        },
+        "repeatFrames": [
+          {
+            "frame": 194,
+            "hashes": [
+              "41fb08c8b6d3da44de1b2a4f905db0173889200a4684c8bc3a664d0370255abe",
+              "41fb08c8b6d3da44de1b2a4f905db0173889200a4684c8bc3a664d0370255abe"
+            ],
+            "equal": true
+          },
+          {
+            "frame": 418,
+            "hashes": [
+              "ff359bc1370817fc65983641a39c3b321ca17461d94285f97b53ca7458d1b0a7",
+              "ff359bc1370817fc65983641a39c3b321ca17461d94285f97b53ca7458d1b0a7"
+            ],
+            "equal": true
+          }
+        ],
+        "renderSeconds": 84.150444417
+      },
+      "replacementTests": [
+        {
+          "template": "minimal",
+          "frame": 490,
+          "hashes": [
+            "2870e73583159f27fd01c1637a559759041d7d17e4cab1ee06a986d1f2cbf64a",
+            "2870e73583159f27fd01c1637a559759041d7d17e4cab1ee06a986d1f2cbf64a"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 7156
+        },
+        {
+          "template": "window",
+          "frame": 490,
+          "hashes": [
+            "a93a9ad65ef3e3199274d762c17d5984adc404f11f79dc162e583e2fca85dbb0",
+            "a93a9ad65ef3e3199274d762c17d5984adc404f11f79dc162e583e2fca85dbb0"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 6253
+        },
+        {
+          "template": "command",
+          "frame": 360,
+          "hashes": [
+            "945f5cd2cf83c221134b6a8e46399449df1b7263e807f18347c1d25c6ee76637",
+            "945f5cd2cf83c221134b6a8e46399449df1b7263e807f18347c1d25c6ee76637"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 6478
+        },
+        {
+          "template": "workflow",
+          "frame": 490,
+          "hashes": [
+            "e7a14686417c3c2eb73cb5456e278b6b41a6ad2f353aba0b63a612ee060ad04a",
+            "e7a14686417c3c2eb73cb5456e278b6b41a6ad2f353aba0b63a612ee060ad04a"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 3612
+        }
+      ]
+    },
+    "command": {
+      "original-output": {
+        "sha256": "f1ab6cefe98cddf1a7a2a136906e8c68a6c3e04fc363aa0866a123bddb20bc34",
+        "checks": [
+          {
+            "name": "resolution",
+            "pass": true,
+            "actual": [
+              1920,
+              1080
+            ]
+          },
+          {
+            "name": "fps",
+            "pass": true,
+            "actual": 60
+          },
+          {
+            "name": "codec",
+            "pass": true,
+            "actual": [
+              "h264",
+              "yuv420p"
+            ]
+          },
+          {
+            "name": "duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "decoded frame count",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio presence",
+            "pass": true,
+            "actual": true
+          },
+          {
+            "name": "complete frame scan",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "no digital clipping",
+            "pass": true,
+            "actual": -12.939361
+          }
+        ],
+        "scan": {
+          "frames": 720,
+          "minStd": 7.514791566091986,
+          "candidates": [],
+          "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+        },
+        "repeatFrames": [
+          {
+            "frame": 194,
+            "hashes": [
+              "e376ba179f2eafb9f962da18505c5caf352ce80424f7922c1a82f2a52956b1fc",
+              "e376ba179f2eafb9f962da18505c5caf352ce80424f7922c1a82f2a52956b1fc"
+            ],
+            "equal": true
+          },
+          {
+            "frame": 418,
+            "hashes": [
+              "ee98d94ef9ef53a4cb9991c0e3fa42692550fe835522ebda9ca88481d1128df4",
+              "ee98d94ef9ef53a4cb9991c0e3fa42692550fe835522ebda9ca88481d1128df4"
+            ],
+            "equal": true
+          }
+        ],
+        "renderSeconds": 86.829262834
+      },
+      "out": {
+        "sha256": "b36232a7e5f29f81b66c92c65f31429a4e906b9065efba63eb8aff96ff0444f4",
+        "checks": [
+          {
+            "name": "resolution",
+            "pass": true,
+            "actual": [
+              1920,
+              1080
+            ]
+          },
+          {
+            "name": "fps",
+            "pass": true,
+            "actual": 60
+          },
+          {
+            "name": "codec",
+            "pass": true,
+            "actual": [
+              "h264",
+              "yuv420p"
+            ]
+          },
+          {
+            "name": "duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "decoded frame count",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio presence",
+            "pass": true,
+            "actual": true
+          },
+          {
+            "name": "complete frame scan",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "no digital clipping",
+            "pass": true,
+            "actual": -12.939361
+          }
+        ],
+        "scan": {
+          "frames": 720,
+          "minStd": 5.184598407140676,
+          "candidates": [],
+          "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+        },
+        "repeatFrames": [
+          {
+            "frame": 194,
+            "hashes": [
+              "c737312db3a50496153182e91a0363a25c13c6a1d0df4a6affe950340518c199",
+              "c737312db3a50496153182e91a0363a25c13c6a1d0df4a6affe950340518c199"
+            ],
+            "equal": true
+          },
+          {
+            "frame": 418,
+            "hashes": [
+              "5810a3aad8d9ead07aaaaf7674143062b827405247e4a9a062e13a9eeca3f94a",
+              "5810a3aad8d9ead07aaaaf7674143062b827405247e4a9a062e13a9eeca3f94a"
+            ],
+            "equal": true
+          }
+        ],
+        "renderSeconds": 84.42157945800001
+      },
+      "replacementTests": [
+        {
+          "template": "minimal",
+          "frame": 490,
+          "hashes": [
+            "631fab3778a26cd81a87dadb768ef0f8ca185e9bb4e923b308165806b6df1dd0",
+            "631fab3778a26cd81a87dadb768ef0f8ca185e9bb4e923b308165806b6df1dd0"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 7156
+        },
+        {
+          "template": "window",
+          "frame": 490,
+          "hashes": [
+            "f960bb6ce9d52d55cd44192de08f1cf355202a14e535f39e07edd15996baa3f3",
+            "f960bb6ce9d52d55cd44192de08f1cf355202a14e535f39e07edd15996baa3f3"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 6255
+        },
+        {
+          "template": "command",
+          "frame": 360,
+          "hashes": [
+            "b0801e17e8da60d3b090350a36b598a45791d74f135d10b7e14bcccaa952d724",
+            "b0801e17e8da60d3b090350a36b598a45791d74f135d10b7e14bcccaa952d724"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 6474
+        },
+        {
+          "template": "workflow",
+          "frame": 490,
+          "hashes": [
+            "f9f6d7366a0b42d7fb8388ee7f173604cd237e422d77ef5e5e7643159ca3dcf5",
+            "f9f6d7366a0b42d7fb8388ee7f173604cd237e422d77ef5e5e7643159ca3dcf5"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 3616
+        }
+      ]
+    },
+    "workflow": {
+      "original-output": {
+        "sha256": "d2f35b21e100b950e83726bdad8a1003971d0fb62039449d76986d40b6d4f001",
+        "checks": [
+          {
+            "name": "resolution",
+            "pass": true,
+            "actual": [
+              1920,
+              1080
+            ]
+          },
+          {
+            "name": "fps",
+            "pass": true,
+            "actual": 60
+          },
+          {
+            "name": "codec",
+            "pass": true,
+            "actual": [
+              "h264",
+              "yuv420p"
+            ]
+          },
+          {
+            "name": "duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "decoded frame count",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio presence",
+            "pass": true,
+            "actual": true
+          },
+          {
+            "name": "complete frame scan",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "no digital clipping",
+            "pass": true,
+            "actual": -12.939361
+          }
+        ],
+        "scan": {
+          "frames": 720,
+          "minStd": 2.8359604472348687,
+          "candidates": [],
+          "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+        },
+        "repeatFrames": [
+          {
+            "frame": 194,
+            "hashes": [
+              "ce3e9c28d1db6be2fccd13ae588894963287fc112a475d69d60ef07caa6bdd01",
+              "ce3e9c28d1db6be2fccd13ae588894963287fc112a475d69d60ef07caa6bdd01"
+            ],
+            "equal": true
+          },
+          {
+            "frame": 418,
+            "hashes": [
+              "733b46557c88156d897a0f0ea675eb931cab512a3c8e816df9a9a58aa4472c47",
+              "733b46557c88156d897a0f0ea675eb931cab512a3c8e816df9a9a58aa4472c47"
+            ],
+            "equal": true
+          }
+        ],
+        "renderSeconds": 99.971933875
+      },
+      "out": {
+        "sha256": "e6d14323f5946c9eb141a22d9de51a5b64dcc79354c2d536499866a75cdb9a2d",
+        "checks": [
+          {
+            "name": "resolution",
+            "pass": true,
+            "actual": [
+              1920,
+              1080
+            ]
+          },
+          {
+            "name": "fps",
+            "pass": true,
+            "actual": 60
+          },
+          {
+            "name": "codec",
+            "pass": true,
+            "actual": [
+              "h264",
+              "yuv420p"
+            ]
+          },
+          {
+            "name": "duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "decoded frame count",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio presence",
+            "pass": true,
+            "actual": true
+          },
+          {
+            "name": "complete frame scan",
+            "pass": true,
+            "actual": 720
+          },
+          {
+            "name": "audio duration",
+            "pass": true,
+            "actual": 12
+          },
+          {
+            "name": "no digital clipping",
+            "pass": true,
+            "actual": -12.939361
+          }
+        ],
+        "scan": {
+          "frames": 720,
+          "minStd": 2.9323114567105373,
+          "candidates": [],
+          "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+        },
+        "repeatFrames": [
+          {
+            "frame": 194,
+            "hashes": [
+              "83bc23f2c0b3a739c1c16d1ee3e3a25387ba33c270fbbc143c42974b53da754c",
+              "83bc23f2c0b3a739c1c16d1ee3e3a25387ba33c270fbbc143c42974b53da754c"
+            ],
+            "equal": true
+          },
+          {
+            "frame": 418,
+            "hashes": [
+              "e74936eff6291e07aeb33f2ddce0186b6915e3e988e258ea9865670ebd74c0bb",
+              "e74936eff6291e07aeb33f2ddce0186b6915e3e988e258ea9865670ebd74c0bb"
+            ],
+            "equal": true
+          }
+        ],
+        "renderSeconds": 88.345450167
+      },
+      "replacementTests": [
+        {
+          "template": "minimal",
+          "frame": 490,
+          "hashes": [
+            "f7fa3e70eb481c6bc768c4fbb2388a582f60a4696c667cc4e4cfaf6d6fb3bef3",
+            "f7fa3e70eb481c6bc768c4fbb2388a582f60a4696c667cc4e4cfaf6d6fb3bef3"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 7150
+        },
+        {
+          "template": "window",
+          "frame": 490,
+          "hashes": [
+            "35a1fe9b1e144814bca6fae1614613fc1d93882529dd2604131c6b3962f3f6d3",
+            "35a1fe9b1e144814bca6fae1614613fc1d93882529dd2604131c6b3962f3f6d3"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 6251
+        },
+        {
+          "template": "command",
+          "frame": 360,
+          "hashes": [
+            "af8bdb3db55b093b77ac75876c3eeb3fce4dd9f8c7b32151882f5676cada1e64",
+            "af8bdb3db55b093b77ac75876c3eeb3fce4dd9f8c7b32151882f5676cada1e64"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 6474
+        },
+        {
+          "template": "workflow",
+          "frame": 490,
+          "hashes": [
+            "a83502352cb733198057f397ec32e22e828debe5f65e008b9574cff402f3b7af",
+            "a83502352cb733198057f397ec32e22e828debe5f65e008b9574cff402f3b7af"
+          ],
+          "equal": true,
+          "backgroundChangedPixels": null,
+          "localImagePath": "verify local image.svg",
+          "rendered": true,
+          "magentaPixels": 3612
+        }
+      ]
+    }
+  },
+  "html": [
+    {
+      "test": "minimal long copy and seek determinism",
+      "passed": true
+    },
+    {
+      "test": "window long copy and seek determinism",
+      "passed": true
+    },
+    {
+      "test": "command long copy and seek determinism",
+      "passed": true
+    },
+    {
+      "test": "workflow long copy and seek determinism",
+      "passed": true
+    },
+    {
+      "test": "missing image",
+      "passed": true
+    },
+    {
+      "test": "missing font",
+      "passed": true
+    },
+    {
+      "test": "remote asset",
+      "passed": true
+    },
+    {
+      "test": "bad scene duration",
+      "passed": true
+    },
+    {
+      "test": "keyboard advances exactly one frame",
+      "passed": true
+    }
+  ],
+  "galleryPlayback": {
+    "results": [
+      {
+        "src": "../../examples/saas-hunt/video.mp4",
+        "duration": 30,
+        "size": [
+          1920,
+          1080
+        ],
+        "played": true,
+        "seeked": 29.95,
+        "readyState": 4
+      },
+      {
+        "src": "minimal.mp4",
+        "duration": 12,
+        "size": [
+          1920,
+          1080
+        ],
+        "played": true,
+        "seeked": 11.95,
+        "readyState": 4
+      },
+      {
+        "src": "window.mp4",
+        "duration": 12,
+        "size": [
+          1920,
+          1080
+        ],
+        "played": true,
+        "seeked": 11.95,
+        "readyState": 4
+      },
+      {
+        "src": "command.mp4",
+        "duration": 12,
+        "size": [
+          1920,
+          1080
+        ],
+        "played": true,
+        "seeked": 11.95,
+        "readyState": 4
+      },
+      {
+        "src": "workflow.mp4",
+        "duration": 12,
+        "size": [
+          1920,
+          1080
+        ],
+        "played": true,
+        "seeked": 11.95,
+        "readyState": 4
+      }
+    ],
+    "errors": []
+  },
+  "externalAudioOffset": {
+    "passed": true,
+    "offsetChangesOutput": true,
+    "sourceRemainsRelative": true,
+    "hashes": [
+      "2ec25b9622248f1d4a1edd8db088cd6deccacadd5a1d6385066245660fcfe44e",
+      "5b26722ca40ccd00f334e0e8e6adfad81dc2f3e34ac8a3e12df962379d469a15"
+    ]
+  },
+  "subjectiveListening": "Pending; not certified by automated checks."
+}
