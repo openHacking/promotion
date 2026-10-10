@@ -1,0 +1,95 @@
+{
+  "brand": "SaaS Hunt",
+  "accent": "#ed4b08",
+  "background": "#f5f2e9",
+  "foreground": "#191a1c",
+  "surface": "#ffffff",
+  "template": "story",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 10,
+  "sceneDurations": [
+    5,
+    5
+  ],
+  "fontFamily": "VideoSans",
+  "fontFile": "font.ttf",
+  "fontFormat": "truetype",
+  "logo": "brand.png",
+  "url": "saashunt.pro",
+  "evidenceLabel": "Public captures + illustrative choreography",
+  "audio": {
+    "mode": "file",
+    "bpm": 125,
+    "musicVolume": 0.25,
+    "sfxVolume": 0.65,
+    "duckAmount": 0.3,
+    "credit": "Energetic Electro Tune \u2014 TinyWorlds",
+    "license": "CC0-1.0",
+    "sourceOffsetSeconds": 0,
+    "source": "music/energetic-electro.ogg",
+    "sourcePage": "https://opengameart.org/content/energetic-electro-tune"
+  },
+  "provenance": [
+    {
+      "source": "https://saashunt.pro/products/exportgpt",
+      "kind": "public-page-capture",
+      "note": "Listing captured on 2026-10-10. Choreography is editorial, not live navigation."
+    },
+    {
+      "kind": "original-motion-graphics",
+      "note": "Orbit candidates and export-format cards are illustrative; no installed extension or export operation was recorded."
+    }
+  ],
+  "engine": "remotion",
+  "story": [
+    {
+      "id": "study-a",
+      "kind": "mg",
+      "mg": {
+        "recipe": "orbit",
+        "headline": "Find a useful lead.",
+        "items": [
+          "ExportGPT",
+          "Productivity",
+          "Documentation",
+          "Workflow"
+        ],
+        "selected": 0,
+        "label": "Discovery concept"
+      }
+    },
+    {
+      "id": "study-b",
+      "kind": "mg",
+      "mg": {
+        "recipe": "orbit",
+        "headline": "Find a useful lead.",
+        "items": [
+          "ExportGPT",
+          "Productivity",
+          "Documentation",
+          "Workflow"
+        ],
+        "selected": 0,
+        "label": "Discovery concept"
+      }
+    }
+  ],
+  "timeline": {
+    "events": []
+  },
+  "title": "Find a useful lead.",
+  "task": "Discover ExportGPT",
+  "result": "From conversation to document.",
+  "tagline": "Discover your next tool.",
+  "category": "Product discovery",
+  "description": "Discover ExportGPT on SaaS Hunt and inspect its public product page.",
+  "features": [
+    "Discover",
+    "Inspect",
+    "Explore"
+  ],
+  "screenshots": []
+}

@@ -1,0 +1,178 @@
+{
+  "unitTestsPassed": 57,
+  "typecheck": "passed",
+  "legacyTemplates": "Four encoded fixtures passed",
+  "nativeAspectLayouts": "Two retained formats passed",
+  "encodedWipe": "Red/blue decoded endpoint and midpoint checks passed",
+  "rebuild": [
+    {
+      "format": "landscape",
+      "frame": 486,
+      "equal": true
+    },
+    {
+      "format": "landscape",
+      "frame": 1044,
+      "equal": true
+    },
+    {
+      "format": "portrait",
+      "frame": 486,
+      "equal": true
+    },
+    {
+      "format": "portrait",
+      "frame": 1044,
+      "equal": true
+    }
+  ],
+  "encodedVideos": {
+    "landscape": {
+      "file": "landscape-video.mp4",
+      "sha256": "6627053537a1f011b2296dd46466aa3cf6d7d304adc9519490dc202f09edf6ac",
+      "checks": [
+        {
+          "name": "resolution",
+          "pass": true,
+          "actual": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "name": "fps",
+          "pass": true,
+          "actual": 60
+        },
+        {
+          "name": "codec",
+          "pass": true,
+          "actual": [
+            "h264",
+            "yuv420p"
+          ]
+        },
+        {
+          "name": "duration",
+          "pass": true,
+          "actual": 30
+        },
+        {
+          "name": "decoded frame count",
+          "pass": true,
+          "actual": 1800
+        },
+        {
+          "name": "audio presence",
+          "pass": true,
+          "actual": true
+        },
+        {
+          "name": "complete frame scan",
+          "pass": true,
+          "actual": 1800
+        },
+        {
+          "name": "audio duration",
+          "pass": true,
+          "actual": 30
+        },
+        {
+          "name": "no digital clipping",
+          "pass": true,
+          "actual": -7.347431
+        }
+      ],
+      "scan": {
+        "frames": 1800,
+        "minStd": 6.805546457259953,
+        "candidates": [],
+        "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+      },
+      "audio": {
+        "peakDb": -7.347431,
+        "duration": 30,
+        "sampleRate": "48000"
+      },
+      "manualReviewRequired": [
+        "Each shot and transition in decoded MP4",
+        "Readable multilingual copy and product claims",
+        "Listen for cue alignment and music masking"
+      ]
+    },
+    "portrait": {
+      "file": "portrait-video.mp4",
+      "sha256": "3840d49690b1698f3e57fb14f518fbc07ebf7b08fc5678e643b992ea0cfb55a0",
+      "checks": [
+        {
+          "name": "resolution",
+          "pass": true,
+          "actual": [
+            1080,
+            1920
+          ]
+        },
+        {
+          "name": "fps",
+          "pass": true,
+          "actual": 60
+        },
+        {
+          "name": "codec",
+          "pass": true,
+          "actual": [
+            "h264",
+            "yuv420p"
+          ]
+        },
+        {
+          "name": "duration",
+          "pass": true,
+          "actual": 30
+        },
+        {
+          "name": "decoded frame count",
+          "pass": true,
+          "actual": 1800
+        },
+        {
+          "name": "audio presence",
+          "pass": true,
+          "actual": true
+        },
+        {
+          "name": "complete frame scan",
+          "pass": true,
+          "actual": 1800
+        },
+        {
+          "name": "audio duration",
+          "pass": true,
+          "actual": 30
+        },
+        {
+          "name": "no digital clipping",
+          "pass": true,
+          "actual": -7.347431
+        }
+      ],
+      "scan": {
+        "frames": 1800,
+        "minStd": 6.378435337761388,
+        "candidates": [],
+        "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+      },
+      "audio": {
+        "peakDb": -7.347431,
+        "duration": 30,
+        "sampleRate": "48000"
+      },
+      "manualReviewRequired": [
+        "Each shot and transition in decoded MP4",
+        "Readable multilingual copy and product claims",
+        "Listen for cue alignment and music masking"
+      ]
+    }
+  },
+  "listening": "not performed"
+}

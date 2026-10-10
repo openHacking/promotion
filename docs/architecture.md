@@ -11,3 +11,5 @@ The audio engine generates original music or trims a local licensed track, synth
 The checking script probes and decodes every frame; the motion report produces diagnostic difference curves. Neither judges semantic continuity or aesthetic quality. Human visual inspection and listening remain distinct evidence categories.
 
 The CLI stops its compiler service after bundling and cleanup, then exits after all outputs have been written; lingering bundler worker handles must not leave a completed render waiting indefinitely. Browser selection supports PROMOTION_BROWSER and the legacy environment alias.
+
+Freeform scene shots use independent local assets and shot-local keyframes for layered composition, masks, 2.5D depth, and camera motion. Scene validation shares the public asset boundary; videos remain muted and the global event timeline owns sound. Visual storytelling and capability routing precede full choreography.

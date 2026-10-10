@@ -1,0 +1,305 @@
+{
+  "brand": "SaaS Hunt",
+  "accent": "#ff784f",
+  "background": "#0c0e10",
+  "foreground": "#f5f2e9",
+  "surface": "#1e2225",
+  "template": "discovery",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 30,
+  "sceneDurations": [
+    3,
+    4,
+    5,
+    7,
+    11
+  ],
+  "fontFamily": "VideoSans",
+  "fontFile": "font.ttf",
+  "fontFormat": "truetype",
+  "logo": "brand.png",
+  "url": "saashunt.pro",
+  "evidenceLabel": "Public captures + illustrative choreography",
+  "audio": {
+    "mode": "file",
+    "bpm": 125,
+    "musicVolume": 0.4,
+    "sfxVolume": 0.6,
+    "duckAmount": 0.2,
+    "credit": "Energetic Electro Tune \u2014 TinyWorlds",
+    "license": "CC0-1.0",
+    "sourceOffsetSeconds": 0,
+    "source": "music/energetic-electro.ogg",
+    "sourcePage": "https://opengameart.org/content/energetic-electro-tune"
+  },
+  "provenance": [
+    {
+      "kind": "public-ui-capture",
+      "source": "https://saashunt.pro/",
+      "date": "2026-10-11",
+      "file": "home.jpg"
+    },
+    {
+      "kind": "public-ui-capture",
+      "source": "https://saashunt.pro/products",
+      "date": "2026-10-11",
+      "file": "catalog.jpg"
+    },
+    {
+      "kind": "public-ui-capture",
+      "source": "https://saashunt.pro/categories/productivity",
+      "date": "2026-10-11",
+      "file": "category.jpg"
+    },
+    {
+      "kind": "public-ui-capture",
+      "source": "https://saashunt.pro/products/exportgpt",
+      "date": "2026-10-11",
+      "file": "detail.jpg"
+    }
+  ],
+  "engine": "remotion",
+  "timeline": {
+    "events": [
+      {
+        "id": "home",
+        "frame": 173,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.42,
+          "leadSeconds": 0.16
+        }
+      },
+      {
+        "id": "catalog",
+        "frame": 403,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.42,
+          "leadSeconds": 0.16
+        }
+      },
+      {
+        "id": "browse",
+        "frame": 548,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.42,
+          "leadSeconds": 0.16
+        }
+      },
+      {
+        "id": "filter",
+        "frame": 720,
+        "kind": "select",
+        "sound": {
+          "material": "click",
+          "gain": 0.42,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "select",
+        "frame": 893,
+        "kind": "select",
+        "sound": {
+          "material": "click",
+          "gain": 0.42,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "detail",
+        "frame": 979,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.42,
+          "leadSeconds": 0.16
+        }
+      },
+      {
+        "id": "expand",
+        "frame": 1152,
+        "kind": "brand",
+        "sound": {
+          "material": "impact",
+          "gain": 0.42,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "cta",
+        "frame": 1613,
+        "kind": "brand",
+        "sound": {
+          "material": "impact",
+          "gain": 0.42,
+          "leadSeconds": 0
+        }
+      }
+    ],
+    "beatFrames": [
+      3,
+      116,
+      144,
+      173,
+      202,
+      233,
+      259,
+      317,
+      346,
+      375,
+      403,
+      432,
+      460,
+      490,
+      519,
+      548,
+      576,
+      605,
+      634,
+      663,
+      691,
+      720,
+      749,
+      777,
+      806,
+      835,
+      865,
+      893,
+      922,
+      950,
+      979,
+      1009,
+      1037,
+      1066,
+      1094,
+      1124,
+      1152,
+      1434
+    ],
+    "phraseFrames": [
+      60,
+      180,
+      300,
+      420,
+      540,
+      660,
+      870,
+      990,
+      1110,
+      1230,
+      1350,
+      1500,
+      1650
+    ]
+  },
+  "title": "Find your next SaaS.",
+  "task": "Browse products and categories",
+  "result": "Discover early. Choose what is next.",
+  "tagline": "Early-stage SaaS discovery",
+  "category": "Product discovery",
+  "description": "Discover SaaS launches, browse categories, and inspect products and makers.",
+  "features": [
+    "Products",
+    "Categories",
+    "Makers"
+  ],
+  "screenshots": [],
+  "discovery": {
+    "home": {
+      "file": "home.jpg",
+      "imageWidth": 1265,
+      "crop": {
+        "x": 60,
+        "y": 150,
+        "width": 1140,
+        "height": 650
+      }
+    },
+    "catalog": {
+      "file": "catalog.jpg",
+      "imageWidth": 1265,
+      "crop": {
+        "x": 60,
+        "y": 110,
+        "width": 1140,
+        "height": 650
+      }
+    },
+    "category": {
+      "file": "category.jpg",
+      "imageWidth": 1265,
+      "crop": {
+        "x": 60,
+        "y": 140,
+        "width": 1140,
+        "height": 650
+      }
+    },
+    "categoryFocusY": 2310,
+    "detail": {
+      "file": "detail.jpg",
+      "imageWidth": 1265,
+      "crop": {
+        "x": 50,
+        "y": 155,
+        "width": 1160,
+        "height": 650
+      }
+    },
+    "selected": {
+      "file": "category.jpg",
+      "imageWidth": 1265,
+      "crop": {
+        "x": 60,
+        "y": 2508,
+        "width": 1140,
+        "height": 145
+      }
+    },
+    "categoryName": "Productivity",
+    "selectedName": "ExportGPT",
+    "cards": [
+      {
+        "name": "hairforge",
+        "category": "AI"
+      },
+      {
+        "name": "OpenChatCut",
+        "category": "AI"
+      },
+      {
+        "name": "AppWizzy",
+        "category": "Productivity"
+      }
+    ],
+    "headlines": [
+      "Explore the SaaS landscape.",
+      "Fresh launches. Real makers.",
+      "Find your category.",
+      "Inspect tools and their makers.",
+      "Discover early."
+    ],
+    "closing": "Your next discovery starts here.",
+    "categories": [
+      "AI",
+      "Analytics",
+      "Design",
+      "Developer Tools",
+      "Productivity"
+    ]
+  },
+  "rhythm": {
+    "profile": "brisk",
+    "analysisSourceSha256": "4a2360010627f1fc04eedb640285a032d6d4bdd3e1aed24b469a8b0c29f76dd4",
+    "note": "Events selected from detected onsets. Strong beats and phrase labels are candidates; listening remains outstanding.",
+    "requireOnsetAlignment": true
+  }
+}

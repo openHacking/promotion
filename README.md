@@ -4,9 +4,9 @@
 
 Promotion is an Agent Skill for creating editable launch videos, software demos, and workflow promos from a website, project folder, screenshots, or recordings. Your agent designs the story, animates the product, synchronizes sound, and renders an MP4 locally.
 
-[![SaaS Hunt — 30-second product film](examples/saas-hunt/cover.png)](examples/saas-hunt/video.mp4)
+[![SaaS Hunt — continuous discovery](examples/saas-hunt-rhythm/cover.png)](examples/saas-hunt-rhythm/video.mp4)
 
-**[Watch the live gallery](https://openhacking.github.io/promotion/)** · [Download the 30-second SaaS Hunt film](examples/saas-hunt/video.mp4) · [Review the example evidence](examples/saas-hunt/README.md)
+**[Watch the live gallery](https://openhacking.github.io/promotion/)** · [Download the 30-second SaaS Hunt film](examples/saas-hunt-rhythm/video.mp4) · [Review the example evidence](examples/saas-hunt-rhythm/README.md)
 
 GitHub may show a download link for MP4 files. The local gallery provides native video playback.
 
@@ -75,7 +75,7 @@ The installer backs up the previous version outside the active skills directory.
 | Autonomous | Give the goal and constraints; the agent handles the full production. |
 | Collaborative | Agree on the direction and storyboard before production. |
 
-A reference video is welcome, but not required. Image generation is optional; simple backgrounds are built with code.
+A reference video is welcome, but not required. The agent chooses visual explanations before writing promotional copy. Available image generation is used when it improves subjects, environments, or concept exploration; exact UI and text remain independent layers. Freeform layered scenes can combine real interfaces, generated imagery, video, and code motion without a mandatory headline or browser frame.
 
 ## Animated starting points
 
@@ -85,6 +85,7 @@ A reference video is welcome, but not required. Image generation is optional; si
 | Window demo | Desktop software, agents, developer tools | Intent → workspace → operation → result |
 | Quick command | Search, launchers, shortcuts | Command → selection → immediate result |
 | Workflow cards | SaaS, automation, collaboration | Input → connected steps → completed output |
+| Continuous discovery | Product directories and discovery journeys | Cards → real catalogue → category → detail → site proposition |
 
 Replace the brand, interface, copy, palette, font, timing, and sound. Freeform creation can change the entire choreography.
 
@@ -121,3 +122,13 @@ The agent installs project dependencies on first use. If the downloaded browser 
 ## License
 
 Original code is MIT. Fonts, dependencies, external music, and captured product imagery retain their respective rights. Example screenshots demonstrate SaaS Hunt; they are not generic, relicensed template assets. See [third-party notices](THIRD_PARTY_NOTICES.md).
+
+## Motion graphics
+
+[Three editable MG starters](examples/mg-templates) combine orbital selection, spring type/object regrouping, and staggered strip reveals. Read [MG route and limits](references/motion-graphics.md). Initialize with `python3 scripts/example.py new-project --variant mg`.
+
+## Rhythm, continuity and native formats
+
+[The new SaaS Hunt example](examples/saas-hunt-rhythm/README.md) combines measured music onsets, eight shared motion/copy/sound contacts and a persistent UI panel. Watch [landscape](examples/saas-hunt-rhythm/video.mp4) or [portrait](examples/saas-hunt-rhythm/portrait-video.mp4). Listening remains an explicit outstanding review gate.
+
+Initialize with `python3 scripts/example.py new-project --variant rhythm`, or use the generic `discovery` starter. Native ratio selection is available for this template; bespoke scenes require authored format layouts. See [formats](references/formats.md), [music analysis](references/music.md) and [continuity](references/continuity.md).

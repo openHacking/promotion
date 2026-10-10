@@ -1,10 +1,11 @@
 import React,{useEffect,useState} from 'react';
 import {AbsoluteFill,Img,cancelRender,continueRender,delayRender,staticFile,useCurrentFrame,useVideoConfig} from 'remotion';
-import {Brand,Chrome,Cursor,Document,Kinetic,Mark,Product,ProductScreen,Text} from './parts';
+import {Brand,Chrome,Cursor,Document,Kinetic,Mark,Product,SceneProduct,ProductScreen,Text} from './parts';
 import {WindowDemo} from './WindowDemo';
 import {BrowserStory} from './BrowserStory';
+import {DiscoveryFilm} from './DiscoveryFilm';
 import {clamp,curve,ease,mix,ramp,sceneStarts,settle} from './motion';
-export type FilmProps={config:Product};
+export type FilmProps={config:Product|SceneProduct};
 const layer=(opacity:number,extra:React.CSSProperties={}):React.CSSProperties=>({position:'absolute',inset:0,opacity:clamp(opacity),...extra});
 const header=(c:Product,dark=false)=><><div style={{position:'absolute',left:86,top:55,display:'flex',gap:16,alignItems:'center',fontSize:24,fontWeight:650}}><Mark c={c} size={32}/>{c.brand}</div><div style={{position:'absolute',left:86,bottom:44,fontSize:20,color:dark?'#a1adc2':'#657983'}}>{c.evidenceLabel}</div><div style={{position:'absolute',right:86,bottom:44,fontSize:18,opacity:.5}}>{c.category}</div></>;
 
@@ -55,8 +56,10 @@ const WorkflowFilm:React.FC<{c:Product;f:number;fps:number;b:number[]}>=({c,f,fp
  </AbsoluteFill>;
 };
 
-export const Film:React.FC<FilmProps>=({config:c})=>{
+export const Film:React.FC<FilmProps>=({config})=>{
+ // Validation permits omitted legacy copy only when every story shot is a scene.
+ const c=config as Product;
  const f=useCurrentFrame(),{fps}=useVideoConfig();const [handle]=useState(()=>delayRender('Load local product font'));
  useEffect(()=>{let active=true;const font=new FontFace('VideoSans',`url("${staticFile(c.fontFile)}")`);font.load().then(v=>{(document.fonts as unknown as {add:(font:FontFace)=>void}).add(v);return document.fonts.ready}).then(()=>{if(active)continueRender(handle)}).catch(e=>cancelRender(e));return ()=>{active=false}},[c.fontFile,handle]);
- const b=sceneStarts(c.sceneDurations,fps),props={c,f,fps,b};return <AbsoluteFill style={{fontFamily:'VideoSans, sans-serif',fontWeight:500,background:c.background}}>{c.backgroundImage&&<Img src={staticFile(c.backgroundImage)} style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',transform:c.backgroundMotion==='drift'?`scale(${1.025+.015*f/(c.duration*fps)})`:'none'}}/>}{c.template==='story'?<BrowserStory {...props}/>:c.template==='window'?<WindowDemo {...props}/>:c.template==='command'?<CommandFilm {...props}/>:c.template==='workflow'?<WorkflowFilm {...props}/>:<MinimalFilm {...props}/>}</AbsoluteFill>;
+ const b=sceneStarts(c.sceneDurations,fps),props={c,f,fps,b};return <AbsoluteFill style={{fontFamily:'VideoSans, sans-serif',fontWeight:500,background:c.background}}>{c.backgroundImage&&<Img src={staticFile(c.backgroundImage)} style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',transform:c.backgroundMotion==='drift'?`scale(${1.025+.015*f/(c.duration*fps)})`:'none'}}/>}{c.template==='discovery'?<DiscoveryFilm c={c} f={f} fps={fps}/>:c.template==='story'?<BrowserStory {...props}/>:c.template==='window'?<WindowDemo {...props}/>:c.template==='command'?<CommandFilm {...props}/>:c.template==='workflow'?<WorkflowFilm {...props}/>:<MinimalFilm {...props}/>}</AbsoluteFill>;
 };

@@ -1,0 +1,86 @@
+{
+  "events": [
+    {
+      "id": "home",
+      "eventFrame": 173,
+      "detectedMusicFrame": 173,
+      "deltaFrames": 0,
+      "visualBinding": "Shared timeline event consumed by DiscoveryFilm",
+      "copyBinding": "Phase heading accompanies the event",
+      "sfxContactFrame": 173,
+      "sfxStartFrame": 163
+    },
+    {
+      "id": "catalog",
+      "eventFrame": 403,
+      "detectedMusicFrame": 403,
+      "deltaFrames": 0,
+      "visualBinding": "Shared timeline event consumed by DiscoveryFilm",
+      "copyBinding": "Phase heading accompanies the event",
+      "sfxContactFrame": 403,
+      "sfxStartFrame": 393
+    },
+    {
+      "id": "browse",
+      "eventFrame": 548,
+      "detectedMusicFrame": 548,
+      "deltaFrames": 0,
+      "visualBinding": "Shared timeline event consumed by DiscoveryFilm",
+      "copyBinding": "Phase heading accompanies the event",
+      "sfxContactFrame": 548,
+      "sfxStartFrame": 538
+    },
+    {
+      "id": "filter",
+      "eventFrame": 720,
+      "detectedMusicFrame": 720,
+      "deltaFrames": 0,
+      "visualBinding": "Shared timeline event consumed by DiscoveryFilm",
+      "copyBinding": "Phase heading accompanies the event",
+      "sfxContactFrame": 720,
+      "sfxStartFrame": 720
+    },
+    {
+      "id": "select",
+      "eventFrame": 893,
+      "detectedMusicFrame": 893,
+      "deltaFrames": 0,
+      "visualBinding": "Shared timeline event consumed by DiscoveryFilm",
+      "copyBinding": "Phase heading accompanies the event",
+      "sfxContactFrame": 893,
+      "sfxStartFrame": 893
+    },
+    {
+      "id": "detail",
+      "eventFrame": 979,
+      "detectedMusicFrame": 979,
+      "deltaFrames": 0,
+      "visualBinding": "Shared timeline event consumed by DiscoveryFilm",
+      "copyBinding": "Phase heading accompanies the event",
+      "sfxContactFrame": 979,
+      "sfxStartFrame": 969
+    },
+    {
+      "id": "expand",
+      "eventFrame": 1152,
+      "detectedMusicFrame": 1152,
+      "deltaFrames": 0,
+      "visualBinding": "Shared timeline event consumed by DiscoveryFilm",
+      "copyBinding": "Main headline completes on expand",
+      "sfxContactFrame": 1152,
+      "sfxStartFrame": 1152
+    },
+    {
+      "id": "cta",
+      "eventFrame": 1613,
+      "detectedMusicFrame": 1613,
+      "deltaFrames": 0,
+      "visualBinding": "Shared timeline event consumed by DiscoveryFilm",
+      "copyBinding": "Phase heading accompanies the event",
+      "sfxContactFrame": 1613,
+      "sfxStartFrame": 1613
+    }
+  ],
+  "detectorPrecision": "Frame-quantized spectral-flux candidates; window 46 ms, hop 12 ms. Not sample-perfect or perceptual proof.",
+  "listening": "not-performed"
+}

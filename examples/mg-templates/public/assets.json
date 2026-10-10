@@ -1,0 +1,23 @@
+{
+  "assets": [
+    {
+      "file": "exportgpt-page.jpg",
+      "kind": "public-ui",
+      "source": "https://saashunt.pro/products/exportgpt",
+      "captured": "2026-10-10",
+      "note": "Full page capture; editorial crops retain exact page pixels."
+    },
+    {
+      "file": "exportgpt.png",
+      "kind": "product-artwork",
+      "source": "https://saashunt.pro/products/exportgpt",
+      "note": "Original product screenshot exposed by the public listing. Third-party rights retained."
+    },
+    {
+      "file": "brand.png",
+      "kind": "product-logo",
+      "source": "https://saashunt.pro/",
+      "note": "Existing case asset; third-party rights retained."
+    }
+  ]
+}

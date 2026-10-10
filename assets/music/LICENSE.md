@@ -1,4 +1,4 @@
-# Optional music
+# Bundled music
 
 Title: Energetic Electro Tune. Creator: TinyWorlds.
 Source: https://opengameart.org/content/energetic-electro-tune

@@ -1,0 +1,29 @@
+{
+  "capturedAt": "2026-10-11",
+  "method": "Public page screenshots; editorial animation, not recorded navigation",
+  "assets": [
+    {
+      "file": "home.jpg",
+      "url": "https://saashunt.pro/",
+      "rights": "Product imagery retains original rights"
+    },
+    {
+      "file": "catalog.jpg",
+      "url": "https://saashunt.pro/products",
+      "rights": "Product imagery retains original rights"
+    },
+    {
+      "file": "category.jpg",
+      "url": "https://saashunt.pro/categories/productivity",
+      "rights": "Product imagery retains original rights"
+    },
+    {
+      "file": "detail.jpg",
+      "url": "https://saashunt.pro/products/exportgpt",
+      "rights": "Product imagery retains original rights"
+    }
+  ],
+  "generatedImages": [],
+  "visualAssets": "Original code graphics and accurate captured interfaces",
+  "music": "Recorded CC0 track; see public/music/LICENSE.md"
+}

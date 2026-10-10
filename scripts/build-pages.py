@@ -15,7 +15,9 @@ if destination == root or destination in root.parents:
 files = list((root / 'assets/gallery').glob('*'))
 files += list((root / 'assets/templates').glob('*.json'))
 files += [root / 'assets/engine/font.ttf', root / 'assets/engine/FONT-LICENSE.txt']
-files += [root / 'examples/saas-hunt' / name for name in ('video.mp4', 'cover.png')]
+files += [root / 'examples' / example / name for example in ('saas-hunt', 'saas-hunt-rhythm') for name in ('video.mp4', 'cover.png')]
+files += [root / 'examples/saas-hunt-rhythm' / name for name in ('portrait-video.mp4', 'portrait-cover.png')]
+files += list((root / 'examples/mg-templates').glob('*'))
 for source in files:
     if not source.is_file() or source.name.startswith('.'):
         continue
