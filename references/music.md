@@ -2,7 +2,7 @@
 
 ## Choose a recorded score first
 
-New Remotion projects use the bundled CC0 recording by default. It is a starting candidate, not an assurance of the right mood. Use `--music procedural` only for an original, deterministic sketch or when recorded assets are unavailable. The legacy HTML starter keeps its procedural default. Existing projects retain their configured music.
+New Remotion projects label the bundled CC0 recording as draft material. Its presence is an export convenience, not music selection. Original films compare at least three licensed excerpts with moving treatments. Use `--music procedural` only for an original, deterministic sketch or when recorded assets are unavailable. The legacy HTML starter keeps its procedural default. Existing projects retain their configured music.
 
 Choose music for the product and narrative, not only its energy. Audition a candidate inside the film before final choreography: drums, density, phrase changes, reading holds, and the ending matter more than a genre label. A restrained track can leave more room for action sound than a continuous full-density groove. Record source, creator, license, collection date, and asset hash. The bundled TinyWorlds track is CC0; its estimated 125 BPM is not a measured downbeat grid.
 
@@ -50,6 +50,10 @@ Reviewed on 2026-10-10. [video-shotcraft sound design](https://github.com/Vincen
 
 Run `npm run analyze-music` on a recorded source. `out/music-analysis.json` records the source hash, selected offset, FPS, measured onset frames and strengths, onset-supported versus estimated beats, strong-beat candidates, energy-change candidates and an energy envelope. The independent spectral-flux detector uses 1024-sample windows and 256-sample hops at 22050 Hz. Times are quantized onto the video frame grid; this is an estimate of musical attacks, not sample-perfect or perceptual alignment. Tempo has half/double ambiguity. Neither a louder window nor a strong onset proves a phrase, downbeat or climax. Silent material returns no invented beats.
 
-Select important events from the measured onsets and use those same IDs for code animation and SFX. Discovery uses `home`, `catalog`, `browse`, `filter`, `select`, `detail`, `expand`, and `cta`. Its main brand proposition fully reveals at `expand`, not at the example product's entrance. `rhythm.profile` is `brisk` by default or `measured`; the latter lengthens the default handoff. Other film types remain a creative decision.
+After choosing the excerpt and musical structure through audition, use measured onsets as candidate anchors for important events. Do not force every visual event onto a detector peak. Use the final event IDs for code animation and SFX. Discovery uses `home`, `catalog`, `browse`, `filter`, `select`, `detail`, `expand`, and `cta`. Its main brand proposition fully reveals at `expand`, not at the example product's entrance. `rhythm.profile` is `brisk` by default or `measured`; the latter lengthens the default handoff. Other film types remain a creative decision.
 
 Rendering analyzes recorded music automatically and retains the report. Optional `rhythm.requireOnsetAlignment` rejects events more than one frame from a detected onset. Optional `rhythm.analysisSourceSha256` rejects a changed source. These are technical checks against the detector, not proof of a listening pass. Replace the markers when changing the music segment, FPS or narration. A delayed sweep may begin before the marker, while its contact and the visual landing share the marker.
+
+## Candidate comparison and editing
+
+For each candidate record the excerpt range, provenance, license, intended narrative role, and listening status. Compare timbre, density, phrase development, reading space, and resolution in context. A publisher's mood tags are search aids, not listening evidence. Prefer a useful musical section over always starting at zero. Audition any cut, crossfade, tempo adjustment, or tail; disclose provisional edits when audition is unavailable. Keep the selected source and edits reproducible locally.

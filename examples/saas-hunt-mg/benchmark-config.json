@@ -1,0 +1,55 @@
+{
+  "engine": "hyperframes",
+  "brand": "Motion Lab",
+  "items": [
+    "Discover",
+    "Design",
+    "Product",
+    "Maker"
+  ],
+  "accent": "#ff784f",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 6,
+  "audio": {
+    "source": "music/energetic-electro.ogg",
+    "license": "CC0-1.0",
+    "credit": "Energetic Electro Tune \u2014 TinyWorlds",
+    "sourcePage": "https://opengameart.org/content/energetic-electro-tune",
+    "mode": "file",
+    "bpm": 125,
+    "musicVolume": 0.25,
+    "sfxVolume": 0.75,
+    "duckAmount": 0.35
+  },
+  "timeline": {
+    "events": [
+      {
+        "id": "type",
+        "frame": 42,
+        "kind": "resolve"
+      },
+      {
+        "id": "aggregate",
+        "frame": 138,
+        "kind": "resolve"
+      },
+      {
+        "id": "filter",
+        "frame": 198,
+        "kind": "select"
+      },
+      {
+        "id": "expand",
+        "frame": 258,
+        "kind": "resolve"
+      },
+      {
+        "id": "details",
+        "frame": 273,
+        "kind": "select"
+      }
+    ]
+  }
+}

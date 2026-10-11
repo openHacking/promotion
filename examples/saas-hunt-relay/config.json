@@ -1,0 +1,232 @@
+{
+  "brand": "SaaS Hunt",
+  "accent": "#f26945",
+  "background": "#f2f0e9",
+  "foreground": "#20232a",
+  "surface": "#ffffff",
+  "template": "architecture",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 30,
+  "sceneDurations": [
+    2.5,
+    3.5,
+    2,
+    2,
+    6,
+    4,
+    3.5,
+    3.5,
+    3
+  ],
+  "fontFamily": "VideoSans",
+  "fontFile": "font.ttf",
+  "fontFormat": "truetype",
+  "logo": "brand.png",
+  "url": "saashunt.pro",
+  "evidenceLabel": "Public captures + illustrative choreography",
+  "audio": {
+    "mode": "file",
+    "bpm": 150,
+    "musicVolume": 0.53,
+    "sfxVolume": 0.3,
+    "duckAmount": 0.12,
+    "credit": "Cipher \u2014 Kevin MacLeod",
+    "license": "CC-BY-4.0",
+    "sourceOffsetSeconds": 25.6,
+    "source": "music/Cipher2.mp3",
+    "sourcePage": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100844",
+    "selectionStatus": "provisional-listening-pending"
+  },
+  "provenance": [
+    {
+      "asset": "appwizzy-detail.png",
+      "kind": "official-page-crop",
+      "source": "https://saashunt.pro/products/appwizzy",
+      "verifiedOn": "2026-10-11",
+      "purpose": "Authentic product heading and descriptor evidence; no simulated app operation",
+      "sha256": "9b36af12862cd470f98a5b2e36e7b7da8bb7c7b34d0e6c922685c5a8c1b65520"
+    }
+  ],
+  "engine": "remotion",
+  "timeline": {
+    "events": [
+      {
+        "id": "enter",
+        "frame": 228,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.35,
+          "leadSeconds": 0.12
+        }
+      },
+      {
+        "id": "group",
+        "frame": 348,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.35,
+          "leadSeconds": 0.12
+        }
+      },
+      {
+        "id": "filter",
+        "frame": 462,
+        "kind": "select",
+        "sound": {
+          "material": "click",
+          "gain": 0.35,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "detail",
+        "frame": 582,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.35,
+          "leadSeconds": 0.12
+        }
+      },
+      {
+        "id": "maker",
+        "frame": 1026,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.35,
+          "leadSeconds": 0.12
+        }
+      },
+      {
+        "id": "more",
+        "frame": 1218,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.35,
+          "leadSeconds": 0.12
+        }
+      },
+      {
+        "id": "peak",
+        "frame": 1476,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.35,
+          "leadSeconds": 0.12
+        }
+      },
+      {
+        "id": "cta",
+        "frame": 1638,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.35,
+          "leadSeconds": 0.12
+        }
+      }
+    ]
+  },
+  "title": "Find your next SaaS.",
+  "task": "Browse products and categories",
+  "result": "Discover early. Choose what is next.",
+  "tagline": "Early-stage SaaS discovery",
+  "category": "Product discovery",
+  "description": "Discover SaaS launches, browse categories, and inspect products and makers.",
+  "features": [
+    "Products",
+    "Categories",
+    "Makers"
+  ],
+  "screenshots": [],
+  "architecture": {
+    "products": [
+      {
+        "name": "hairforge",
+        "category": "AI",
+        "maker": "toolina",
+        "description": "Compare beard styles and preview grooming directions with AI",
+        "tags": [
+          "AI"
+        ],
+        "source": "https://saashunt.pro/products/hairforge"
+      },
+      {
+        "name": "Brew",
+        "category": "Marketing",
+        "maker": "Elaine Xie",
+        "description": "AI-native email marketing from a single prompt",
+        "tags": [
+          "Automation"
+        ],
+        "source": "https://saashunt.pro/products/brew"
+      },
+      {
+        "name": "AppWizzy",
+        "category": "Productivity",
+        "maker": "Elaine Xie",
+        "description": "Build and host production-ready web apps by chatting with AI",
+        "tags": [
+          "Automation",
+          "AI Agent",
+          "Developer API"
+        ],
+        "source": "https://saashunt.pro/products/appwizzy"
+      },
+      {
+        "name": "Unabyss",
+        "category": "Productivity",
+        "maker": "Elaine Xie",
+        "description": "Your universal context layer for every AI tool and agent",
+        "tags": [
+          "Automation",
+          "Knowledge Base"
+        ],
+        "source": "https://saashunt.pro/products/unabyss"
+      },
+      {
+        "name": "Similarweb",
+        "category": "Marketing",
+        "maker": "Xie admin",
+        "description": "See where traffic comes from and where growth happens.",
+        "tags": [
+          "Reporting"
+        ],
+        "source": "https://saashunt.pro/products/similarweb"
+      },
+      {
+        "name": "Vokal",
+        "category": "AI",
+        "maker": "Elaine Xie",
+        "description": "A shared workspace where teams and AI agents work together",
+        "tags": [
+          "Automation",
+          "AI Agent"
+        ],
+        "source": "https://saashunt.pro/products/vokal"
+      }
+    ],
+    "categories": [
+      "Productivity",
+      "AI",
+      "Marketing"
+    ],
+    "selected": 2,
+    "category": "Productivity",
+    "detailCrop": "appwizzy-detail.png",
+    "choreography": "relay",
+    "direction": "ribbon",
+    "secondary": "#465de2"
+  },
+  "rhythm": {
+    "profile": "brisk",
+    "note": "Provisional timing; musical phrase and auditory alignment review pending."
+  }
+}

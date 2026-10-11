@@ -1,0 +1,26 @@
+{
+  "method": "In-app browser HTML video playback to ended; screenshots and DOM media state. Listening not performed.",
+  "files": [
+    {
+      "file": "video.mp4",
+      "sha256": "30e1df92c05608014b9311280b644f081947ed27d15d243dc10f56ad62ed9c29",
+      "duration": 30,
+      "ended": true,
+      "error": null
+    },
+    {
+      "file": "portrait-video.mp4",
+      "sha256": "68c828d3dc42b79a89593061f38f77c5b87b833290176a5c67761e503a8b0cb2",
+      "duration": 30,
+      "ended": true,
+      "error": null
+    }
+  ],
+  "studies": [
+    "Kinetic",
+    "Signal",
+    "Paper"
+  ],
+  "listening": "not-performed",
+  "scope": "Historical pre-closing-revision playback; hashes identify the earlier cuts. Current revision reviewed through encoded closing frames."
+}

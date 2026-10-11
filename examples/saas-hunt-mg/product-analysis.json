@@ -1,0 +1,112 @@
+{
+  "verifiedOn": "2026-10-11",
+  "audience": "People looking for SaaS tools",
+  "capabilities": [
+    {
+      "capability": "Browse directory products",
+      "source": "https://saashunt.pro/products",
+      "userAction": "Open products directory",
+      "visibleResult": "Product cards with names and categories"
+    },
+    {
+      "capability": "Browse by category",
+      "source": "https://saashunt.pro/categories",
+      "userAction": "Choose category",
+      "visibleResult": "Products listed under that category"
+    },
+    {
+      "capability": "Inspect product details",
+      "source": "https://saashunt.pro/products/appwizzy",
+      "userAction": "Open product card",
+      "visibleResult": "Name, description, tags and maker listing"
+    },
+    {
+      "capability": "Inspect listed makers",
+      "source": "https://saashunt.pro/makers",
+      "userAction": "Open maker listing",
+      "visibleResult": "Maker identity and associated products"
+    }
+  ],
+  "products": [
+    {
+      "name": "hairforge",
+      "category": "AI",
+      "maker": "toolina",
+      "description": "Compare beard styles and preview grooming directions with AI",
+      "tags": [
+        "AI"
+      ],
+      "source": "https://saashunt.pro/products/hairforge"
+    },
+    {
+      "name": "Brew",
+      "category": "Marketing",
+      "maker": "Elaine Xie",
+      "description": "AI-native email marketing from a single prompt",
+      "tags": [
+        "Automation"
+      ],
+      "source": "https://saashunt.pro/products/brew"
+    },
+    {
+      "name": "AppWizzy",
+      "category": "Productivity",
+      "maker": "Elaine Xie",
+      "description": "Build and host production-ready web apps by chatting with AI",
+      "tags": [
+        "Automation",
+        "AI Agent",
+        "Developer API"
+      ],
+      "source": "https://saashunt.pro/products/appwizzy"
+    },
+    {
+      "name": "Unabyss",
+      "category": "Productivity",
+      "maker": "Elaine Xie",
+      "description": "Your universal context layer for every AI tool and agent",
+      "tags": [
+        "Automation",
+        "Knowledge Base"
+      ],
+      "source": "https://saashunt.pro/products/unabyss"
+    },
+    {
+      "name": "Similarweb",
+      "category": "Marketing",
+      "maker": "Xie admin",
+      "description": "See where traffic comes from and where growth happens.",
+      "tags": [
+        "Reporting"
+      ],
+      "source": "https://saashunt.pro/products/similarweb"
+    },
+    {
+      "name": "Vokal",
+      "category": "AI",
+      "maker": "Elaine Xie",
+      "description": "A shared workspace where teams and AI agents work together",
+      "tags": [
+        "Automation",
+        "AI Agent"
+      ],
+      "source": "https://saashunt.pro/products/vokal"
+    }
+  ],
+  "assets": [
+    {
+      "asset": "appwizzy-detail.png",
+      "kind": "official-page-crop",
+      "source": "https://saashunt.pro/products/appwizzy",
+      "verifiedOn": "2026-10-11",
+      "purpose": "Authentic product heading and descriptor evidence; no simulated app operation",
+      "sha256": "9b36af12862cd470f98a5b2e36e7b7da8bb7c7b34d0e6c922685c5a8c1b65520"
+    }
+  ],
+  "reconstruction": {
+    "cards": "Original code components based on verified directory fields; simplified composition, not a browser recording",
+    "detail": "Selected card retains name/category/maker during expansion; authentic local heading crop supplies evidence",
+    "maker": "SaaS Hunt listed maker attribution, not independent legal founder attribution",
+    "abstract": "Paths, grouping, rotation and radial geometry explain relationships; do not claim new search, recommendation or subscription features"
+  }
+}

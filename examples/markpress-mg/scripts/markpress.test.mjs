@@ -1,0 +1,2 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {validateConfig,motionEvents} from './config.mjs';
+for(const file of ['config.json','config.portrait.json'])test('native authored configuration '+file,()=>{const c=validateConfig(JSON.parse(fs.readFileSync(file)),process.cwd());assert.equal(c.duration*c.fps,1800);const events=motionEvents(c);assert.equal(new Set(events.map(e=>e.id)).size,events.length);assert.ok(events.every(e=>e.frame>=0&&e.frame<1800));assert.equal(c.url,'markpress.pro');});

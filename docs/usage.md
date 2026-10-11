@@ -34,4 +34,17 @@ Use `python3 scripts/example.py new-project --variant mg` for the 30-second Expo
 
 ### Rhythm and formats
 
-Use the responsive `discovery` template for a continuous product directory film, or create the [SaaS Hunt rhythm case](../examples/saas-hunt-rhythm/README.md) with `--variant rhythm`. Run `npm run analyze-music` before editing frame events. Render with `npm run render -- --format portrait` for native alternate layouts. See [formats](../references/formats.md) and [music analysis](../references/music.md). Legacy templates retain landscape support.
+Use the responsive `discovery` template for a continuous product directory film, or author a product-specific scene film. Run `npm run analyze-music` before editing frame events. Render with `npm run render -- --format portrait` for native alternate layouts. See [formats](../references/formats.md) and [music analysis](../references/music.md). Legacy templates retain landscape support.
+
+
+### Product architecture and extended MG
+
+The [MarkPress MG example](../examples/markpress-mg/README.md) carries Markdown syntax through live preview, local storage, portable source, and a separate card tool. Edit the verified capability record and choreography together; retain identities across handoffs. Rebuild portrait layout rather than cropping. See [product architecture](../references/product-architecture.md) and [eight editable recipes](../references/mg-recipes.md).
+
+For a project-local HTML timeline, initialize with `python3 scripts/init.py new-project --engine hyperframes --duration 30`, then run `npm ci`. Use the same `studio`, `render`, `check` command names, plus `verify-seek`. Fonts, the GSAP runtime, and recorded music remain local. See [engine guidance](../references/engines.md) for the paused registration contract and supported starter limits.
+
+## Original audiovisual development
+
+In autonomous original work, establish the audience takeaway and emotional progression, compare three audible moving treatments with three licensed candidate excerpts, and then extend the selected direction. The bundled score is marked `draft` in new Remotion projects. A provisional score may be rendered while listening is unavailable, but its artifact remains a listening-review cut.
+
+Use `creative-direction.json` as an optional sidecar for palette roles, music candidates, overlapping motion phrases, and separate automated/visual/listening observations. It is not required by existing render configurations. See [the MarkPress example](../examples/markpress-mg/README.md) for three playable directions. Historical transfer studies remain in the earlier example folders.

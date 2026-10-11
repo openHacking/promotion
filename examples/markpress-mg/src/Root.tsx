@@ -1,0 +1,2 @@
+import React from 'react';import {Composition} from 'remotion';import config from '../config.json';import {Film,FilmProps} from './Film';
+export const Root:React.FC=()=> <Composition id="ProductFilm" component={Film} width={1920} height={1080} fps={60} durationInFrames={1800} defaultProps={{config} as FilmProps} calculateMetadata={({props})=>({durationInFrames:Math.round(props.config.duration*props.config.fps),fps:props.config.fps,width:props.config.width,height:props.config.height})}/>;

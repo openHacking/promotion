@@ -1,0 +1,276 @@
+{
+  "source": "video.f0cd0bc3.mp4",
+  "sha256": "f0cd0bc3b69114eb14638bcae8611b84eef52993aa383273d8b69c9b61177f4d",
+  "decodedFrames": 719,
+  "coverage": "all-frame overview; exact easing and full-resolution microdetails not claimed",
+  "intervals": [
+    {
+      "frames": [
+        0,
+        142
+      ],
+      "pts": [
+        0.0,
+        2.369033
+      ],
+      "subjectAndAction": "Both sides: mark, label, supporting panels arrive in relay.",
+      "adaptation": "Preserve the mechanism while replacing all product identities.",
+      "failure": "Near-identical spacing does not prove equivalent product meaning.",
+      "consecutiveEvidence": [
+        "frames-000.jpg",
+        "frames-001.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        143,
+        200
+      ],
+      "pts": [
+        2.385717,
+        3.336667
+      ],
+      "subjectAndAction": "Both: selected mark and surrounding blocks collapse to a centered cluster.",
+      "adaptation": "One identity anchors the collection transition.",
+      "failure": "Arbitrary orbiting blocks are only decoration.",
+      "consecutiveEvidence": [
+        "frames-001.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        201,
+        316
+      ],
+      "pts": [
+        3.35335,
+        5.271933
+      ],
+      "subjectAndAction": "Both: desktop enters, input panel expands, text types.",
+      "adaptation": "Keep a prompt as the primary operation.",
+      "failure": "Background can be replaced; functional controls need real evidence.",
+      "consecutiveEvidence": [
+        "frames-001.jpg",
+        "frames-002.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        317,
+        372
+      ],
+      "pts": [
+        5.288617,
+        6.2062
+      ],
+      "subjectAndAction": "Both: text document enters at the same focal position.",
+      "adaptation": "A semantic intermediate can preserve process continuity.",
+      "failure": "The unrelated remake copy is not evidence for the original capability.",
+      "consecutiveEvidence": [
+        "frames-002.jpg",
+        "frames-003.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        373,
+        426
+      ],
+      "pts": [
+        6.222883,
+        7.1071
+      ],
+      "subjectAndAction": "Left: pyramid image rises; right: local launch-video card rises.",
+      "adaptation": "Adapt subject semantics while retaining reveal and landing.",
+      "failure": "Do not copy original imagery.",
+      "consecutiveEvidence": [
+        "frames-003.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        427,
+        488
+      ],
+      "pts": [
+        7.123783,
+        8.141467
+      ],
+      "subjectAndAction": "Left: image pair; right: launch and sound cards separate and settle.",
+      "adaptation": "Expand one item into a small related set.",
+      "failure": "Every separated card needs a meaningful relation.",
+      "consecutiveEvidence": [
+        "frames-003.jpg",
+        "frames-004.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        489,
+        600
+      ],
+      "pts": [
+        8.15815,
+        10.01
+      ],
+      "subjectAndAction": "Both: centered loading/mark interval on mostly white field.",
+      "adaptation": "Short reset can create contrast.",
+      "failure": "This nearly two-second interval is too empty for many short promos.",
+      "consecutiveEvidence": [
+        "frames-004.jpg",
+        "frames-005.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        601,
+        718
+      ],
+      "pts": [
+        10.026683,
+        11.978633
+      ],
+      "subjectAndAction": "Both: luminous text enters quickly then scales down to hold.",
+      "adaptation": "Use one burst to enter a stable identity.",
+      "failure": "Glow must not reduce legibility.",
+      "consecutiveEvidence": [
+        "frames-005.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    }
+  ],
+  "listening": "not-performed",
+  "enlargedContinuousEvidence": {
+    "id": "comparison-relay",
+    "frames": [
+      427,
+      488
+    ],
+    "resolution": "320x180 (comparison includes both halves); original PTS retained",
+    "phases": [
+      {
+        "phase": "preparation",
+        "frames": [
+          427,
+          428
+        ],
+        "observation": "Single upper card dominates with blurred context.",
+        "pts": [
+          7.123783,
+          7.140467
+        ]
+      },
+      {
+        "phase": "change",
+        "frames": [
+          429,
+          438
+        ],
+        "observation": "Upper card moves upward; second card enters below. Original uses image/label; remake uses UI cards.",
+        "pts": [
+          7.15715,
+          7.3073
+        ]
+      },
+      {
+        "phase": "landing",
+        "frames": [
+          439,
+          450
+        ],
+        "observation": "Two-card stack establishes similar silhouettes on both sides.",
+        "pts": [
+          7.323983,
+          7.5075
+        ]
+      },
+      {
+        "phase": "readingHold",
+        "frames": [
+          451,
+          488
+        ],
+        "observation": "Vertical pair remains stable and readable at this scale.",
+        "pts": [
+          7.524183,
+          8.141467
+        ]
+      },
+      {
+        "phase": "handoff",
+        "frames": null,
+        "observation": "Subsequent clearing/spinner segment leaves weak information continuity."
+      },
+      {
+        "phase": "overshoot",
+        "frames": null,
+        "observation": "No visible rebound inside selected interval."
+      }
+    ],
+    "consecutiveEvidence": [
+      "comparison-relay/interval-000.jpg",
+      "comparison-relay/interval-001.jpg",
+      "comparison-relay/interval-002.jpg"
+    ],
+    "pts": [
+      7.123783,
+      8.141467
+    ]
+  },
+  "frameIndex": "comparison-frames.json"
+}

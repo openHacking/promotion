@@ -1,0 +1,28 @@
+{
+  "mode": "file",
+  "bpm": 150,
+  "sampleRate": 48000,
+  "channels": 2,
+  "duration": 10,
+  "origin": "Local licensed recording and action cues",
+  "source": "music/Cipher2.mp3",
+  "sourceSha256": "d3d0614535a61d748e2fd8d5117fc4d781022a7624794802a2462d8af3fdd522",
+  "sourceOffsetSeconds": 27.8,
+  "duckAmount": 0.12,
+  "musicVolume": 0.53,
+  "sfxVolume": 0.3,
+  "beatFrames": [],
+  "phraseFrames": [],
+  "license": "CC-BY-4.0",
+  "credit": "Cipher — Kevin MacLeod",
+  "sourcePage": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100844",
+  "musicPeak": 0.4586252272129059,
+  "sfxPeak": 0,
+  "premasterPeak": 0.4586252272129059,
+  "masterGain": 1,
+  "finalPeak": 0.4586252272129059,
+  "listening": {
+    "status": "not-performed"
+  },
+  "cues": []
+}

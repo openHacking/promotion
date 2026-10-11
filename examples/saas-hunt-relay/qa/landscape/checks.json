@@ -1,0 +1,99 @@
+{
+  "format": "landscape",
+  "frames": 1800,
+  "renderSeconds": 176.237424208,
+  "determinism": [
+    {
+      "frame": 486,
+      "hashes": [
+        "c514670a828752eedc0ab497185914ede04a07f4f57431c13229a42d089a4ed6",
+        "c514670a828752eedc0ab497185914ede04a07f4f57431c13229a42d089a4ed6"
+      ],
+      "equal": true
+    },
+    {
+      "frame": 1044,
+      "hashes": [
+        "5ad97861fecc9121c8ac4c8340cbb48b34a838a6fd82033c3999ef3a6072dc52",
+        "5ad97861fecc9121c8ac4c8340cbb48b34a838a6fd82033c3999ef3a6072dc52"
+      ],
+      "equal": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "resolution",
+      "pass": true,
+      "actual": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "fps",
+      "pass": true,
+      "actual": 60
+    },
+    {
+      "name": "codec",
+      "pass": true,
+      "actual": [
+        "h264",
+        "yuv420p"
+      ]
+    },
+    {
+      "name": "duration",
+      "pass": true,
+      "actual": 30
+    },
+    {
+      "name": "decoded frame count",
+      "pass": true,
+      "actual": 1800
+    },
+    {
+      "name": "audio presence",
+      "pass": true,
+      "actual": true
+    },
+    {
+      "name": "complete frame scan",
+      "pass": true,
+      "actual": 1800
+    },
+    {
+      "name": "audio duration",
+      "pass": true,
+      "actual": 30
+    },
+    {
+      "name": "no digital clipping",
+      "pass": true,
+      "actual": -8.541152
+    }
+  ],
+  "scan": {
+    "frames": 1800,
+    "minStd": 5.889518712998951,
+    "candidates": [],
+    "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+  },
+  "audio": {
+    "peakDb": -8.541152,
+    "duration": 30,
+    "sampleRate": "48000"
+  },
+  "sha256": "c1d8f63ff3f54b275f417dabf19bd31af40cdbe55fbd8992310564d7be431d9a",
+  "visual": "Encoded contact sheets and consecutive boundary frames inspected; delivery encode played to end in the in-app browser",
+  "listening": "not-performed",
+  "playback": {
+    "format": "landscape",
+    "sha256": "c1d8f63ff3f54b275f417dabf19bd31af40cdbe55fbd8992310564d7be431d9a",
+    "duration": 30,
+    "currentTime": 30,
+    "ended": true,
+    "method": "In-app browser playback of the delivery encode; URL carries the file hash prefix",
+    "listening": "not-performed"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "mode": "file",
+  "bpm": 128,
+  "sampleRate": 48000,
+  "channels": 2,
+  "duration": 8,
+  "origin": "Local licensed recording and action cues",
+  "source": "music/Raving Energy (faster).mp3",
+  "sourceSha256": "048f03a2118b317bea2b99b31f435866a1263aa6a5d6a3a5f6bff8d084b82f76",
+  "sourceOffsetSeconds": 28,
+  "duckAmount": 0.12,
+  "musicVolume": 0.66,
+  "sfxVolume": 0.5,
+  "beatFrames": [],
+  "phraseFrames": [],
+  "license": "CC-BY-4.0",
+  "credit": "Exit the Premises — Kevin MacLeod",
+  "sourcePage": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500029",
+  "musicPeak": 0.6032958030700684,
+  "sfxPeak": 0,
+  "premasterPeak": 0.6032958030700684,
+  "masterGain": 1,
+  "finalPeak": 0.6032958030700684,
+  "listening": {
+    "status": "not-performed"
+  },
+  "cues": []
+}

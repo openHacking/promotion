@@ -1,0 +1,173 @@
+{
+  "product": "MarkPress",
+  "language": "en",
+  "mode": "autonomous",
+  "takeaway": "One Markdown draft can stay local, preview immediately, travel as source, and become share cards.",
+  "experience": [
+    "typographic impact",
+    "visible transformation",
+    "ownership and portability",
+    "output multiplication",
+    "clear next action"
+  ],
+  "selected": "kinetic",
+  "selectionBasis": "Encoded visual comparison: kinetic uses larger scale contrast and a source-to-result transformation; signal is more diagrammatic; paper is editorial. Music selection is provisional, not based on claimed listening.",
+  "palette": {
+    "canvas": "#101116",
+    "paper": "#f8f7f2",
+    "accent": "#2463ff",
+    "signal": "#dcff54",
+    "roleNotes": "Blue drives explosive phrases and transforms; ink gives white document evidence a quiet field; yellow remains a local accent except the central output card."
+  },
+  "musicCandidates": [
+    {
+      "title": "Exit the Premises",
+      "file": "Exit the Premises.mp3",
+      "bpm": "128",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Exit%20the%20Premises.mp3",
+      "page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500029",
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "441d1b594a15b0acdac531495e9c56906e3df5d4002fc651b5a0b763f679c70b",
+      "listening": "not-performed",
+      "publisherInstruments": "Synths, Percussion"
+    },
+    {
+      "title": "Raving Energy (faster)",
+      "file": "Raving Energy (faster).mp3",
+      "bpm": "134",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Raving%20Energy%20%28faster%29.mp3",
+      "page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900012",
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "048f03a2118b317bea2b99b31f435866a1263aa6a5d6a3a5f6bff8d084b82f76",
+      "listening": "not-performed",
+      "publisherInstruments": "Synths, Percussion"
+    },
+    {
+      "title": "Robobozo",
+      "file": "Robobozo.mp3",
+      "bpm": "95",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Robobozo.mp3",
+      "page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700061",
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "e8c36bf7b2250a43b46000993cb415033d2990a2f4b48612cfbb9408abfcf6de",
+      "listening": "not-performed",
+      "publisherInstruments": "Synths, Percussion, Guitar"
+    }
+  ],
+  "musicDecision": {
+    "track": "Exit the Premises",
+    "sourceRangeSeconds": [
+      15,
+      45
+    ],
+    "publisherBpm": 128,
+    "basis": "Driving/intense synth-percussion candidate per publisher metadata; audible comparison supplied. Audition unavailable.",
+    "ending": "Original score excerpt fades over final 0.8 seconds; musical resolution not verified.",
+    "listening": "not-performed"
+  },
+  "phrases": [
+    {
+      "frames": [
+        0,
+        218
+      ],
+      "subject": "Markdown hash to kinetic type",
+      "action": "bars converge, three words stagger, outgoing type expands into the editor entrance"
+    },
+    {
+      "frames": [
+        162,
+        695
+      ],
+      "subject": "one launch-note.md draft",
+      "action": "type, scan into preview, remove source and divider before enlarging the result",
+      "readFrames": [
+        470,
+        555
+      ]
+    },
+    {
+      "frames": [
+        643,
+        870
+      ],
+      "subject": "same document in browser-local frame",
+      "action": "scale compression and rotating enclosure, local check contact",
+      "readFrames": [
+        740,
+        810
+      ]
+    },
+    {
+      "frames": [
+        822,
+        1070
+      ],
+      "subject": "portable .md document",
+      "action": "folded file, download arrow, outgoing compression",
+      "readFrames": [
+        920,
+        990
+      ]
+    },
+    {
+      "frames": [
+        1015,
+        1395
+      ],
+      "subject": "separate card tool outputs",
+      "action": "stack enters, cards fan out then settle",
+      "readFrames": [
+        1265,
+        1350
+      ]
+    },
+    {
+      "frames": [
+        1360,
+        1650
+      ],
+      "subject": "write, shape, share verbs",
+      "action": "alternating horizontal relay and stretched underline"
+    },
+    {
+      "frames": [
+        1605,
+        1800
+      ],
+      "subject": "MarkPress and English URL",
+      "action": "brand resolves, CTA stable",
+      "readFrames": [
+        1685,
+        1800
+      ]
+    }
+  ],
+  "evidence": {
+    "product": "https://markpress.pro/en",
+    "cards": "https://markpress.pro/en/tools/markdown-to-card",
+    "checked": "2026-10-11",
+    "representation": "Illustrative vector reconstruction, not a screen recording. The hash is an editorial motif, not an asserted official logo.",
+    "excludedClaims": [
+      "one-click publishing",
+      "PDF/Word/ePub export",
+      "AI writing",
+      "automatic cloud sync"
+    ]
+  },
+  "reviews": {
+    "automated": "passed: typecheck, 71 tests, native encodes, frame scans, repeated frames and out-of-order study seeks",
+    "visual": "Encoded contact and consecutive-frame review; five repairs documented in REVIEW.md. Browser playback checked separately.",
+    "listening": "not-performed"
+  },
+  "closing": {
+    "displayUrl": "markpress.pro",
+    "musicAttribution": "Gallery and comparison pages; no music attribution in the main film closing frame."
+  }
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "kinetic",
+    "frames": 480,
+    "fps": 60,
+    "width": 960,
+    "height": 540,
+    "duration": 8,
+    "audioDuration": 8,
+    "peakDb": -3.823252,
+    "listening": "not-performed"
+  },
+  {
+    "id": "signal",
+    "frames": 480,
+    "fps": 60,
+    "width": 960,
+    "height": 540,
+    "duration": 8,
+    "audioDuration": 8,
+    "peakDb": -2.834748,
+    "listening": "not-performed"
+  },
+  {
+    "id": "paper",
+    "frames": 480,
+    "fps": 60,
+    "width": 960,
+    "height": 540,
+    "duration": 8,
+    "audioDuration": 8,
+    "peakDb": -4.682426,
+    "listening": "not-performed"
+  }
+]

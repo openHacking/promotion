@@ -1,0 +1,415 @@
+{
+  "source": "video.c1ad3270.mp4",
+  "sha256": "c1ad3270e4f0c055e0e00fe3df07eb17e2e130d8fa8970fad3d56da155fbbb90",
+  "decodedFrames": 1200,
+  "coverage": "all-frame overview; exact easing and full-resolution microdetails not claimed",
+  "intervals": [
+    {
+      "frames": [
+        0,
+        120
+      ],
+      "pts": [
+        0.0,
+        2.0
+      ],
+      "subjectAndAction": "Words reveal in successive masked lines.",
+      "adaptation": "Make one word lead the next.",
+      "failure": "Long word staging delays the actual demonstration.",
+      "consecutiveEvidence": [
+        "frames-000.jpg",
+        "frames-001.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        120,
+        240
+      ],
+      "pts": [
+        2.0,
+        4.0
+      ],
+      "subjectAndAction": "Orange link bar becomes input area; cursor focuses and types.",
+      "adaptation": "Bridge headline concept into a visible UI action.",
+      "failure": "Reconstructed input must not imply an unsupported feature.",
+      "consecutiveEvidence": [
+        "frames-001.jpg",
+        "frames-002.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        240,
+        360
+      ],
+      "pts": [
+        4.0,
+        6.0
+      ],
+      "subjectAndAction": "Button-centered circle expands into a wall of example cards.",
+      "adaptation": "Use a contact point as a shared transition origin.",
+      "failure": "A whole-wall view cannot carry small essential text.",
+      "consecutiveEvidence": [
+        "frames-002.jpg",
+        "frames-003.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        360,
+        480
+      ],
+      "pts": [
+        6.0,
+        8.0
+      ],
+      "subjectAndAction": "Example wall recedes and text options enter in rows.",
+      "adaptation": "Change depth to separate option overview from focal choice.",
+      "failure": "Receding tiny text is only texture.",
+      "consecutiveEvidence": [
+        "frames-003.jpg",
+        "frames-004.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        480,
+        630
+      ],
+      "pts": [
+        8.0,
+        10.5
+      ],
+      "subjectAndAction": "Cards arrange around a curved spatial ring.",
+      "adaptation": "Encode collection and selected focus with depth.",
+      "failure": "Orbiting continuously prevents reading.",
+      "consecutiveEvidence": [
+        "frames-004.jpg",
+        "frames-005.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        630,
+        705
+      ],
+      "pts": [
+        10.5,
+        11.75
+      ],
+      "subjectAndAction": "Ring accelerates, blurs, and settles on one card.",
+      "adaptation": "Use a burst then a stable focus hold.",
+      "failure": "Blur hides identity unless a survivor becomes clear.",
+      "consecutiveEvidence": [
+        "frames-005.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        705,
+        780
+      ],
+      "pts": [
+        11.75,
+        13.0
+      ],
+      "subjectAndAction": "Selected card moves forward; settings panel and green confirmation enter.",
+      "adaptation": "Keep selected content visible while adding controls.",
+      "failure": "Controls must cause a verified change.",
+      "consecutiveEvidence": [
+        "frames-005.jpg",
+        "frames-006.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        780,
+        846
+      ],
+      "pts": [
+        13.0,
+        14.1
+      ],
+      "subjectAndAction": "Content swaps, settings rotate into metric visualization.",
+      "adaptation": "Carry outcome into a separate evidence view.",
+      "failure": "Metric claims require source verification.",
+      "consecutiveEvidence": [
+        "frames-006.jpg",
+        "frames-007.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        846,
+        960
+      ],
+      "pts": [
+        14.1,
+        16.0
+      ],
+      "subjectAndAction": "Numeric result counts up, then rapid metric replacements.",
+      "adaptation": "Use a common baseline and short transition intervals.",
+      "failure": "Numbers presented as facts need stronger proof than animation.",
+      "consecutiveEvidence": [
+        "frames-007.jpg",
+        "frames-008.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        960,
+        1080
+      ],
+      "pts": [
+        16.0,
+        18.0
+      ],
+      "subjectAndAction": "Words replace one another with orange emphasis.",
+      "adaptation": "Build a compact statement using a stable typographic anchor.",
+      "failure": "Reading essential claims too fast reduces comprehension.",
+      "consecutiveEvidence": [
+        "frames-008.jpg",
+        "frames-009.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        1080,
+        1199
+      ],
+      "pts": [
+        18.0,
+        19.983333
+      ],
+      "subjectAndAction": "Small graphic becomes logo and settled end card.",
+      "adaptation": "Shrink an emphasized shape into brand identity.",
+      "failure": "Do not reuse reference logos or music.",
+      "consecutiveEvidence": [
+        "frames-009.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    }
+  ],
+  "listening": "not-performed",
+  "enlargedContinuousEvidence": {
+    "id": "hook-focus",
+    "frames": [
+      630,
+      780
+    ],
+    "resolution": "320x180 (comparison includes both halves); original PTS retained",
+    "phases": [
+      {
+        "phase": "burst",
+        "frames": [
+          630,
+          650
+        ],
+        "observation": "Rapid ring travel with image trails; transient motion obscures identity.",
+        "pts": [
+          10.5,
+          10.833333
+        ]
+      },
+      {
+        "phase": "recovery",
+        "frames": [
+          651,
+          677
+        ],
+        "observation": "Trails diminish, individual cards regain clarity.",
+        "pts": [
+          10.85,
+          11.283333
+        ]
+      },
+      {
+        "phase": "readingHold",
+        "frames": [
+          678,
+          699
+        ],
+        "observation": "Curved collection holds briefly.",
+        "pts": [
+          11.3,
+          11.65
+        ]
+      },
+      {
+        "phase": "trigger",
+        "frames": [
+          700,
+          703
+        ],
+        "observation": "Selected front card begins lifting from ring.",
+        "pts": [
+          11.666667,
+          11.716667
+        ]
+      },
+      {
+        "phase": "focus",
+        "frames": [
+          704,
+          719
+        ],
+        "observation": "Card grows forward as surrounding ring dims.",
+        "pts": [
+          11.733333,
+          11.983333
+        ]
+      },
+      {
+        "phase": "handoff",
+        "frames": [
+          720,
+          731
+        ],
+        "observation": "Focused card shifts left; campaign panel enters on right.",
+        "pts": [
+          12.0,
+          12.183333
+        ]
+      },
+      {
+        "phase": "change",
+        "frames": [
+          734,
+          749
+        ],
+        "observation": "Settings and budget change while content remains visible.",
+        "pts": [
+          12.233333,
+          12.483333
+        ]
+      },
+      {
+        "phase": "pointer",
+        "frames": [
+          750,
+          761
+        ],
+        "observation": "Pointer approaches launch button.",
+        "pts": [
+          12.5,
+          12.683333
+        ]
+      },
+      {
+        "phase": "landing",
+        "frames": [
+          768,
+          770
+        ],
+        "observation": "Launch button turns green with confirmation.",
+        "pts": [
+          12.8,
+          12.833333
+        ]
+      },
+      {
+        "phase": "readingHold",
+        "frames": [
+          771,
+          780
+        ],
+        "observation": "Content and confirmation remain visible. No measured rebound claimed.",
+        "pts": [
+          12.85,
+          13.0
+        ]
+      }
+    ],
+    "consecutiveEvidence": [
+      "hook-focus/interval-000.jpg",
+      "hook-focus/interval-001.jpg",
+      "hook-focus/interval-002.jpg",
+      "hook-focus/interval-003.jpg",
+      "hook-focus/interval-004.jpg",
+      "hook-focus/interval-005.jpg",
+      "hook-focus/interval-006.jpg"
+    ],
+    "pts": [
+      10.5,
+      13.0
+    ]
+  },
+  "frameIndex": "hooklab-frames.json"
+}

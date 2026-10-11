@@ -1,0 +1,11 @@
+import fs from 'node:fs';import path from 'node:path';import {execFileSync} from 'node:child_process';import {stop} from 'esbuild';
+import {bundle} from '@remotion/bundler';import {selectComposition,renderMedia} from '@remotion/renderer';import {validateConfig} from './config.mjs';
+const root=process.cwd(),base=JSON.parse(fs.readFileSync('config.json')),out=path.join(root,'out/qa/transitions');fs.mkdirSync(out,{recursive:true});
+const c={...base,template:'story',width:1920,height:1080,format:'landscape',fps:30,duration:8,sceneDurations:[4,4],timeline:undefined,rhythm:undefined,discovery:undefined,backgroundImage:null,story:['#ff0000','#0000ff'].map((color,i)=>({id:'test-'+i,kind:'scene',transition:i?{type:'wipe',frames:30,direction:'right'}:undefined,scene:{background:color,layers:[{id:'fill',kind:'shape',color,x:0,y:0,width:1920,height:1080}]}}))};validateConfig(c,root);
+const serveUrl=await bundle({enableCaching:false,entryPoint:path.join(root,'src/index.ts'),publicDir:path.join(root,'public')});stop();const common={serveUrl,inputProps:{config:c},browserExecutable:process.env.PROMOTION_BROWSER||undefined},composition=await selectComposition({...common,id:'ProductFilm'}),file=path.join(out,'wipe.mp4');
+await renderMedia({...common,composition,frameRange:[119,151],codec:'h264',outputLocation:file,crf:18,pixelFormat:'yuv420p',concurrency:2});
+const pixel=(frame,x)=>{const data=execFileSync('ffmpeg',['-v','error','-i',file,'-vf',`select=eq(n\\,${frame-119}),scale=96:54`,'-frames:v','1','-f','rawvideo','-pix_fmt','rgb24','pipe:1']);return [...data.subarray((27*96+x)*3,(27*96+x)*3+3)];};
+const red=v=>v[0]>200&&v[2]<40,blue=v=>v[2]>200&&v[0]<40;
+const results=[{frame:120,left:pixel(120,5),right:pixel(120,90)},{frame:135,left:pixel(135,5),right:pixel(135,90)},{frame:150,left:pixel(150,5),right:pixel(150,90)}];
+if(!red(results[0].left)||!red(results[0].right)||!blue(results[1].left)||!red(results[1].right)||!blue(results[2].left)||!blue(results[2].right))throw new Error('Encoded wipe did not preserve outgoing and reveal incoming pixels continuously');
+fs.writeFileSync(path.join(out,'verification.json'),JSON.stringify({passed:true,results},null,2)+'\n');stop();console.log('Encoded wipe: old endpoint, spatial overlap, new endpoint verified');process.exit(0);

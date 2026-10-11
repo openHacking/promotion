@@ -1,0 +1,364 @@
+{
+  "brand": "MarkPress",
+  "tagline": "From draft to something worth sharing.",
+  "category": "LOCAL-FIRST MARKDOWN",
+  "accent": "#2581ff",
+  "background": "#f6f5f0",
+  "foreground": "#141519",
+  "surface": "#ffffff",
+  "title": "Keep your ideas moving.",
+  "description": "Write in Markdown. Preview as you go. Keep the source.",
+  "task": "Draft a launch note",
+  "result": "One draft. More possibilities.",
+  "features": [
+    "Live preview",
+    "Local autosave",
+    "Markdown export"
+  ],
+  "template": "story",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 40.0,
+  "sceneDurations": [
+    3.85,
+    6.0,
+    5.033333333333333,
+    6.0,
+    4.8,
+    7.2,
+    7.116666666666666
+  ],
+  "fontFamily": "VideoSans",
+  "fontFile": "font.ttf",
+  "fontFormat": "truetype",
+  "logo": null,
+  "url": "markpress.pro",
+  "screenshots": [
+    {
+      "file": "editor.jpg",
+      "label": "Public editor capture, 2026-10-11"
+    },
+    {
+      "file": "card-studio.jpg",
+      "label": "Public card studio capture, 2026-10-11"
+    }
+  ],
+  "evidenceLabel": "Captured UI and illustrative motion",
+  "audio": {
+    "mode": "file",
+    "bpm": 125,
+    "musicVolume": 0.36,
+    "sfxVolume": 0.55,
+    "source": "music/energetic-electro.ogg",
+    "license": "CC0-1.0",
+    "duckAmount": 0.22,
+    "credit": "Energetic Electro Tune \u2014 TinyWorlds",
+    "sourcePage": "https://opengameart.org/content/energetic-electro-tune"
+  },
+  "provenance": [
+    {
+      "kind": "public-website",
+      "url": "https://markpress.pro/en",
+      "collected": "2026-10-11",
+      "note": "Current capabilities checked against homepage and editor; roadmap excluded."
+    },
+    {
+      "kind": "capture",
+      "files": [
+        "editor.jpg",
+        "export-menu.jpg",
+        "card-studio.jpg"
+      ],
+      "note": "Still captures from the public editor. No interaction recording is implied."
+    },
+    {
+      "kind": "illustrative-motion",
+      "note": "Simplified vector editor, storage enclosure, document transfer and social cards illustrate verified capabilities. They are not exact live UI."
+    }
+  ],
+  "engine": "remotion",
+  "format": "landscape",
+  "motionStyle": "standard",
+  "shader": false,
+  "story": [
+    {
+      "id": "hook",
+      "kind": "scene",
+      "transitionFrames": 0,
+      "scene": {
+        "background": "#f6f5f0",
+        "layers": []
+      }
+    },
+    {
+      "id": "write",
+      "kind": "scene",
+      "transitionFrames": 0,
+      "scene": {
+        "background": "#f6f5f0",
+        "layers": []
+      }
+    },
+    {
+      "id": "proof",
+      "kind": "scene",
+      "transitionFrames": 0,
+      "scene": {
+        "background": "#f6f5f0",
+        "layers": []
+      }
+    },
+    {
+      "id": "local",
+      "kind": "scene",
+      "transitionFrames": 0,
+      "scene": {
+        "background": "#f6f5f0",
+        "layers": []
+      }
+    },
+    {
+      "id": "export",
+      "kind": "scene",
+      "transitionFrames": 0,
+      "scene": {
+        "background": "#f6f5f0",
+        "layers": []
+      }
+    },
+    {
+      "id": "cards",
+      "kind": "scene",
+      "transitionFrames": 0,
+      "scene": {
+        "background": "#f6f5f0",
+        "layers": []
+      }
+    },
+    {
+      "id": "close",
+      "kind": "scene",
+      "transitionFrames": 0,
+      "scene": {
+        "background": "#f6f5f0",
+        "layers": []
+      }
+    }
+  ],
+  "timeline": {
+    "events": [
+      {
+        "id": "syntax",
+        "frame": 72,
+        "kind": "select",
+        "sound": {
+          "material": "click",
+          "gain": 0.5,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "workspace",
+        "frame": 231,
+        "kind": "transition",
+        "sound": {
+          "material": "air",
+          "gain": 0.8,
+          "leadSeconds": 0.16
+        }
+      },
+      {
+        "id": "preview",
+        "frame": 346,
+        "kind": "resolve",
+        "sound": {
+          "material": "click",
+          "gain": 0.65,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "proof",
+        "frame": 591,
+        "kind": "transition",
+        "sound": {
+          "material": "air",
+          "gain": 0.65,
+          "leadSeconds": 0.16
+        }
+      },
+      {
+        "id": "local",
+        "frame": 893,
+        "kind": "resolve",
+        "sound": {
+          "material": "impact",
+          "gain": 0.65,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "export",
+        "frame": 1253,
+        "kind": "select",
+        "sound": {
+          "material": "click",
+          "gain": 0.8,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "studio",
+        "frame": 1541,
+        "kind": "transition",
+        "sound": {
+          "material": "air",
+          "gain": 0.7,
+          "leadSeconds": 0.16
+        }
+      },
+      {
+        "id": "cards",
+        "frame": 1728,
+        "kind": "resolve",
+        "sound": {
+          "material": "impact",
+          "gain": 0.7,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "brand",
+        "frame": 1973,
+        "kind": "brand",
+        "sound": {
+          "material": "air",
+          "gain": 0.9,
+          "leadSeconds": 0.16
+        }
+      },
+      {
+        "id": "cta",
+        "frame": 2088,
+        "kind": "resolve",
+        "sound": {
+          "material": "impact",
+          "gain": 0.6,
+          "leadSeconds": 0
+        }
+      }
+    ],
+    "beatFrames": [
+      20,
+      48,
+      72,
+      101,
+      132,
+      162,
+      191,
+      216,
+      248,
+      277,
+      303,
+      332,
+      363,
+      391,
+      419,
+      447,
+      476,
+      504,
+      533,
+      561,
+      591,
+      619,
+      648,
+      678,
+      706,
+      735,
+      763,
+      793,
+      821,
+      850,
+      878,
+      908,
+      936,
+      965,
+      994,
+      1023,
+      1051,
+      1080,
+      1109,
+      1133,
+      1162,
+      1190,
+      1219,
+      1248,
+      1276,
+      1305,
+      1333,
+      1362,
+      1390,
+      1419,
+      1447,
+      1476,
+      1505,
+      1533,
+      1562,
+      1590,
+      1619,
+      1647,
+      1676,
+      1705,
+      1733,
+      1762,
+      1787,
+      1815,
+      1843,
+      1872,
+      1908,
+      1930,
+      1959,
+      1987,
+      2016,
+      2045,
+      2074,
+      2102,
+      2131,
+      2160,
+      2189,
+      2218,
+      2247,
+      2276,
+      2304,
+      2332,
+      2361,
+      2390
+    ],
+    "phraseFrames": [
+      60,
+      180,
+      300,
+      420,
+      540,
+      660,
+      870,
+      990,
+      1110,
+      1230,
+      1350,
+      1500,
+      1650,
+      1800,
+      1920,
+      2040,
+      2190,
+      2310
+    ]
+  },
+  "rhythm": {
+    "profile": "brisk",
+    "requireOnsetAlignment": true,
+    "analysisSourceSha256": "4a2360010627f1fc04eedb640285a032d6d4bdd3e1aed24b469a8b0c29f76dd4"
+  }
+}

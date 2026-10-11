@@ -1,0 +1,221 @@
+{
+  "technical": "passed",
+  "formats": [
+    {
+      "format": "landscape",
+      "frames": 1800,
+      "renderSeconds": 90.01973708400001,
+      "determinism": [
+        {
+          "frame": 486,
+          "hashes": [
+            "5d3850a6a0845f0b0f57b48492c336f3c056c74256f49054ecbaf9c23139dea6",
+            "5d3850a6a0845f0b0f57b48492c336f3c056c74256f49054ecbaf9c23139dea6"
+          ],
+          "equal": true
+        },
+        {
+          "frame": 1044,
+          "hashes": [
+            "c627abf834a4b9d7aef00669e940631a2cb1ea0c16ad66339c6ff2d9b1cad858",
+            "c627abf834a4b9d7aef00669e940631a2cb1ea0c16ad66339c6ff2d9b1cad858"
+          ],
+          "equal": true
+        }
+      ],
+      "checks": [
+        {
+          "name": "resolution",
+          "pass": true,
+          "actual": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "name": "fps",
+          "pass": true,
+          "actual": 60
+        },
+        {
+          "name": "codec",
+          "pass": true,
+          "actual": [
+            "h264",
+            "yuv420p"
+          ]
+        },
+        {
+          "name": "duration",
+          "pass": true,
+          "actual": 30
+        },
+        {
+          "name": "decoded frame count",
+          "pass": true,
+          "actual": 1800
+        },
+        {
+          "name": "audio presence",
+          "pass": true,
+          "actual": true
+        },
+        {
+          "name": "complete frame scan",
+          "pass": true,
+          "actual": 1800
+        },
+        {
+          "name": "audio duration",
+          "pass": true,
+          "actual": 30
+        },
+        {
+          "name": "no digital clipping",
+          "pass": true,
+          "actual": -3.455034
+        }
+      ],
+      "scan": {
+        "frames": 1800,
+        "minStd": 4.72964884402748,
+        "candidates": [],
+        "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+      },
+      "audio": {
+        "peakDb": -3.455034,
+        "duration": 30,
+        "sampleRate": "48000"
+      },
+      "sha256": "114d48ac734a5ac7957b0435ac16bf2b0ed334350b288ab0a6957e3b30924e09",
+      "visual": "Closing frame 1750 reviewed from this encoded output; see closing-revision.json",
+      "listening": "not-performed"
+    },
+    {
+      "format": "portrait",
+      "frames": 1800,
+      "renderSeconds": 89.735084167,
+      "determinism": [
+        {
+          "frame": 486,
+          "hashes": [
+            "e9d4951de8e278b2ed7508607363fa6d35754d81abbce63b4200fec8aae3de23",
+            "e9d4951de8e278b2ed7508607363fa6d35754d81abbce63b4200fec8aae3de23"
+          ],
+          "equal": true
+        },
+        {
+          "frame": 1044,
+          "hashes": [
+            "db509474581d55ee0286d20170bc30865b11297bb4180afb3f6e78b1e0fb8917",
+            "db509474581d55ee0286d20170bc30865b11297bb4180afb3f6e78b1e0fb8917"
+          ],
+          "equal": true
+        }
+      ],
+      "checks": [
+        {
+          "name": "resolution",
+          "pass": true,
+          "actual": [
+            1080,
+            1920
+          ]
+        },
+        {
+          "name": "fps",
+          "pass": true,
+          "actual": 60
+        },
+        {
+          "name": "codec",
+          "pass": true,
+          "actual": [
+            "h264",
+            "yuv420p"
+          ]
+        },
+        {
+          "name": "duration",
+          "pass": true,
+          "actual": 30
+        },
+        {
+          "name": "decoded frame count",
+          "pass": true,
+          "actual": 1800
+        },
+        {
+          "name": "audio presence",
+          "pass": true,
+          "actual": true
+        },
+        {
+          "name": "complete frame scan",
+          "pass": true,
+          "actual": 1800
+        },
+        {
+          "name": "audio duration",
+          "pass": true,
+          "actual": 30
+        },
+        {
+          "name": "no digital clipping",
+          "pass": true,
+          "actual": -3.455034
+        }
+      ],
+      "scan": {
+        "frames": 1800,
+        "minStd": 4.173351957785008,
+        "candidates": [],
+        "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+      },
+      "audio": {
+        "peakDb": -3.455034,
+        "duration": 30,
+        "sampleRate": "48000"
+      },
+      "sha256": "179fa77563ca53a60df15ac3037f2f02600baea5e540c8972a3768575c2791cb",
+      "visual": "Closing frame 1750 reviewed from this encoded output; see closing-revision.json",
+      "listening": "not-performed"
+    }
+  ],
+  "treatments": [
+    {
+      "id": "kinetic",
+      "frames": 480,
+      "fps": 60,
+      "width": 960,
+      "height": 540,
+      "duration": 8,
+      "audioDuration": 8,
+      "peakDb": -3.823252,
+      "listening": "not-performed"
+    },
+    {
+      "id": "signal",
+      "frames": 480,
+      "fps": 60,
+      "width": 960,
+      "height": 540,
+      "duration": 8,
+      "audioDuration": 8,
+      "peakDb": -2.834748,
+      "listening": "not-performed"
+    },
+    {
+      "id": "paper",
+      "frames": 480,
+      "fps": 60,
+      "width": 960,
+      "height": 540,
+      "duration": 8,
+      "audioDuration": 8,
+      "peakDb": -4.682426,
+      "listening": "not-performed"
+    }
+  ],
+  "listening": "not-performed"
+}

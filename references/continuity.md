@@ -8,8 +8,10 @@ Fast movement may benefit from real shutter sampling, but CSS blur is not tempor
 
 The motion report exports full-frame and central-region pixel differences and estimated quiet intervals. Background light and texture affect those measurements. They are diagnostic evidence, not a readability or semantic-continuity score.
 
-## Default continuous handoffs
+## Legacy transition fallback
 
-Story shots now default to a 0.45-second dissolve, including MG and layered scenes. Explicit `transition: {type: "wipe", frames: 36, direction: "right"}` reveals the incoming shot over the outgoing endpoint; `dissolve`, `slide`, and explicit `cut` are also available. Existing `transitionFrames` remains supported; zero requests a cut. Shot time does not change, and the previous endpoint is held while the new shot animates. Keep the incoming opening readable and do not use this fallback as proof of matched subjects.
+Existing story shots default to a 0.45-second dissolve, including MG and layered scenes. Explicit `transition: {type: "wipe", frames: 36, direction: "right"}` reveals the incoming shot over the outgoing endpoint; `dissolve`, `slide`, and explicit `cut` are also available. Existing `transitionFrames` remains supported; zero requests a cut. Shot time does not change, and the previous endpoint is held while the new shot animates. Keep the incoming opening readable and do not use this fallback as proof of matched subjects.
 
 The discovery composition uses one persistent panel and object coordinates across phases: intro cards converge into the panel, catalog/category contents reveal inside it, the selected real row separates and expands into the detail page, and the subject recedes as the platform proposition enters along the same left alignment. It does not switch scene components at phase boundaries. Review contact and exit frames, not only covers.
+
+Original films should author object handoffs directly rather than inherit this compatibility fallback. See audiovisual-development.md for overlapping motion phrases.

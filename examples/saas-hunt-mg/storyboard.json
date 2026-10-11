@@ -1,0 +1,177 @@
+{
+  "fps": 60,
+  "durationFrames": 1800,
+  "shots": [
+    {
+      "name": "Hook",
+      "frames": [
+        0,
+        179
+      ],
+      "subject": "Brand / title",
+      "stateChange": "Words enter in staggered masks; arrow rotates and paper circle reveals next scene",
+      "landingEvents": [
+        43
+      ],
+      "readingHold": "Read hook after entry"
+    },
+    {
+      "name": "Directory",
+      "frames": [
+        180,
+        479
+      ],
+      "subject": "Six named product cards / three categories",
+      "stateChange": "Independent paths enter; cards aggregate by actual category",
+      "landingEvents": [
+        225,
+        360
+      ],
+      "readingHold": "Grouped collection holds from f360"
+    },
+    {
+      "name": "Category",
+      "frames": [
+        480,
+        779
+      ],
+      "subject": "Productivity / AppWizzy / Unabyss",
+      "stateChange": "Nonmembers leave; selected category results reorder",
+      "landingEvents": [
+        533
+      ],
+      "readingHold": "Results remain readable until detail expansion"
+    },
+    {
+      "name": "Detail",
+      "frames": [
+        780,
+        1139
+      ],
+      "subject": "AppWizzy",
+      "stateChange": "Same selected card expands; verified copy, tags and official crop reveal",
+      "landingEvents": [
+        835
+      ],
+      "readingHold": "Detail and crop readable after f936"
+    },
+    {
+      "name": "Maker",
+      "frames": [
+        1140,
+        1439
+      ],
+      "subject": "Elaine Xie / AppWizzy / other listed products",
+      "stateChange": "Maker separates with connector; Brew, Unabyss and Vokal re-enter",
+      "landingEvents": [
+        1196
+      ],
+      "readingHold": "Maker holds before more-products relay"
+    },
+    {
+      "name": "Statement",
+      "frames": [
+        1440,
+        1619
+      ],
+      "subject": "Discover early / radial shape",
+      "stateChange": "Intentional contrast cut; masked type lands; real category labels relay around radial geometry, then contract into CTA",
+      "landingEvents": [
+        1470
+      ],
+      "readingHold": "Short statement hold then overlapping CTA transition"
+    },
+    {
+      "name": "CTA",
+      "frames": [
+        1620,
+        1799
+      ],
+      "subject": "SaaS Hunt / URL",
+      "stateChange": "Movement resolves; title and address remain stable",
+      "landingEvents": [
+        1613
+      ],
+      "readingHold": "Stable full CTA through final encoded frame"
+    }
+  ],
+  "objects": [
+    {
+      "id": "category:Productivity",
+      "before": "neutral category among three",
+      "trigger": "category selection",
+      "motionFrames": [
+        491,
+        533
+      ],
+      "landingEvent": "filter",
+      "after": "selected category; only members remain",
+      "holdFrames": [
+        533,
+        779
+      ],
+      "handoff": "product:AppWizzy"
+    },
+    {
+      "id": "product:AppWizzy",
+      "before": "directory card with category and maker identity",
+      "motionFrames": [
+        315,
+        360
+      ],
+      "landingEvent": "group",
+      "after": "member of Productivity grouping",
+      "holdFrames": [
+        360,
+        490
+      ],
+      "handoff": "same identity repositions during filter"
+    },
+    {
+      "id": "product:AppWizzy",
+      "before": "filtered survivor card",
+      "trigger": "open verified product details",
+      "motionFrames": [
+        784,
+        835
+      ],
+      "landingEvent": "detail",
+      "after": "expanded card with verified descriptor/tags and official heading crop",
+      "holdFrames": [
+        936,
+        1147
+      ],
+      "handoff": "maker:Elaine Xie"
+    },
+    {
+      "id": "maker:Elaine Xie",
+      "before": "maker field in AppWizzy details",
+      "trigger": "show listed maker relationship",
+      "motionFrames": [
+        1148,
+        1196
+      ],
+      "landingEvent": "maker",
+      "after": "separate maker panel linked to same product",
+      "holdFrames": [
+        1196,
+        1349
+      ],
+      "handoff": "same-maker Brew, Unabyss and Vokal"
+    },
+    {
+      "id": "cta:saashunt.pro",
+      "before": "Discover early statement with real category labels",
+      "motionFrames": [
+        1589,
+        1613
+      ],
+      "landingEvent": "cta",
+      "after": "brand and stable visit address",
+      "holdFrames": [
+        1620,
+        1799
+      ]
+    }
+  ]
+}

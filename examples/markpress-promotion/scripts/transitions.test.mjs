@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {transitionStyle} from '../src/transitions.mjs';
+test('wipes reveal exactly from masked to full in each direction',()=>{for(const d of ['left','right','up','down']){assert.match(transitionStyle('wipe',0,d).clipPath,/100%/);assert.ok(!transitionStyle('wipe',1,d).clipPath.includes('100%'));}});
+test('legacy dissolve and explicit cuts have bounded opacity; slides settle',()=>{assert.equal(transitionStyle('dissolve',-5).opacity,0);assert.equal(transitionStyle('dissolve',2).opacity,1);assert.equal(transitionStyle('cut',0).opacity,1);assert.equal(transitionStyle('slide',1,'up').transform,'translateY(0%)');});

@@ -1,0 +1,229 @@
+{
+  "mode": "file",
+  "bpm": 125,
+  "sampleRate": 48000,
+  "channels": 2,
+  "duration": 30,
+  "origin": "Local licensed recording and action cues",
+  "source": "music/energetic-electro.ogg",
+  "sourceSha256": "4a2360010627f1fc04eedb640285a032d6d4bdd3e1aed24b469a8b0c29f76dd4",
+  "sourceOffsetSeconds": 0,
+  "duckAmount": 0.2,
+  "musicVolume": 0.4,
+  "sfxVolume": 0.6,
+  "beatFrames": [],
+  "phraseFrames": [],
+  "license": "CC0-1.0",
+  "credit": "Energetic Electro Tune \u2014 TinyWorlds",
+  "sourcePage": "https://opengameart.org/content/energetic-electro-tune",
+  "musicPeak": 0.4219723641872406,
+  "sfxPeak": 0.062153663486242294,
+  "premasterPeak": 0.4219723641872406,
+  "masterGain": 1,
+  "finalPeak": 0.4219723641872406,
+  "listening": {
+    "status": "not-performed"
+  },
+  "cues": [
+    {
+      "id": "intro",
+      "frame": 43,
+      "kind": "brand",
+      "sound": {
+        "material": "impact",
+        "gain": 0.5,
+        "leadSeconds": 0
+      },
+      "time": 0.7166666666666667,
+      "startTime": 0.7166666666666667,
+      "startFrame": 43,
+      "material": "impact",
+      "source": null,
+      "sourceSha256": null,
+      "durationSeconds": 0.48,
+      "gain": 0.5,
+      "pan": 0,
+      "window": {
+        "durationSeconds": 0.15,
+        "musicRms": 0.050934934939306654,
+        "sfxRms": 0.020355780926980586,
+        "sfxToMusicDb": -7.966559749919457
+      }
+    },
+    {
+      "id": "enter",
+      "frame": 225,
+      "kind": "resolve",
+      "sound": {
+        "material": "air",
+        "gain": 0.5,
+        "leadSeconds": 0.16
+      },
+      "time": 3.75,
+      "startTime": 3.5833333333333335,
+      "startFrame": 215,
+      "material": "air",
+      "source": null,
+      "sourceSha256": null,
+      "durationSeconds": 0.32,
+      "gain": 0.5,
+      "pan": 0,
+      "window": {
+        "durationSeconds": 0.15,
+        "musicRms": 0.09499827138288437,
+        "sfxRms": 0.011494154403219983,
+        "sfxToMusicDb": -18.34477352016645
+      }
+    },
+    {
+      "id": "group",
+      "frame": 360,
+      "kind": "resolve",
+      "sound": {
+        "material": "air",
+        "gain": 0.5,
+        "leadSeconds": 0.16
+      },
+      "time": 6,
+      "startTime": 5.833333333333333,
+      "startFrame": 350,
+      "material": "air",
+      "source": null,
+      "sourceSha256": null,
+      "durationSeconds": 0.32,
+      "gain": 0.5,
+      "pan": 0,
+      "window": {
+        "durationSeconds": 0.15,
+        "musicRms": 0.07820444645133078,
+        "sfxRms": 0.011533601609311816,
+        "sfxToMusicDb": -16.625330005844535
+      }
+    },
+    {
+      "id": "filter",
+      "frame": 533,
+      "kind": "select",
+      "sound": {
+        "material": "click",
+        "gain": 0.5,
+        "leadSeconds": 0
+      },
+      "time": 8.883333333333333,
+      "startTime": 8.883333333333333,
+      "startFrame": 533,
+      "material": "click",
+      "source": null,
+      "sourceSha256": null,
+      "durationSeconds": 0.09,
+      "gain": 0.5,
+      "pan": 0,
+      "window": {
+        "durationSeconds": 0.15,
+        "musicRms": 0.07981954806716235,
+        "sfxRms": 0.005155991330201212,
+        "sfxToMusicDb": -23.795941721867308
+      }
+    },
+    {
+      "id": "detail",
+      "frame": 835,
+      "kind": "resolve",
+      "sound": {
+        "material": "air",
+        "gain": 0.5,
+        "leadSeconds": 0.16
+      },
+      "time": 13.916666666666666,
+      "startTime": 13.75,
+      "startFrame": 825,
+      "material": "air",
+      "source": null,
+      "sourceSha256": null,
+      "durationSeconds": 0.32,
+      "gain": 0.5,
+      "pan": 0,
+      "window": {
+        "durationSeconds": 0.15,
+        "musicRms": 0.02822683227462326,
+        "sfxRms": 0.011620199228919915,
+        "sfxToMusicDb": -7.708971370774165
+      }
+    },
+    {
+      "id": "maker",
+      "frame": 1196,
+      "kind": "resolve",
+      "sound": {
+        "material": "click",
+        "gain": 0.5,
+        "leadSeconds": 0
+      },
+      "time": 19.933333333333334,
+      "startTime": 19.933333333333334,
+      "startFrame": 1196,
+      "material": "click",
+      "source": null,
+      "sourceSha256": null,
+      "durationSeconds": 0.09,
+      "gain": 0.5,
+      "pan": 0,
+      "window": {
+        "durationSeconds": 0.15,
+        "musicRms": 0.05989096757708032,
+        "sfxRms": 0.005144923789813491,
+        "sfxToMusicDb": -21.319647667459705
+      }
+    },
+    {
+      "id": "peak",
+      "frame": 1470,
+      "kind": "brand",
+      "sound": {
+        "material": "impact",
+        "gain": 0.5,
+        "leadSeconds": 0
+      },
+      "time": 24.5,
+      "startTime": 24.5,
+      "startFrame": 1470,
+      "material": "impact",
+      "source": null,
+      "sourceSha256": null,
+      "durationSeconds": 0.48,
+      "gain": 0.5,
+      "pan": 0,
+      "window": {
+        "durationSeconds": 0.15,
+        "musicRms": 0.16873213963140452,
+        "sfxRms": 0.020520278642457063,
+        "sfxToMusicDb": -18.30029119933969
+      }
+    },
+    {
+      "id": "cta",
+      "frame": 1613,
+      "kind": "brand",
+      "sound": {
+        "material": "impact",
+        "gain": 0.5,
+        "leadSeconds": 0
+      },
+      "time": 26.883333333333333,
+      "startTime": 26.883333333333333,
+      "startFrame": 1613,
+      "material": "impact",
+      "source": null,
+      "sourceSha256": null,
+      "durationSeconds": 0.48,
+      "gain": 0.5,
+      "pan": 0,
+      "window": {
+        "durationSeconds": 0.15,
+        "musicRms": 0.17584485309701814,
+        "sfxRms": 0.02036632878396332,
+        "sfxToMusicDb": -18.724338214057667
+      }
+    }
+  ]
+}

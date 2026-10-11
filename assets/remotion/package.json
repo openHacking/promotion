@@ -7,7 +7,7 @@
     "render": "node scripts/render.mjs",
     "check": "node scripts/check.mjs out/video.mp4",
     "typecheck": "tsc --noEmit",
-    "test": "node --test scripts/config.test.mjs scripts/audio.test.mjs scripts/scene-motion.test.mjs scripts/mg-config.test.mjs scripts/music-analysis.test.mjs scripts/formats.test.mjs scripts/transitions.test.mjs scripts/discovery-config.test.mjs",
+    "test": "node --test scripts/config.test.mjs scripts/audio.test.mjs scripts/scene-motion.test.mjs scripts/mg-config.test.mjs scripts/music-analysis.test.mjs scripts/formats.test.mjs scripts/transitions.test.mjs scripts/discovery-config.test.mjs scripts/architecture-config.test.mjs scripts/phrase-motion.test.mjs",
     "verify": "node scripts/verify-templates.mjs",
     "motion-report": "node scripts/motion-report.mjs",
     "verify-assets": "node scripts/verify-assets.mjs",
@@ -15,7 +15,10 @@
     "verify-scenes": "node scripts/verify-scenes.mjs",
     "analyze-music": "node scripts/music-analysis.mjs",
     "verify-discovery": "node scripts/verify-discovery.mjs",
-    "verify-transitions": "node scripts/verify-transitions.mjs"
+    "verify-transitions": "node scripts/verify-transitions.mjs",
+    "render-segment": "node scripts/render-segment.mjs",
+    "render-benchmark": "node scripts/render-benchmark.mjs",
+    "render-recipes": "node scripts/render-recipes.mjs"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.534",

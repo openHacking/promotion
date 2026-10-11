@@ -4,9 +4,9 @@
 
 Promotion is an Agent Skill for creating editable launch videos, software demos, and workflow promos from a website, project folder, screenshots, or recordings. Your agent designs the story, animates the product, synchronizes sound, and renders an MP4 locally.
 
-[![SaaS Hunt — continuous discovery](examples/saas-hunt-rhythm/cover.png)](examples/saas-hunt-rhythm/video.mp4)
+[![MarkPress — Make ideas move](examples/markpress-mg/cover.png)](examples/markpress-mg/video.mp4)
 
-**[Watch the live gallery](https://openhacking.github.io/promotion/)** · [Download the 30-second SaaS Hunt film](examples/saas-hunt-rhythm/video.mp4) · [Review the example evidence](examples/saas-hunt-rhythm/README.md)
+**[Watch the live gallery](https://openhacking.github.io/promotion/)** · [Watch the 30-second MarkPress film](examples/markpress-mg/video.mp4) · [Review the example evidence](examples/markpress-mg/README.md)
 
 GitHub may show a download link for MP4 files. The local gallery provides native video playback.
 
@@ -116,12 +116,12 @@ The agent installs project dependencies on first use. If the downloaded browser 
 - [Motion and sound design](references/motion-design.md)
 - [Quality and evidence](references/quality.md)
 - [Executed validation](references/validation.md)
-- [SaaS Hunt example](examples/saas-hunt/README.md)
+- [MarkPress motion graphics example](examples/markpress-mg/README.md)
 - [Contribute](CONTRIBUTING.md)
 
 ## License
 
-Original code is MIT. Fonts, dependencies, external music, and captured product imagery retain their respective rights. Example screenshots demonstrate SaaS Hunt; they are not generic, relicensed template assets. See [third-party notices](THIRD_PARTY_NOTICES.md).
+Original code is MIT. Fonts, dependencies, external music, and captured product imagery retain their respective rights. Product names and historical example screenshots retain their respective rights. MarkPress motion artwork is an illustrative reconstruction of verified capabilities. See [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Motion graphics
 
@@ -129,6 +129,4 @@ Original code is MIT. Fonts, dependencies, external music, and captured product 
 
 ## Rhythm, continuity and native formats
 
-[The new SaaS Hunt example](examples/saas-hunt-rhythm/README.md) combines measured music onsets, eight shared motion/copy/sound contacts and a persistent UI panel. Watch [landscape](examples/saas-hunt-rhythm/video.mp4) or [portrait](examples/saas-hunt-rhythm/portrait-video.mp4). Listening remains an explicit outstanding review gate.
-
-Initialize with `python3 scripts/example.py new-project --variant rhythm`, or use the generic `discovery` starter. Native ratio selection is available for this template; bespoke scenes require authored format layouts. See [formats](references/formats.md), [music analysis](references/music.md) and [continuity](references/continuity.md).
+[The core MarkPress example](examples/markpress-mg/README.md) uses full motion graphics: kinetic type, syntax scanning, document transformation, spatial card choreography, and a stable closing action. Watch [landscape](examples/markpress-mg/video.mp4), [portrait](examples/markpress-mg/portrait-video.mp4), or [three direction studies](examples/markpress-mg/treatments/index.html). Listening remains an explicit outstanding review gate.

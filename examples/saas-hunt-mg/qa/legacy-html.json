@@ -1,0 +1,38 @@
+[
+  {
+    "test": "minimal long copy and seek determinism",
+    "passed": true
+  },
+  {
+    "test": "window long copy and seek determinism",
+    "passed": true
+  },
+  {
+    "test": "command long copy and seek determinism",
+    "passed": true
+  },
+  {
+    "test": "workflow long copy and seek determinism",
+    "passed": true
+  },
+  {
+    "test": "missing image",
+    "passed": true
+  },
+  {
+    "test": "missing font",
+    "passed": true
+  },
+  {
+    "test": "remote asset",
+    "passed": true
+  },
+  {
+    "test": "bad scene duration",
+    "passed": true
+  },
+  {
+    "test": "keyboard advances exactly one frame",
+    "passed": true
+  }
+]

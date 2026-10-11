@@ -1,0 +1,46 @@
+[
+  {
+    "id": "ribbon",
+    "frames": 600,
+    "fps": 60,
+    "width": 960,
+    "height": 540,
+    "duration": 10,
+    "audioDuration": 10,
+    "peakDb": -8.616519,
+    "listening": "not-performed"
+  },
+  {
+    "id": "atlas",
+    "frames": 600,
+    "fps": 60,
+    "width": 960,
+    "height": 540,
+    "duration": 10,
+    "audioDuration": 10,
+    "peakDb": -6.960653,
+    "listening": "not-performed"
+  },
+  {
+    "id": "aperture",
+    "frames": 600,
+    "fps": 60,
+    "width": 960,
+    "height": 540,
+    "duration": 10,
+    "audioDuration": 10,
+    "peakDb": -11.855642,
+    "listening": "not-performed"
+  },
+  {
+    "id": "transfer",
+    "frames": 600,
+    "fps": 60,
+    "width": 960,
+    "height": 540,
+    "duration": 10,
+    "audioDuration": 10,
+    "peakDb": -11.593007,
+    "listening": "not-performed"
+  }
+]

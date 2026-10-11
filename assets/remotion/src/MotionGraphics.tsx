@@ -1,11 +1,13 @@
 import React from 'react';
+import {MGSystem,SystemSpec} from './MGSystem';
 import {AbsoluteFill,Img,staticFile,spring,interpolate,Easing} from 'remotion';
 import type {Product} from './parts';
-export type MGSpec={recipe:'orbit'|'elastic'|'split';headline:string;label?:string;items?:string[];selected?:number;file?:string};
+export type MGSpec={recipe:'orbit'|'elastic'|'split'|SystemSpec['recipe'];headline:string;label?:string;items?:string[];selected?:number;file?:string;motion?:SystemSpec['motion']};
 const unit=(f:number,a:number,b:number)=>interpolate(f,[a,b],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.bezier(.76,0,.24,1)});
 const box:React.CSSProperties={position:'absolute'};
 // Each recipe owns a motion system, not a decoration behind a fixed headline.
 export const MotionGraphics:React.FC<{spec:MGSpec;c:Product;frame:number;fps:number}>=({spec:s,c,frame:f,fps})=>{
+ if(!['orbit','elastic','split'].includes(s.recipe))return <MGSystem spec={s as SystemSpec} frame={f} fps={fps} accent={c.accent}/>;
  const t=f/fps, pop=(start:number,damping=15)=>spring({frame:Math.max(0,f-start*fps),fps,config:{damping,stiffness:130,mass:1}}),q=(a:number,b:number)=>unit(t,a,b);
  const ink=c.foreground,paper=c.background,accent=c.accent,items=s.items??c.features;
  const dark=s.recipe==='elastic';

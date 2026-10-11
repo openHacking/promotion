@@ -1,0 +1,366 @@
+{
+  "engine": "remotion",
+  "frames": 1800,
+  "config": {
+    "brand": "SaaS Hunt",
+    "accent": "#ff784f",
+    "background": "#0c0e10",
+    "foreground": "#f5f2e9",
+    "surface": "#1e2225",
+    "template": "architecture",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration": 30,
+    "sceneDurations": [
+      3,
+      5,
+      5,
+      6,
+      5,
+      3,
+      3
+    ],
+    "fontFamily": "VideoSans",
+    "fontFile": "font.ttf",
+    "fontFormat": "truetype",
+    "logo": "brand.png",
+    "url": "saashunt.pro",
+    "evidenceLabel": "Public captures + illustrative choreography",
+    "audio": {
+      "mode": "file",
+      "bpm": 125,
+      "musicVolume": 0.4,
+      "sfxVolume": 0.6,
+      "duckAmount": 0.2,
+      "credit": "Energetic Electro Tune \u2014 TinyWorlds",
+      "license": "CC0-1.0",
+      "sourceOffsetSeconds": 0,
+      "source": "music/energetic-electro.ogg",
+      "sourcePage": "https://opengameart.org/content/energetic-electro-tune"
+    },
+    "provenance": [
+      {
+        "asset": "appwizzy-detail.png",
+        "kind": "official-page-crop",
+        "source": "https://saashunt.pro/products/appwizzy",
+        "verifiedOn": "2026-10-11",
+        "purpose": "Authentic product heading and descriptor evidence; no simulated app operation",
+        "sha256": "9b36af12862cd470f98a5b2e36e7b7da8bb7c7b34d0e6c922685c5a8c1b65520"
+      }
+    ],
+    "engine": "remotion",
+    "timeline": {
+      "events": [
+        {
+          "id": "intro",
+          "frame": 43,
+          "kind": "brand",
+          "sound": {
+            "material": "impact",
+            "gain": 0.5,
+            "leadSeconds": 0
+          }
+        },
+        {
+          "id": "enter",
+          "frame": 225,
+          "kind": "resolve",
+          "sound": {
+            "material": "air",
+            "gain": 0.5,
+            "leadSeconds": 0.16
+          }
+        },
+        {
+          "id": "group",
+          "frame": 360,
+          "kind": "resolve",
+          "sound": {
+            "material": "air",
+            "gain": 0.5,
+            "leadSeconds": 0.16
+          }
+        },
+        {
+          "id": "filter",
+          "frame": 533,
+          "kind": "select",
+          "sound": {
+            "material": "click",
+            "gain": 0.5,
+            "leadSeconds": 0
+          }
+        },
+        {
+          "id": "detail",
+          "frame": 835,
+          "kind": "resolve",
+          "sound": {
+            "material": "air",
+            "gain": 0.5,
+            "leadSeconds": 0.16
+          }
+        },
+        {
+          "id": "maker",
+          "frame": 1196,
+          "kind": "resolve",
+          "sound": {
+            "material": "click",
+            "gain": 0.5,
+            "leadSeconds": 0
+          }
+        },
+        {
+          "id": "peak",
+          "frame": 1470,
+          "kind": "brand",
+          "sound": {
+            "material": "impact",
+            "gain": 0.5,
+            "leadSeconds": 0
+          }
+        },
+        {
+          "id": "cta",
+          "frame": 1613,
+          "kind": "brand",
+          "sound": {
+            "material": "impact",
+            "gain": 0.5,
+            "leadSeconds": 0
+          }
+        }
+      ]
+    },
+    "title": "Find your next SaaS.",
+    "task": "Browse products and categories",
+    "result": "Discover early. Choose what is next.",
+    "tagline": "Early-stage SaaS discovery",
+    "category": "Product discovery",
+    "description": "Discover SaaS launches, browse categories, and inspect products and makers.",
+    "features": [
+      "Products",
+      "Categories",
+      "Makers"
+    ],
+    "screenshots": [],
+    "architecture": {
+      "products": [
+        {
+          "name": "hairforge",
+          "category": "AI",
+          "maker": "toolina",
+          "description": "Compare beard styles and preview grooming directions with AI",
+          "tags": [
+            "AI"
+          ],
+          "source": "https://saashunt.pro/products/hairforge"
+        },
+        {
+          "name": "Brew",
+          "category": "Marketing",
+          "maker": "Elaine Xie",
+          "description": "AI-native email marketing from a single prompt",
+          "tags": [
+            "Automation"
+          ],
+          "source": "https://saashunt.pro/products/brew"
+        },
+        {
+          "name": "AppWizzy",
+          "category": "Productivity",
+          "maker": "Elaine Xie",
+          "description": "Build and host production-ready web apps by chatting with AI",
+          "tags": [
+            "Automation",
+            "AI Agent",
+            "Developer API"
+          ],
+          "source": "https://saashunt.pro/products/appwizzy"
+        },
+        {
+          "name": "Unabyss",
+          "category": "Productivity",
+          "maker": "Elaine Xie",
+          "description": "Your universal context layer for every AI tool and agent",
+          "tags": [
+            "Automation",
+            "Knowledge Base"
+          ],
+          "source": "https://saashunt.pro/products/unabyss"
+        },
+        {
+          "name": "Similarweb",
+          "category": "Marketing",
+          "maker": "Xie admin",
+          "description": "See where traffic comes from and where growth happens.",
+          "tags": [
+            "Reporting"
+          ],
+          "source": "https://saashunt.pro/products/similarweb"
+        },
+        {
+          "name": "Vokal",
+          "category": "AI",
+          "maker": "Elaine Xie",
+          "description": "A shared workspace where teams and AI agents work together",
+          "tags": [
+            "Automation",
+            "AI Agent"
+          ],
+          "source": "https://saashunt.pro/products/vokal"
+        }
+      ],
+      "categories": [
+        "Productivity",
+        "AI",
+        "Marketing"
+      ],
+      "selected": 2,
+      "category": "Productivity",
+      "detailCrop": "appwizzy-detail.png"
+    },
+    "rhythm": {
+      "profile": "brisk",
+      "requireOnsetAlignment": true,
+      "analysisSourceSha256": "4a2360010627f1fc04eedb640285a032d6d4bdd3e1aed24b469a8b0c29f76dd4",
+      "note": "Detected onset contacts; listening pending."
+    },
+    "format": "landscape",
+    "motionEvents": [
+      {
+        "id": "intro",
+        "frame": 43,
+        "kind": "brand",
+        "sound": {
+          "material": "impact",
+          "gain": 0.5,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "enter",
+        "frame": 225,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.5,
+          "leadSeconds": 0.16
+        }
+      },
+      {
+        "id": "group",
+        "frame": 360,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.5,
+          "leadSeconds": 0.16
+        }
+      },
+      {
+        "id": "filter",
+        "frame": 533,
+        "kind": "select",
+        "sound": {
+          "material": "click",
+          "gain": 0.5,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "detail",
+        "frame": 835,
+        "kind": "resolve",
+        "sound": {
+          "material": "air",
+          "gain": 0.5,
+          "leadSeconds": 0.16
+        }
+      },
+      {
+        "id": "maker",
+        "frame": 1196,
+        "kind": "resolve",
+        "sound": {
+          "material": "click",
+          "gain": 0.5,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "peak",
+        "frame": 1470,
+        "kind": "brand",
+        "sound": {
+          "material": "impact",
+          "gain": 0.5,
+          "leadSeconds": 0
+        }
+      },
+      {
+        "id": "cta",
+        "frame": 1613,
+        "kind": "brand",
+        "sound": {
+          "material": "impact",
+          "gain": 0.5,
+          "leadSeconds": 0
+        }
+      }
+    ]
+  },
+  "sampleFrames": [
+    0,
+    90,
+    179,
+    180,
+    219,
+    330,
+    479,
+    480,
+    519,
+    630,
+    779,
+    780,
+    819,
+    960,
+    1139,
+    1140,
+    1179,
+    1290,
+    1439,
+    1440,
+    1479,
+    1530,
+    1619,
+    1620,
+    1659,
+    1710,
+    1799
+  ],
+  "cutFrames": [
+    1440
+  ],
+  "determinism": [
+    {
+      "frame": 486,
+      "hashes": [
+        "713560099441d221c40c18c3922aad819cc142af4ef64b854c67cd4ca2921bf4",
+        "713560099441d221c40c18c3922aad819cc142af4ef64b854c67cd4ca2921bf4"
+      ],
+      "equal": true
+    },
+    {
+      "frame": 1044,
+      "hashes": [
+        "c59801953c067bb04d576a047f9a10b497173bbd865aee75b3e6d4b230113a93",
+        "c59801953c067bb04d576a047f9a10b497173bbd865aee75b3e6d4b230113a93"
+      ],
+      "equal": true
+    }
+  ],
+  "seconds": 162.56705475
+}

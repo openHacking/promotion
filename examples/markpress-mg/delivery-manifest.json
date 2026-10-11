@@ -1,0 +1,40 @@
+{
+  "product": "MarkPress",
+  "language": "en",
+  "fps": 60,
+  "duration": 30,
+  "listening": "not-performed",
+  "artifacts": [
+    {
+      "file": "video.mp4",
+      "bytes": 4442662,
+      "sha256": "114d48ac734a5ac7957b0435ac16bf2b0ed334350b288ab0a6957e3b30924e09"
+    },
+    {
+      "file": "portrait-video.mp4",
+      "bytes": 3879075,
+      "sha256": "179fa77563ca53a60df15ac3037f2f02600baea5e540c8972a3768575c2791cb"
+    },
+    {
+      "file": "cover.png",
+      "bytes": 205429,
+      "sha256": "9f07fa046cf46fea1654e587613fb8c19e9dc679c1a3642036c759854dd62f04"
+    },
+    {
+      "file": "portrait-cover.png",
+      "bytes": 195470,
+      "sha256": "ca0ea4fccb1b26d8fefa557f677ffb6c89bf57e34903c1905fd2fc67a1a62039"
+    },
+    {
+      "file": "soundtrack.wav",
+      "bytes": 5760044,
+      "sha256": "3b83deb3ae64541d244d9efc99d97630a6cd68c8f2f8dd07edf89fff1555ebf7"
+    },
+    {
+      "file": "editable-source.zip",
+      "bytes": 33520538,
+      "sha256": "e173d5d6cfe6b0b81318178aeea7b186755beebdf89de1546ff87b7f0bfc6170"
+    }
+  ],
+  "sourceFiles": 59
+}

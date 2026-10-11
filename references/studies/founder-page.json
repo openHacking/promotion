@@ -1,0 +1,305 @@
+{
+  "source": "video.5e8b257d.mp4",
+  "sha256": "5e8b257d287bc5501764afa5696f9d7cdce021e93c57e16dca274331824c7b4d",
+  "decodedFrames": 1200,
+  "coverage": "all-frame overview; exact easing and full-resolution microdetails not claimed",
+  "intervals": [
+    {
+      "frames": [
+        0,
+        144
+      ],
+      "pts": [
+        0.0,
+        2.4
+      ],
+      "subjectAndAction": "Brand mark settles; typed name follows.",
+      "adaptation": "Start on a small stable anchor, then stagger identity.",
+      "failure": "Typing is a weak hook when the product action is delayed.",
+      "consecutiveEvidence": [
+        "frames-000.jpg",
+        "frames-001.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        186,
+        234
+      ],
+      "pts": [
+        3.1,
+        3.9
+      ],
+      "subjectAndAction": "Handle becomes a profile identity with supporting blocks.",
+      "adaptation": "Carry the selected identity into a functional component.",
+      "failure": "Unrelated page swaps lose ownership.",
+      "consecutiveEvidence": [
+        "frames-001.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        264,
+        330
+      ],
+      "pts": [
+        4.4,
+        5.5
+      ],
+      "subjectAndAction": "Project rows enter as a tall local collection.",
+      "adaptation": "Reveal only the useful list region; stagger rows.",
+      "failure": "Full screenshots make text too small.",
+      "consecutiveEvidence": [
+        "frames-002.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        393,
+        468
+      ],
+      "pts": [
+        6.55,
+        7.8
+      ],
+      "subjectAndAction": "Revenue counter accelerates then settles while the heatmap fills.",
+      "adaptation": "Synchronize number and associated evidence.",
+      "failure": "Animating a number cannot substantiate a revenue claim.",
+      "consecutiveEvidence": [
+        "frames-003.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        552,
+        639
+      ],
+      "pts": [
+        9.2,
+        10.65
+      ],
+      "subjectAndAction": "Visitor counter and curve build toward the same result.",
+      "adaptation": "Draw a verified trend and settle the displayed result.",
+      "failure": "Do not imply synthetic metrics are measured.",
+      "consecutiveEvidence": [
+        "frames-004.jpg",
+        "frames-005.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        666,
+        816
+      ],
+      "pts": [
+        11.1,
+        13.6
+      ],
+      "subjectAndAction": "Rank bars reorder with advancing date.",
+      "adaptation": "Use moving rows to explain state change over time.",
+      "failure": "Reading every intermediate rank competes with the story.",
+      "consecutiveEvidence": [
+        "frames-005.jpg",
+        "frames-006.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        825,
+        894
+      ],
+      "pts": [
+        13.75,
+        14.9
+      ],
+      "subjectAndAction": "Map and visitor markers replace ranking.",
+      "adaptation": "Carry the metric identity into a geographic breakdown.",
+      "failure": "Unverified locations are misleading.",
+      "consecutiveEvidence": [
+        "frames-006.jpg",
+        "frames-007.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        972,
+        1050
+      ],
+      "pts": [
+        16.2,
+        17.5
+      ],
+      "subjectAndAction": "Embed feature becomes a localized UI demonstration.",
+      "adaptation": "Demonstrate a bounded operation with readable crop.",
+      "failure": "A floating screenshot without trigger has weak causality.",
+      "consecutiveEvidence": [
+        "frames-008.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        1068,
+        1199
+      ],
+      "pts": [
+        17.8,
+        19.983333
+      ],
+      "subjectAndAction": "Identity returns, then stable final CTA.",
+      "adaptation": "Finish with recognition and a reading hold.",
+      "failure": "Repeated typing can waste the ending.",
+      "consecutiveEvidence": [
+        "frames-008.jpg",
+        "frames-009.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    }
+  ],
+  "listening": "no-audio",
+  "enlargedContinuousEvidence": {
+    "id": "founder-counter",
+    "frames": [
+      393,
+      468
+    ],
+    "resolution": "320x180 (comparison includes both halves); original PTS retained",
+    "phases": [
+      {
+        "phase": "preparation",
+        "frames": [
+          393,
+          403
+        ],
+        "observation": "Previous project list remains; no separate anticipation.",
+        "pts": [
+          6.55,
+          6.716667
+        ]
+      },
+      {
+        "phase": "trigger",
+        "frames": [
+          404,
+          409
+        ],
+        "observation": "Blurred focus transition to revenue card.",
+        "pts": [
+          6.733333,
+          6.816667
+        ]
+      },
+      {
+        "phase": "entry",
+        "frames": [
+          410,
+          417
+        ],
+        "observation": "Supporting header enters in stages.",
+        "pts": [
+          6.833333,
+          6.95
+        ]
+      },
+      {
+        "phase": "change",
+        "frames": [
+          418,
+          468
+        ],
+        "observation": "Counter increases with shrinking increments (deceleration), from 231 at f418 to 3277 at f468. Heatmap begins filling around f429.",
+        "pts": [
+          6.966667,
+          7.8
+        ]
+      },
+      {
+        "phase": "landing",
+        "frames": null,
+        "observation": "Counter has not reached its final value inside this evidence interval."
+      },
+      {
+        "phase": "overshoot",
+        "frames": null,
+        "observation": "No observed numeric overshoot."
+      },
+      {
+        "phase": "handoff",
+        "frames": null,
+        "observation": "Later visitor metric uses the same local proof pattern."
+      }
+    ],
+    "consecutiveEvidence": [
+      "founder-counter/interval-000.jpg",
+      "founder-counter/interval-001.jpg",
+      "founder-counter/interval-002.jpg",
+      "founder-counter/interval-003.jpg"
+    ],
+    "pts": [
+      6.55,
+      7.8
+    ]
+  },
+  "frameIndex": "founder-page-frames.json"
+}

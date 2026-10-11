@@ -1,0 +1,79 @@
+{
+  "mode": "file",
+  "bpm": 128,
+  "sampleRate": 48000,
+  "channels": 2,
+  "duration": 8,
+  "origin": "Local licensed recording and action cues",
+  "source": "music/Exit the Premises.mp3",
+  "sourceSha256": "441d1b594a15b0acdac531495e9c56906e3df5d4002fc651b5a0b763f679c70b",
+  "sourceOffsetSeconds": 17.7,
+  "duckAmount": 0.12,
+  "musicVolume": 0.66,
+  "sfxVolume": 0.5,
+  "beatFrames": [],
+  "phraseFrames": [],
+  "license": "CC-BY-4.0",
+  "credit": "Exit the Premises — Kevin MacLeod",
+  "sourcePage": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500029",
+  "musicPeak": 0.6511974334716797,
+  "sfxPeak": 0.06264781951904297,
+  "premasterPeak": 0.6511974334716797,
+  "masterGain": 1,
+  "finalPeak": 0.6511974334716797,
+  "listening": {
+    "status": "not-performed"
+  },
+  "cues": [
+    {
+      "id": "editor",
+      "frame": 56,
+      "kind": "resolve",
+      "sound": {
+        "material": "air",
+        "gain": 0.65,
+        "leadSeconds": 0.13
+      },
+      "time": 0.9333333333333333,
+      "startTime": 0.8,
+      "startFrame": 48,
+      "material": "air",
+      "source": null,
+      "sourceSha256": null,
+      "durationSeconds": 0.32,
+      "gain": 0.65,
+      "pan": 0,
+      "window": {
+        "durationSeconds": 0.15,
+        "musicRms": 0.14579524724435433,
+        "sfxRms": 0.016861405913833342,
+        "sfxToMusicDb": -18.73699166384474
+      }
+    },
+    {
+      "id": "preview",
+      "frame": 290,
+      "kind": "resolve",
+      "sound": {
+        "material": "click",
+        "gain": 0.8,
+        "leadSeconds": 0
+      },
+      "time": 4.833333333333333,
+      "startTime": 4.833333333333333,
+      "startFrame": 290,
+      "material": "click",
+      "source": null,
+      "sourceSha256": null,
+      "durationSeconds": 0.09,
+      "gain": 0.8,
+      "pan": 0,
+      "window": {
+        "durationSeconds": 0.15,
+        "musicRms": 0.16251037269983334,
+        "sfxRms": 0.006746589775345383,
+        "sfxToMusicDb": -27.635935650423168
+      }
+    }
+  ]
+}

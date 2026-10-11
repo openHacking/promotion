@@ -1,0 +1,46 @@
+{
+  "unitTests": {
+    "remotion": 66,
+    "hyperframes": 9,
+    "passed": 75
+  },
+  "legacyHtmlIntegration": {
+    "checks": 9,
+    "passed": true,
+    "exactDom": true,
+    "rasterTolerance": "At most eight changed channels, each at most two levels; final run used no tolerance"
+  },
+  "typecheck": "passed",
+  "skillFrontmatter": "passed",
+  "hyperframesLint": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "starterSmoke": {
+    "engine": "hyperframes",
+    "duration": 8,
+    "frames": 480,
+    "passed": true
+  },
+  "finalEncoded": {
+    "formats": [
+      "1920x1080",
+      "1080x1920"
+    ],
+    "fps": 60,
+    "framesEach": 1800,
+    "durationEach": 30,
+    "audioPeakDb": -7.409669,
+    "unexpectedFrameCandidates": 0
+  },
+  "visual": "Encoded actual muted playback completed; contacts and continuous boundaries inspected",
+  "listening": "not-performed; outstanding",
+  "referenceCoverage": {
+    "decodedFrames": 5823,
+    "overview": "every consecutive overview sheet; 160x90",
+    "comparisonHalves": "independent 320x360 half-frame overview",
+    "enlargedContinuousFrames": 528,
+    "fullResolutionEveryFrame": "not-claimed"
+  },
+  "publicFiles": "No private paths or original reference media included"
+}

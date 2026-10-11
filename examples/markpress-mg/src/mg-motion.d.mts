@@ -1,0 +1,9 @@
+export function clamp(v:number):number;
+export function mix(a:number,b:number,t:number):number;
+export function progress(f:number,a:number,b:number):number;
+export function smooth(f:number,a:number,b:number):number;
+export function punch(f:number,a:number,b:number):number;
+export function elastic(f:number,a:number,b:number,amount?:number):number;
+export function pathPoint(points:{x:number;y:number}[],p:number):{x:number;y:number};
+export type RecipeOptions={entryStartFrame?:number;entryDurationFrames?:number;staggerFrames?:number;actionStartFrame?:number;actionDurationFrames?:number;spacing?:number;groupSpacingX?:number;groupSpacingY?:number;expandScale?:number;angularSpeed?:number;radius?:number;depth?:number;rotation?:number;focusFrame?:number;pathPoints?:{x:number;y:number}[]};
+export function recipePose(recipe:string,frame:number,fps:number,index:number,count:number,selected?:number,options?:RecipeOptions):{x:number;y:number;scale:number;rotate:number;opacity:number;reveal:number};

@@ -1,0 +1,51 @@
+{
+  "brand": "Orbit",
+  "tagline": "From intent to outcome.",
+  "category": "YOUR DESKTOP ASSISTANT",
+  "accent": "#38c6d5",
+  "background": "#081821",
+  "foreground": "#eefaff",
+  "surface": "#ffffff",
+  "title": "One workspace. Clear progress.",
+  "description": "See each step of your work, from the first request to the result.",
+  "task": "Organize today into a task list",
+  "result": "Your next steps are ready.",
+  "features": [
+    "Understand the task",
+    "Prepare the workspace",
+    "Present the result"
+  ],
+  "template": "window",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 12,
+  "sceneDurations": [
+    1.2,
+    3,
+    3,
+    2.8,
+    2
+  ],
+  "fontFamily": "VideoSans",
+  "fontFile": "font.ttf",
+  "fontFormat": "truetype",
+  "logo": null,
+  "url": "example.com",
+  "screenshots": [],
+  "evidenceLabel": "Illustrative interface \u00b7 not a live run",
+  "audio": {
+    "mode": "procedural",
+    "bpm": 120,
+    "musicVolume": 0.6,
+    "sfxVolume": 0.75
+  },
+  "provenance": [
+    {
+      "kind": "fictional-demo",
+      "note": "Original fictional product and UI. No actual functionality claim."
+    }
+  ],
+  "engine": "remotion",
+  "motionStyle": "dynamic"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "promotion-hyperframes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "node scripts/preview.mjs",
+    "render": "node scripts/render.mjs",
+    "check": "node scripts/check.mjs out/video.mp4",
+    "test": "node --test scripts/*.test.mjs",
+    "verify-seek": "node scripts/seek-check.mjs"
+  },
+  "dependencies": {
+    "hyperframes": "0.8.146",
+    "gsap": "3.13.0",
+    "puppeteer-core": "25.10.0"
+  }
+}

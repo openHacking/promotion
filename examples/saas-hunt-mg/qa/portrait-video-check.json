@@ -1,0 +1,73 @@
+{
+  "file": "portrait-video.mp4",
+  "sha256": "bfd4f8da2e48d886e5a92da5d8a87f7e722712134273b1f6a26aa8f40aec0cf5",
+  "checks": [
+    {
+      "name": "resolution",
+      "pass": true,
+      "actual": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "name": "fps",
+      "pass": true,
+      "actual": 60
+    },
+    {
+      "name": "codec",
+      "pass": true,
+      "actual": [
+        "h264",
+        "yuv420p"
+      ]
+    },
+    {
+      "name": "duration",
+      "pass": true,
+      "actual": 30
+    },
+    {
+      "name": "decoded frame count",
+      "pass": true,
+      "actual": 1800
+    },
+    {
+      "name": "audio presence",
+      "pass": true,
+      "actual": true
+    },
+    {
+      "name": "complete frame scan",
+      "pass": true,
+      "actual": 1800
+    },
+    {
+      "name": "audio duration",
+      "pass": true,
+      "actual": 30
+    },
+    {
+      "name": "no digital clipping",
+      "pass": true,
+      "actual": -7.409669
+    }
+  ],
+  "scan": {
+    "frames": 1800,
+    "minStd": 2.260008529628313,
+    "candidates": [],
+    "method": "Every decoded frame, 96\u00d754 grayscale; uniformity and unplanned large changes. This is a heuristic, not proof of visual quality."
+  },
+  "audio": {
+    "peakDb": -7.409669,
+    "duration": 30,
+    "sampleRate": "48000"
+  },
+  "manualReviewRequired": [
+    "Each shot and transition in decoded MP4",
+    "Readable multilingual copy and product claims",
+    "Listen for cue alignment and music masking"
+  ]
+}

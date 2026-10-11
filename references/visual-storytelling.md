@@ -24,7 +24,7 @@ Derive art direction from product cues, audience, message, and distribution cont
 
 Each beat records duration, viewer takeaway, subject, start state, trigger, visible response, evidence, camera, light, reading hold, and handoff. Identify what remains clear without promotional headlines. Do not remove essential labels merely to reduce a word count.
 
-Make key frames, then a rough moving version of the most difficult transformation before extending the film. A good still can hide a poor transition. Prefer a useful cut over forced continuous motion. Review thumbnail silhouettes for hierarchy and full-size moving frames for evidence and legibility.
+Use key frames to explore hierarchy, then compare actual audible treatments before extending the film; follow audiovisual-development.md. A good still can hide a poor transition. Prefer a useful cut over forced continuous motion. Review thumbnail silhouettes for hierarchy and full-size moving frames for evidence and legibility.
 
 ## Review
 

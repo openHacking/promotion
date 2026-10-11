@@ -1,0 +1,28 @@
+{
+  "mode": "file",
+  "bpm": 150,
+  "sampleRate": 48000,
+  "channels": 2,
+  "duration": 10,
+  "origin": "Local licensed recording and action cues",
+  "source": "music/Funkorama.mp3",
+  "sourceSha256": "6be229815d85a0b99382b944d31098b882702c04ac7ad899e44ab7f8ba89b5ad",
+  "sourceOffsetSeconds": 22.2,
+  "duckAmount": 0.12,
+  "musicVolume": 0.53,
+  "sfxVolume": 0.3,
+  "beatFrames": [],
+  "phraseFrames": [],
+  "license": "CC-BY-4.0",
+  "credit": "Funkorama — Kevin MacLeod",
+  "sourcePage": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100844",
+  "musicPeak": 0.4504135847091675,
+  "sfxPeak": 0,
+  "premasterPeak": 0.4504135847091675,
+  "masterGain": 1,
+  "finalPeak": 0.4504135847091675,
+  "listening": {
+    "status": "not-performed"
+  },
+  "cues": []
+}

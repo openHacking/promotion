@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Carefree",
+    "creator": "Kevin MacLeod",
+    "file": "Carefree.mp3",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Carefree.mp3",
+    "sourcePage": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+    "license": "CC-BY-4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+    "collected": "2026-10-11",
+    "sha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311",
+    "publisherMetadata": {
+      "instruments": "Ukulele, Guitar, Marimba, Glockenspiel, Percussion",
+      "bpm": "96",
+      "feel": "Bouncy, Bright, Calming, Uplifting"
+    },
+    "listening": "not-performed",
+    "status": "candidate"
+  },
+  {
+    "title": "Cipher",
+    "creator": "Kevin MacLeod",
+    "file": "Cipher2.mp3",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Cipher2.mp3",
+    "sourcePage": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100844",
+    "license": "CC-BY-4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+    "collected": "2026-10-11",
+    "sha256": "d3d0614535a61d748e2fd8d5117fc4d781022a7624794802a2462d8af3fdd522",
+    "publisherMetadata": {
+      "instruments": "Synths, Electric Piano, Percussion, Strings",
+      "bpm": "150",
+      "feel": "Bright, Grooving, Uplifting"
+    },
+    "listening": "not-performed",
+    "status": "candidate"
+  },
+  {
+    "title": "Funkorama",
+    "creator": "Kevin MacLeod",
+    "file": "Funkorama.mp3",
+    "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Funkorama.mp3",
+    "sourcePage": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100474",
+    "license": "CC-BY-4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+    "collected": "2026-10-11",
+    "sha256": "6be229815d85a0b99382b944d31098b882702c04ac7ad899e44ab7f8ba89b5ad",
+    "publisherMetadata": {
+      "instruments": "Guitar, Bass, Drum Kit, Organ, Synth",
+      "bpm": "101",
+      "feel": "Grooving, Uplifting"
+    },
+    "listening": "not-performed",
+    "status": "candidate"
+  }
+]

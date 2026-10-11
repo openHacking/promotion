@@ -1,0 +1,394 @@
+{
+  "source": "video.7661bdcb.mp4",
+  "sha256": "7661bdcbd987e8158985bad3db9293c7fb4fe02a9cb0acaab5803b3b24ae3e02",
+  "decodedFrames": 1804,
+  "coverage": "all-frame overview; exact easing and full-resolution microdetails not claimed",
+  "intervals": [
+    {
+      "frames": [
+        0,
+        144
+      ],
+      "pts": [
+        0.0,
+        2.4
+      ],
+      "subjectAndAction": "Masked type and stacked documents prepare the input.",
+      "adaptation": "Stage an input collection before transformation.",
+      "failure": "Too many document labels reduce hierarchy.",
+      "consecutiveEvidence": [
+        "frames-000.jpg",
+        "frames-001.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        144,
+        240
+      ],
+      "pts": [
+        2.4,
+        4.0
+      ],
+      "subjectAndAction": "Circular dark wipe; document flips into the output view.",
+      "adaptation": "Use a shared position to hand off input to output.",
+      "failure": "Flip is decorative unless the viewer knows what changed.",
+      "consecutiveEvidence": [
+        "frames-001.jpg",
+        "frames-002.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        240,
+        294
+      ],
+      "pts": [
+        4.0,
+        4.9
+      ],
+      "subjectAndAction": "Document/book bars transform into the brand mark.",
+      "adaptation": "Let a shared silhouette bridge function and identity.",
+      "failure": "Do not infer geometry from opaque brand assets.",
+      "consecutiveEvidence": [
+        "frames-002.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        366,
+        426
+      ],
+      "pts": [
+        6.1,
+        7.1
+      ],
+      "subjectAndAction": "Brand bars enlarge into a wipe; document highlight scans.",
+      "adaptation": "Reuse one graphic as a scene transition and emphasis.",
+      "failure": "Excessive wipes erase the causal chain.",
+      "consecutiveEvidence": [
+        "frames-003.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        432,
+        564
+      ],
+      "pts": [
+        7.2,
+        9.4
+      ],
+      "subjectAndAction": "Script grows from document; cursor confirmation turns green.",
+      "adaptation": "Input \u2192 editable intermediate \u2192 confirmation.",
+      "failure": "Green confirmation must represent a real operation.",
+      "consecutiveEvidence": [
+        "frames-003.jpg",
+        "frames-004.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        603,
+        900
+      ],
+      "pts": [
+        10.05,
+        15.0
+      ],
+      "subjectAndAction": "Script extends into a visual scene with drawing and captions.",
+      "adaptation": "Keep connector continuity between pipeline stages.",
+      "failure": "Too many simultaneous layers hide the primary stage.",
+      "consecutiveEvidence": [
+        "frames-005.jpg",
+        "frames-006.jpg",
+        "frames-007.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        939,
+        1050
+      ],
+      "pts": [
+        15.65,
+        17.5
+      ],
+      "subjectAndAction": "Depth zoom reveals style choice and rapid variants.",
+      "adaptation": "Contrast one readable outcome with a brief possibility burst.",
+      "failure": "Variants become illegible when burst duration is too long.",
+      "consecutiveEvidence": [
+        "frames-007.jpg",
+        "frames-008.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        1050,
+        1170
+      ],
+      "pts": [
+        17.5,
+        19.5
+      ],
+      "subjectAndAction": "Globe and language labels emphasize coverage.",
+      "adaptation": "Aggregate options around a semantic center.",
+      "failure": "A globe alone is not evidence of language support.",
+      "consecutiveEvidence": [
+        "frames-008.jpg",
+        "frames-009.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        1170,
+        1290
+      ],
+      "pts": [
+        19.5,
+        21.5
+      ],
+      "subjectAndAction": "Brand controls affect thumbnails.",
+      "adaptation": "Show settings causing a visible result.",
+      "failure": "Do not present controls that the product lacks.",
+      "consecutiveEvidence": [
+        "frames-009.jpg",
+        "frames-010.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        1290,
+        1440
+      ],
+      "pts": [
+        21.5,
+        24.0
+      ],
+      "subjectAndAction": "Blue wipe, calendar, then clock.",
+      "adaptation": "Shift from process to turnaround using an understandable metaphor.",
+      "failure": "Clock metaphors can imply unsupported guarantees.",
+      "consecutiveEvidence": [
+        "frames-010.jpg",
+        "frames-011.jpg",
+        "frames-012.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        1440,
+        1803
+      ],
+      "pts": [
+        24.0,
+        30.05
+      ],
+      "subjectAndAction": "Brand return, word replacement, confetti, CTA.",
+      "adaptation": "Replace an input word with an output word at a shared baseline.",
+      "failure": "Keep decorative climax shorter than CTA hold.",
+      "consecutiveEvidence": [
+        "frames-012.jpg",
+        "frames-013.jpg",
+        "frames-014.jpg",
+        "frames-015.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    }
+  ],
+  "listening": "not-performed",
+  "enlargedContinuousEvidence": {
+    "id": "distil-approval",
+    "frames": [
+      432,
+      564
+    ],
+    "resolution": "320x180 (comparison includes both halves); original PTS retained",
+    "phases": [
+      {
+        "phase": "preparation",
+        "frames": [
+          432,
+          444
+        ],
+        "observation": "Script card rises into its working position.",
+        "pts": [
+          7.2,
+          7.4
+        ]
+      },
+      {
+        "phase": "trigger",
+        "frames": [
+          447,
+          454
+        ],
+        "observation": "Yellow connector links the PDF scan to Write script.",
+        "pts": [
+          7.45,
+          7.566667
+        ]
+      },
+      {
+        "phase": "change",
+        "frames": [
+          458,
+          510
+        ],
+        "observation": "Script characters appear sequentially.",
+        "pts": [
+          7.633333,
+          8.5
+        ]
+      },
+      {
+        "phase": "pointer",
+        "frames": [
+          506,
+          528
+        ],
+        "observation": "Pointer approaches approval button while writing finishes.",
+        "pts": [
+          8.433333,
+          8.8
+        ]
+      },
+      {
+        "phase": "landing",
+        "frames": [
+          534,
+          536
+        ],
+        "observation": "Button switches to green confirmation.",
+        "pts": [
+          8.9,
+          8.933333
+        ]
+      },
+      {
+        "phase": "readingHold",
+        "frames": [
+          537,
+          550
+        ],
+        "observation": "Approved script remains visible.",
+        "pts": [
+          8.95,
+          9.166667
+        ]
+      },
+      {
+        "phase": "feedback",
+        "frames": [
+          551,
+          559
+        ],
+        "observation": "Pointer ring and green word highlight; no spring overshoot established.",
+        "pts": [
+          9.183333,
+          9.316667
+        ]
+      },
+      {
+        "phase": "handoff",
+        "frames": [
+          561,
+          564
+        ],
+        "observation": "EVERY WORD type interrupts to introduce visual scenes.",
+        "pts": [
+          9.35,
+          9.4
+        ]
+      }
+    ],
+    "consecutiveEvidence": [
+      "distil-approval/interval-000.jpg",
+      "distil-approval/interval-001.jpg",
+      "distil-approval/interval-002.jpg",
+      "distil-approval/interval-003.jpg",
+      "distil-approval/interval-004.jpg",
+      "distil-approval/interval-005.jpg"
+    ],
+    "pts": [
+      7.2,
+      9.4
+    ]
+  },
+  "frameIndex": "distilbook-frames.json"
+}

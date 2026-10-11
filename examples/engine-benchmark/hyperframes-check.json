@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "resolution": true,
+    "frames": true,
+    "fps": true,
+    "audioPresence": true,
+    "duration": true
+  },
+  "decodedFrames": 360,
+  "listening": "not-performed"
+}

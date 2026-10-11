@@ -1,0 +1,55 @@
+{
+  "status": "listening-review-cut",
+  "files": [
+    {
+      "file": "video.mp4",
+      "bytes": 4875645,
+      "sha256": "c1d8f63ff3f54b275f417dabf19bd31af40cdbe55fbd8992310564d7be431d9a"
+    },
+    {
+      "file": "portrait-video.mp4",
+      "bytes": 4366790,
+      "sha256": "0c974f911d0af80d5edcc2a40d2c111210d63d0694094025e4ab7a3efec7ba8f"
+    },
+    {
+      "file": "landscape-cover.png",
+      "bytes": 271813,
+      "sha256": "f335050af5073d952944a8558104fe8cd74bebe85d93839a9065a655b58344b2"
+    },
+    {
+      "file": "portrait-cover.png",
+      "bytes": 224366,
+      "sha256": "86056ec6f1a9712b9a6516892e79feba81e3a686279e6139ca766a701060b1f7"
+    },
+    {
+      "file": "soundtrack.wav",
+      "bytes": 5760044,
+      "sha256": "cd290d51e95e2c0f3edb41117283842be4fd5e3033e02e927f750383bd420d40"
+    },
+    {
+      "file": "editable-source.zip",
+      "bytes": 33562442,
+      "sha256": "b32f395ff065ed1bfa1c02ea71dcfa055e21b9f6a8325ab27016c245c1e4f60d"
+    },
+    {
+      "file": "treatments/ribbon/video.mp4",
+      "bytes": 1341524,
+      "sha256": "87a631aba3866d68efc99050c39672c3558b15868fdf09016cc731f9b592358c"
+    },
+    {
+      "file": "treatments/atlas/video.mp4",
+      "bytes": 1681070,
+      "sha256": "cae01a629323942448f17c0584fbfd732bec5134532c6eb65c92f52ffc1b99eb"
+    },
+    {
+      "file": "treatments/aperture/video.mp4",
+      "bytes": 1541793,
+      "sha256": "86c9d4e4f196523fe8a99269587b8fa189d6e6d9a0842d767ce6ed1d493efb7e"
+    },
+    {
+      "file": "treatments/transfer/video.mp4",
+      "bytes": 615882,
+      "sha256": "666c1bbc303689cf0192d0b47429bd462243a47f96a32bacfd5012751f92e755"
+    }
+  ]
+}

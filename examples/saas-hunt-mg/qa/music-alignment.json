@@ -1,0 +1,53 @@
+{
+  "events": [
+    {
+      "id": "intro",
+      "eventFrame": 43,
+      "detectedMusicFrame": 43,
+      "deltaFrames": 0
+    },
+    {
+      "id": "enter",
+      "eventFrame": 225,
+      "detectedMusicFrame": 225,
+      "deltaFrames": 0
+    },
+    {
+      "id": "group",
+      "eventFrame": 360,
+      "detectedMusicFrame": 360,
+      "deltaFrames": 0
+    },
+    {
+      "id": "filter",
+      "eventFrame": 533,
+      "detectedMusicFrame": 533,
+      "deltaFrames": 0
+    },
+    {
+      "id": "detail",
+      "eventFrame": 835,
+      "detectedMusicFrame": 835,
+      "deltaFrames": 0
+    },
+    {
+      "id": "maker",
+      "eventFrame": 1196,
+      "detectedMusicFrame": 1196,
+      "deltaFrames": 0
+    },
+    {
+      "id": "peak",
+      "eventFrame": 1470,
+      "detectedMusicFrame": 1470,
+      "deltaFrames": 0
+    },
+    {
+      "id": "cta",
+      "eventFrame": 1613,
+      "detectedMusicFrame": 1613,
+      "deltaFrames": 0
+    }
+  ],
+  "method": "Detected music markers on shared video frame grid; listening required separately"
+}

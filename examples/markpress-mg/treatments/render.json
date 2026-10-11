@@ -1,0 +1,92 @@
+[
+  {
+    "direction": "Kinetic",
+    "seconds": 17.17445325,
+    "music": "Exit the Premises.mp3",
+    "sourceOffset": 17.7,
+    "listening": "not-performed",
+    "seek": [
+      {
+        "frame": 473,
+        "sha256": "f3401879be3e2638e4d5f44a87b3428098088873fe617fc25355aba40d9aa1a5"
+      },
+      {
+        "frame": 162,
+        "sha256": "d0ca3fab920f0ce22814925288600f186f114102a87c3b0d7a813045fe929d20"
+      },
+      {
+        "frame": 341,
+        "sha256": "3ee5d569ab536e75549f224bc6b588adac2f96a8ae7eed8406812bf0816cf270"
+      },
+      {
+        "frame": 641,
+        "sha256": "f2b7530c5c99fc77e4fc8181c906b0f40583ef516c00cada49f88e0bca18e067"
+      },
+      {
+        "frame": 473,
+        "sha256": "f3401879be3e2638e4d5f44a87b3428098088873fe617fc25355aba40d9aa1a5"
+      }
+    ],
+    "repeatEqual": true
+  },
+  {
+    "direction": "Signal",
+    "seconds": 16.453563791999997,
+    "music": "Robobozo.mp3",
+    "sourceOffset": 32,
+    "listening": "not-performed",
+    "seek": [
+      {
+        "frame": 311,
+        "sha256": "febc9f229a4f2a982d322316b216bc2b3c9c51b824fe70a2155e44eec4279455"
+      },
+      {
+        "frame": 0,
+        "sha256": "bef3205f4d7ddd9345ffdbe77670743889bdd622fd7cdc2a845146d76f106e62"
+      },
+      {
+        "frame": 179,
+        "sha256": "7da14aa53981226ea7784874a617387bb11357580c94868b54af7b63b2740a72"
+      },
+      {
+        "frame": 479,
+        "sha256": "fdd5cde3f790e3480239475459f7a546f02f4c8178c0ede40faf9f9740cf1a15"
+      },
+      {
+        "frame": 311,
+        "sha256": "febc9f229a4f2a982d322316b216bc2b3c9c51b824fe70a2155e44eec4279455"
+      }
+    ],
+    "repeatEqual": true
+  },
+  {
+    "direction": "Paper",
+    "seconds": 17.779652208999998,
+    "music": "Raving Energy (faster).mp3",
+    "sourceOffset": 28,
+    "listening": "not-performed",
+    "seek": [
+      {
+        "frame": 311,
+        "sha256": "4cdfee9da1328c4ae80b019b1a195a5b6876d9c88c4b14388f3953cb7ce1b9f8"
+      },
+      {
+        "frame": 0,
+        "sha256": "f90cc2c34fdbef5184e685166e76a59385d08318a4ab11e42be4f9e1e9f9d335"
+      },
+      {
+        "frame": 179,
+        "sha256": "ba2fd0fa74b7b02c13fc8db3fb8cb7af3190173886e0d80cea05ab4905c8d219"
+      },
+      {
+        "frame": 479,
+        "sha256": "597c46f8be9e2950013e4b9052e4042aef12560a870845d5f83a26d1e61daa13"
+      },
+      {
+        "frame": 311,
+        "sha256": "4cdfee9da1328c4ae80b019b1a195a5b6876d9c88c4b14388f3953cb7ce1b9f8"
+      }
+    ],
+    "repeatEqual": true
+  }
+]

@@ -1,0 +1,176 @@
+{
+  "audience": "People looking for useful SaaS products",
+  "takeaway": "Explore categories, inspect a product, and discover its maker.",
+  "experience": [
+    "Curiosity through word and object entrances",
+    "Clarity as a collection becomes a category",
+    "Confidence through product evidence",
+    "Possibility through maker relationships",
+    "A clean invitation"
+  ],
+  "selection": {
+    "direction": "ribbon",
+    "status": "provisional-listening-pending",
+    "visualReason": "Linear card travel maps to directory membership; the light canvas separates small labels better than the low-contrast atlas. Orange marks the selected product, cobalt marks supporting categories.",
+    "musicReason": "Cipher is a provisional electronic candidate from the publisher catalog. It has not been heard by the reviewer; suitability and excerpt boundaries remain unverified."
+  },
+  "colorRoles": {
+    "canvas": "#f2f0e9",
+    "text": "#20232a",
+    "readingSurface": "#ffffff",
+    "selection": "#f26945",
+    "supportingGroups": "#465de2",
+    "areaIntent": "Canvas dominant in catalogue; accent localized to selection and type; dark detail becomes the main reading surface. No full-frame orange sections."
+  },
+  "treatments": [
+    {
+      "id": "ribbon",
+      "construction": "Ordered lanes become category columns, then a selected card expands.",
+      "music": "Cipher2.mp3",
+      "sourceOffsetSeconds": 27.8
+    },
+    {
+      "id": "atlas",
+      "construction": "Distributed spatial field contracts into category columns.",
+      "music": "Funkorama.mp3",
+      "sourceOffsetSeconds": 22.2
+    },
+    {
+      "id": "aperture",
+      "construction": "Radial constellation is gathered around a category aperture.",
+      "music": "Carefree.mp3",
+      "sourceOffsetSeconds": 34.2
+    }
+  ],
+  "motionPhrases": [
+    {
+      "id": "invitation",
+      "frames": [
+        0,
+        186
+      ],
+      "subject": "opening words to incoming product cards",
+      "readFrames": [
+        65,
+        114
+      ],
+      "secondaryPreparationFrames": [
+        114,
+        186
+      ],
+      "successor": "catalogue"
+    },
+    {
+      "id": "catalogue",
+      "frames": [
+        147,
+        348
+      ],
+      "subject": "six persistent products",
+      "action": "entry paths overlap the opening exit; grid transforms into category membership",
+      "readFrames": [
+        264,
+        280
+      ],
+      "successor": "filter"
+    },
+    {
+      "id": "filter",
+      "frames": [
+        387,
+        462
+      ],
+      "subject": "Productivity and its two members",
+      "action": "other identities leave while retained cards gather",
+      "readFrames": [
+        462,
+        501
+      ],
+      "successor": "detail"
+    },
+    {
+      "id": "detail",
+      "frames": [
+        501,
+        1026
+      ],
+      "subject": "AppWizzy",
+      "action": "same card expands; descriptor, tags, and authentic crop enter in separate regions",
+      "readFrames": [
+        680,
+        900
+      ],
+      "secondaryPreparationFrames": [
+        942,
+        1026
+      ],
+      "successor": "maker"
+    },
+    {
+      "id": "maker",
+      "frames": [
+        942,
+        1218
+      ],
+      "subject": "Elaine Xie",
+      "action": "The same maker label travels from the detail region into the heading position; related products enter as it lands.",
+      "readFrames": [
+        1026,
+        1110
+      ],
+      "secondaryPreparationFrames": [
+        1122,
+        1218
+      ],
+      "successor": "more"
+    },
+    {
+      "id": "more",
+      "frames": [
+        1122,
+        1410
+      ],
+      "subject": "same-maker products",
+      "action": "cards leave in a directional relay to the closing stroke",
+      "successor": "discovery"
+    },
+    {
+      "id": "discovery",
+      "frames": [
+        1320,
+        1638
+      ],
+      "subject": "Discover early typography",
+      "action": "card trajectory hands off to a stroke and type",
+      "successor": "cta"
+    },
+    {
+      "id": "cta",
+      "frames": [
+        1575,
+        1799
+      ],
+      "subject": "brand and URL",
+      "readFrames": [
+        1640,
+        1799
+      ],
+      "purpose": "deliberate complete-frame rest for recall"
+    }
+  ],
+  "review": {
+    "automated": "passed: 69 Remotion tests, 9 HyperFrames tests, initializer, typecheck, dual-format encoding and repeat-frame checks",
+    "visual": "Final encoded contact sheets and consecutive boundary frames inspected; both hash-identified delivery encodes played to 30 seconds in the in-app browser.",
+    "listening": "not-performed"
+  },
+  "transfer": {
+    "product": "Typora",
+    "source": "https://typora.io/",
+    "verifiedOn": "2026-10-11",
+    "capability": "Markdown live preview removes syntax markers and shows formatted content",
+    "representation": "Reconstructed text and document, not a captured interface",
+    "difference": "A single readable document with deliberate pauses; no category-card grammar",
+    "music": "Carefree \u2014 Kevin MacLeod",
+    "listening": "not-performed"
+  }
+}

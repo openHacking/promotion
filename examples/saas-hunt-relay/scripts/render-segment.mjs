@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {stop} from 'esbuild';
+import {bundle} from '@remotion/bundler';
+import {selectComposition,renderMedia,renderStill} from '@remotion/renderer';
+import {validateConfig} from './config.mjs';
+const [first,last]=process.argv.slice(2).map(Number),root=process.cwd(),c=validateConfig(JSON.parse(fs.readFileSync('config.json')),root);
+if(!Number.isInteger(first)||!Number.isInteger(last)||first<0||last<first||last>=c.duration*c.fps)throw new Error('Usage: node scripts/render-segment.mjs firstFrame lastFrame');
+fs.mkdirSync('out/segment',{recursive:true});const start=performance.now();
+const serveUrl=await bundle({entryPoint:path.join(root,'src/index.ts'),publicDir:path.join(root,'public')}),common={serveUrl,inputProps:{config:c},browserExecutable:process.env.PROMOTION_BROWSER};
+const composition=await selectComposition({...common,id:'ProductFilm'});
+await renderMedia({...common,composition,frameRange:[first,last],codec:'h264',crf:18,outputLocation:'out/segment/video.mp4',concurrency:2});
+for(const n of [...new Set([first,last,...Array.from({length:6},(_,i)=>Math.round(first+(last-first)*i/5))])])await renderStill({...common,composition,frame:n,output:`out/segment/frame-${n}.png`});
+fs.writeFileSync('out/segment/render.json',JSON.stringify({first,last,seconds:(performance.now()-start)/1000,review:'pending',audio:'silent internal motion study'},null,2));stop();process.exit(0);

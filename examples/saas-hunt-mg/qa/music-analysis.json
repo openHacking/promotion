@@ -1,0 +1,1815 @@
+{
+  "source": "music/energetic-electro.ogg",
+  "sourceSha256": "4a2360010627f1fc04eedb640285a032d6d4bdd3e1aed24b469a8b0c29f76dd4",
+  "sourceOffsetSeconds": 0,
+  "fps": 60,
+  "sampleRate": 22050,
+  "duration": 30,
+  "tempo": {
+    "bpm": 126.04801829268293,
+    "bpmHint": 125,
+    "method": "Spectral-flux autocorrelation; half/double tempo ambiguity remains"
+  },
+  "onsets": [
+    {
+      "frame": 3,
+      "time": 0.04644,
+      "strength": 0.28077343478822425,
+      "lowStrength": 0.8143175909145308,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 15,
+      "time": 0.24381,
+      "strength": 0.1352794515809083,
+      "lowStrength": 8.176453580507536,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 29,
+      "time": 0.48762,
+      "strength": 0.16094688495005774,
+      "lowStrength": 3.5825361015213844,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 43,
+      "time": 0.71982,
+      "strength": 0.10147114092805401,
+      "lowStrength": 10.340090864433057,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 53,
+      "time": 0.88236,
+      "strength": 0.12094885927114363,
+      "lowStrength": 0.7545188978589334,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 72,
+      "time": 1.20744,
+      "strength": 0.14245865112732375,
+      "lowStrength": 5.3651735064308665,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 86,
+      "time": 1.43964,
+      "strength": 0.12445104254030592,
+      "lowStrength": 16.117975304273575,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 96,
+      "time": 1.60218,
+      "strength": 0.06576694593376547,
+      "lowStrength": 3.0882648954031917,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 116,
+      "time": 1.92726,
+      "strength": 0.14915154807666434,
+      "lowStrength": 5.622688176473777,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 130,
+      "time": 2.17107,
+      "strength": 0.12185457899986646,
+      "lowStrength": 2.24158760471492,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 144,
+      "time": 2.40327,
+      "strength": 0.0982790004567376,
+      "lowStrength": 6.788789713659046,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 159,
+      "time": 2.64707,
+      "strength": 0.12679617566501433,
+      "lowStrength": 3.191213419163477,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 173,
+      "time": 2.87927,
+      "strength": 0.3843890170190153,
+      "lowStrength": 1.3235771543988262,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 187,
+      "time": 3.12308,
+      "strength": 0.10404363797328178,
+      "lowStrength": 15.189250360720798,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 202,
+      "time": 3.36689,
+      "strength": 0.12942932474788926,
+      "lowStrength": 5.549391062131122,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 216,
+      "time": 3.59909,
+      "strength": 0.1649873009221773,
+      "lowStrength": 12.628739756778055,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 225,
+      "time": 3.75002,
+      "strength": 0.07025147891170899,
+      "lowStrength": 1.305342528895742,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 233,
+      "time": 3.88934,
+      "strength": 0.2702183603513443,
+      "lowStrength": 0.13573550944419432,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 245,
+      "time": 4.08671,
+      "strength": 0.11025633788954968,
+      "lowStrength": 5.391748761524349,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 259,
+      "time": 4.31891,
+      "strength": 0.15153055811783184,
+      "lowStrength": 3.3696179552093612,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 274,
+      "time": 4.56272,
+      "strength": 0.09242426535359502,
+      "lowStrength": 8.611487799617258,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 284,
+      "time": 4.72526,
+      "strength": 0.11471134807435499,
+      "lowStrength": 0.9683931476268095,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 303,
+      "time": 5.05034,
+      "strength": 0.14339361499949596,
+      "lowStrength": 4.824598771779683,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 317,
+      "time": 5.28254,
+      "strength": 0.10621117590509657,
+      "lowStrength": 12.08368188047461,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 327,
+      "time": 5.44508,
+      "strength": 0.07019340528800676,
+      "lowStrength": 3.3795417390103863,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 346,
+      "time": 5.77016,
+      "strength": 0.14053142849362987,
+      "lowStrength": 5.451240355690168,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 360,
+      "time": 6.00236,
+      "strength": 0.1138439378420078,
+      "lowStrength": 3.829906585297298,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 375,
+      "time": 6.24617,
+      "strength": 0.08880593266950156,
+      "lowStrength": 5.580906437054941,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 389,
+      "time": 6.48998,
+      "strength": 0.1216626354470283,
+      "lowStrength": 4.618266042889635,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 403,
+      "time": 6.72218,
+      "strength": 0.44219881859965876,
+      "lowStrength": 1.7176357328237686,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 418,
+      "time": 6.96599,
+      "strength": 0.11771031603144452,
+      "lowStrength": 17.179129163600027,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 432,
+      "time": 7.19819,
+      "strength": 0.11676560878831896,
+      "lowStrength": 4.313219297753521,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 447,
+      "time": 7.442,
+      "strength": 0.1766947055970312,
+      "lowStrength": 11.033339318017779,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 460,
+      "time": 7.6742,
+      "strength": 0.30721230317427256,
+      "lowStrength": 2.7027103107980426,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 476,
+      "time": 7.92961,
+      "strength": 0.2106646297699327,
+      "lowStrength": 2.219398952380966,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 490,
+      "time": 8.16181,
+      "strength": 0.2321971257542485,
+      "lowStrength": 4.858405853577424,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 504,
+      "time": 8.40562,
+      "strength": 0.2686943252367558,
+      "lowStrength": 6.768468537495265,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 519,
+      "time": 8.64943,
+      "strength": 0.37938012341262645,
+      "lowStrength": 7.573513191743868,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 533,
+      "time": 8.88163,
+      "strength": 0.23140307265591126,
+      "lowStrength": 4.742099032037493,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 548,
+      "time": 9.13705,
+      "strength": 0.31555810096302644,
+      "lowStrength": 3.640146162702537,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 561,
+      "time": 9.35764,
+      "strength": 0.31676492516771476,
+      "lowStrength": 4.9988158953488515,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 576,
+      "time": 9.60145,
+      "strength": 0.3228187298436481,
+      "lowStrength": 4.631994016693239,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 591,
+      "time": 9.84526,
+      "strength": 0.28327122961736767,
+      "lowStrength": 3.4198117951192626,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 605,
+      "time": 10.08907,
+      "strength": 0.30956370000476363,
+      "lowStrength": 7.373501021125941,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 619,
+      "time": 10.32127,
+      "strength": 0.3939926368156952,
+      "lowStrength": 4.292712034722331,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 634,
+      "time": 10.56508,
+      "strength": 0.35877634027381416,
+      "lowStrength": 4.7955041008957355,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 648,
+      "time": 10.79728,
+      "strength": 0.3324035186198502,
+      "lowStrength": 4.803797635948737,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 663,
+      "time": 11.0527,
+      "strength": 0.3186086920212659,
+      "lowStrength": 5.40311916100511,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 678,
+      "time": 11.29651,
+      "strength": 0.2953711917987654,
+      "lowStrength": 2.953202369525688,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 691,
+      "time": 11.5171,
+      "strength": 0.406413210223159,
+      "lowStrength": 0.9064226262015198,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 706,
+      "time": 11.76091,
+      "strength": 0.40729613430926026,
+      "lowStrength": 4.886687794195198,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 720,
+      "time": 12.00472,
+      "strength": 0.34319488440866347,
+      "lowStrength": 4.0683672112085585,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 735,
+      "time": 12.24853,
+      "strength": 0.3086956061412179,
+      "lowStrength": 2.837335501016332,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 749,
+      "time": 12.48073,
+      "strength": 0.39582115350174657,
+      "lowStrength": 4.878782209069709,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 763,
+      "time": 12.72454,
+      "strength": 0.3381685282417307,
+      "lowStrength": 4.801535074058407,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 777,
+      "time": 12.95673,
+      "strength": 0.3271718716157169,
+      "lowStrength": 3.1163734866884756,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 793,
+      "time": 13.21215,
+      "strength": 0.37721554336619656,
+      "lowStrength": 3.47198919180196,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 806,
+      "time": 13.43274,
+      "strength": 0.30779738200532714,
+      "lowStrength": 2.223283076057788,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 821,
+      "time": 13.67655,
+      "strength": 0.3099727412657673,
+      "lowStrength": 4.56929069132744,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 835,
+      "time": 13.92036,
+      "strength": 0.3445151579598044,
+      "lowStrength": 4.701507795902886,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 850,
+      "time": 14.16417,
+      "strength": 0.34209406282970023,
+      "lowStrength": 3.4263348990588445,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 865,
+      "time": 14.41959,
+      "strength": 0.3419667222723623,
+      "lowStrength": 2.8041766231989658,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 878,
+      "time": 14.64018,
+      "strength": 0.398945121318382,
+      "lowStrength": 5.0304160880957465,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 893,
+      "time": 14.88399,
+      "strength": 0.41120110906188967,
+      "lowStrength": 5.673980135346797,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 908,
+      "time": 15.1278,
+      "strength": 0.3058235861738701,
+      "lowStrength": 2.563921320218287,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 922,
+      "time": 15.36,
+      "strength": 0.242389139587021,
+      "lowStrength": 19.24690569445924,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 936,
+      "time": 15.60381,
+      "strength": 0.20949272115104564,
+      "lowStrength": 4.7768446465865075,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 950,
+      "time": 15.83601,
+      "strength": 0.2648819904279478,
+      "lowStrength": 3.658082614403834,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 965,
+      "time": 16.07982,
+      "strength": 0.2551762497375025,
+      "lowStrength": 8.83999276463443,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 979,
+      "time": 16.32363,
+      "strength": 0.3311030723302512,
+      "lowStrength": 4.898458165284094,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 994,
+      "time": 16.56744,
+      "strength": 0.25439935135416936,
+      "lowStrength": 6.819981957743821,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1009,
+      "time": 16.81125,
+      "strength": 0.30444519532677966,
+      "lowStrength": 5.241300405480976,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1023,
+      "time": 17.04345,
+      "strength": 0.31786837466428275,
+      "lowStrength": 3.0408683670493697,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1037,
+      "time": 17.28726,
+      "strength": 0.27758251596714356,
+      "lowStrength": 2.3216929728016296,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1051,
+      "time": 17.51946,
+      "strength": 0.2908215062303048,
+      "lowStrength": 0.4857133750808633,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1066,
+      "time": 17.77488,
+      "strength": 0.26915298123688397,
+      "lowStrength": 3.733591859043904,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1080,
+      "time": 17.99546,
+      "strength": 0.409627550603782,
+      "lowStrength": 1.7258809849128185,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1094,
+      "time": 18.23927,
+      "strength": 0.42417248346222025,
+      "lowStrength": 4.312009868505766,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1109,
+      "time": 18.48308,
+      "strength": 0.3357580028370802,
+      "lowStrength": 8.15929852623945,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1124,
+      "time": 18.72689,
+      "strength": 0.3586502133242495,
+      "lowStrength": 7.09663855316459,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1138,
+      "time": 18.9707,
+      "strength": 0.2623320732717809,
+      "lowStrength": 5.390221645225296,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1152,
+      "time": 19.2029,
+      "strength": 0.5156853331304491,
+      "lowStrength": 10.643473916928883,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1167,
+      "time": 19.44671,
+      "strength": 0.4526888729261482,
+      "lowStrength": 5.639512292901836,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1181,
+      "time": 19.69052,
+      "strength": 0.35071274183252354,
+      "lowStrength": 4.2690108938745865,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1196,
+      "time": 19.93433,
+      "strength": 0.3584254681912071,
+      "lowStrength": 2.112115123259998,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1210,
+      "time": 20.16653,
+      "strength": 0.3330156437695505,
+      "lowStrength": 6.516185866987097,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1224,
+      "time": 20.39873,
+      "strength": 0.3183405189265279,
+      "lowStrength": 5.143155187129018,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1239,
+      "time": 20.64254,
+      "strength": 0.4373976359735872,
+      "lowStrength": 11.184860016836245,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1253,
+      "time": 20.88635,
+      "strength": 0.3698413705196221,
+      "lowStrength": 2.8302468985872,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1267,
+      "time": 21.11855,
+      "strength": 0.3445093489945985,
+      "lowStrength": 3.651314163128887,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1282,
+      "time": 21.36236,
+      "strength": 0.40528451734572485,
+      "lowStrength": 5.789115915771179,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1296,
+      "time": 21.60617,
+      "strength": 0.31303631856722736,
+      "lowStrength": 2.037477672522165,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1311,
+      "time": 21.84998,
+      "strength": 0.3393892271933141,
+      "lowStrength": 5.84003458340377,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1326,
+      "time": 22.09379,
+      "strength": 0.4130560539611446,
+      "lowStrength": 1.3590593638820232,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1340,
+      "time": 22.32599,
+      "strength": 0.3873591346746529,
+      "lowStrength": 9.600339835572354,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1354,
+      "time": 22.5698,
+      "strength": 0.3380389686931199,
+      "lowStrength": 3.6301009497184396,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1368,
+      "time": 22.802,
+      "strength": 0.38011088278957567,
+      "lowStrength": 11.329436332967688,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1382,
+      "time": 23.0342,
+      "strength": 0.49629862709985545,
+      "lowStrength": 6.960474811076303,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1397,
+      "time": 23.278,
+      "strength": 0.3520630569717782,
+      "lowStrength": 3.3990755497419998,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1411,
+      "time": 23.52181,
+      "strength": 0.3184848306223625,
+      "lowStrength": 5.396004907153831,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1426,
+      "time": 23.76562,
+      "strength": 0.26313585105159604,
+      "lowStrength": 1.8525004364957152,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1434,
+      "time": 23.90494,
+      "strength": 0.21489562779282062,
+      "lowStrength": 1.9662266522833889,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1447,
+      "time": 24.11392,
+      "strength": 0.26024123776654906,
+      "lowStrength": 1.305983603043336,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1457,
+      "time": 24.28807,
+      "strength": 0.2674506206763886,
+      "lowStrength": 4.4382493457066206,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1470,
+      "time": 24.49705,
+      "strength": 0.3127094897784034,
+      "lowStrength": 1.1334459508106485,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1483,
+      "time": 24.71764,
+      "strength": 0.3707328351694694,
+      "lowStrength": 2.5994803210655753,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1498,
+      "time": 24.96145,
+      "strength": 0.3367514783558818,
+      "lowStrength": 1.0480396300640935,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1512,
+      "time": 25.19365,
+      "strength": 0.358575937528523,
+      "lowStrength": 5.656366517977183,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1527,
+      "time": 25.44907,
+      "strength": 0.31258264195791,
+      "lowStrength": 2.9703433561647223,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1541,
+      "time": 25.68127,
+      "strength": 0.32910396409190995,
+      "lowStrength": 0.7878761823608342,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1556,
+      "time": 25.92508,
+      "strength": 0.35306728831137424,
+      "lowStrength": 1.2044710699115018,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1569,
+      "time": 26.15728,
+      "strength": 0.3701778769561107,
+      "lowStrength": 1.8780932374060648,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1585,
+      "time": 26.4127,
+      "strength": 0.26753606851332246,
+      "lowStrength": 1.349422110739734,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1599,
+      "time": 26.65651,
+      "strength": 0.26767761817379165,
+      "lowStrength": 1.7475942740949817,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1613,
+      "time": 26.8771,
+      "strength": 0.5413113813234933,
+      "lowStrength": 3.822373435209227,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1627,
+      "time": 27.12091,
+      "strength": 0.518294041136046,
+      "lowStrength": 9.978010246659682,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1642,
+      "time": 27.36472,
+      "strength": 0.40323187534092925,
+      "lowStrength": 5.613575598993835,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1657,
+      "time": 27.60853,
+      "strength": 0.29201619085424213,
+      "lowStrength": 0.9025823265386097,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1670,
+      "time": 27.84073,
+      "strength": 0.37499135221953916,
+      "lowStrength": 0.7732059187184523,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1685,
+      "time": 28.08454,
+      "strength": 0.37436799073257515,
+      "lowStrength": 8.61199475454251,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1699,
+      "time": 28.31673,
+      "strength": 0.312374088729565,
+      "lowStrength": 0.8441746839779243,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1714,
+      "time": 28.57215,
+      "strength": 0.3788654625876051,
+      "lowStrength": 4.284654356913739,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1728,
+      "time": 28.79274,
+      "strength": 0.4244757905168334,
+      "lowStrength": 2.1464322575078687,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1742,
+      "time": 29.03655,
+      "strength": 0.43840803809272294,
+      "lowStrength": 5.0013697664612575,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1757,
+      "time": 29.28036,
+      "strength": 0.44985815433852977,
+      "lowStrength": 5.573149233364701,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1771,
+      "time": 29.52417,
+      "strength": 0.30372976568875726,
+      "lowStrength": 0.7060788198540751,
+      "kind": "detected-onset"
+    },
+    {
+      "frame": 1787,
+      "time": 29.77959,
+      "strength": 0.3850003558317898,
+      "lowStrength": 1.9228231435973027,
+      "kind": "detected-onset"
+    }
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "frame": 3,
+      "time": 0.04644,
+      "strength": 0.28077343478822425,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 1,
+      "frame": 34,
+      "time": 0.56889,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 2,
+      "frame": 63,
+      "time": 1.0449,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 3,
+      "frame": 91,
+      "time": 1.52091,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 4,
+      "frame": 116,
+      "time": 1.92726,
+      "strength": 0.14915154807666434,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 5,
+      "frame": 144,
+      "time": 2.40327,
+      "strength": 0.0982790004567376,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 6,
+      "frame": 173,
+      "time": 2.87927,
+      "strength": 0.3843890170190153,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 7,
+      "frame": 202,
+      "time": 3.36689,
+      "strength": 0.12942932474788926,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 8,
+      "frame": 233,
+      "time": 3.88934,
+      "strength": 0.2702183603513443,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 9,
+      "frame": 259,
+      "time": 4.31891,
+      "strength": 0.15153055811783184,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 10,
+      "frame": 291,
+      "time": 4.85297,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 11,
+      "frame": 317,
+      "time": 5.28254,
+      "strength": 0.10621117590509657,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 12,
+      "frame": 346,
+      "time": 5.77016,
+      "strength": 0.14053142849362987,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 13,
+      "frame": 375,
+      "time": 6.24617,
+      "strength": 0.08880593266950156,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 14,
+      "frame": 403,
+      "time": 6.72218,
+      "strength": 0.44219881859965876,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 15,
+      "frame": 432,
+      "time": 7.19819,
+      "strength": 0.11676560878831896,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 16,
+      "frame": 460,
+      "time": 7.6742,
+      "strength": 0.30721230317427256,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 17,
+      "frame": 490,
+      "time": 8.16181,
+      "strength": 0.2321971257542485,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 18,
+      "frame": 519,
+      "time": 8.64943,
+      "strength": 0.37938012341262645,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 19,
+      "frame": 548,
+      "time": 9.13705,
+      "strength": 0.31555810096302644,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 20,
+      "frame": 576,
+      "time": 9.60145,
+      "strength": 0.3228187298436481,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 21,
+      "frame": 605,
+      "time": 10.08907,
+      "strength": 0.30956370000476363,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 22,
+      "frame": 634,
+      "time": 10.56508,
+      "strength": 0.35877634027381416,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 23,
+      "frame": 663,
+      "time": 11.0527,
+      "strength": 0.3186086920212659,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 24,
+      "frame": 691,
+      "time": 11.5171,
+      "strength": 0.406413210223159,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 25,
+      "frame": 720,
+      "time": 12.00472,
+      "strength": 0.34319488440866347,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 26,
+      "frame": 749,
+      "time": 12.48073,
+      "strength": 0.39582115350174657,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 27,
+      "frame": 777,
+      "time": 12.95673,
+      "strength": 0.3271718716157169,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 28,
+      "frame": 806,
+      "time": 13.43274,
+      "strength": 0.30779738200532714,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 29,
+      "frame": 835,
+      "time": 13.92036,
+      "strength": 0.3445151579598044,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 30,
+      "frame": 865,
+      "time": 14.41959,
+      "strength": 0.3419667222723623,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 31,
+      "frame": 893,
+      "time": 14.88399,
+      "strength": 0.41120110906188967,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 32,
+      "frame": 922,
+      "time": 15.36,
+      "strength": 0.242389139587021,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 33,
+      "frame": 950,
+      "time": 15.83601,
+      "strength": 0.2648819904279478,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 34,
+      "frame": 979,
+      "time": 16.32363,
+      "strength": 0.3311030723302512,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 35,
+      "frame": 1009,
+      "time": 16.81125,
+      "strength": 0.30444519532677966,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 36,
+      "frame": 1037,
+      "time": 17.28726,
+      "strength": 0.27758251596714356,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 37,
+      "frame": 1066,
+      "time": 17.77488,
+      "strength": 0.26915298123688397,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 38,
+      "frame": 1094,
+      "time": 18.23927,
+      "strength": 0.42417248346222025,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 39,
+      "frame": 1124,
+      "time": 18.72689,
+      "strength": 0.3586502133242495,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 40,
+      "frame": 1152,
+      "time": 19.2029,
+      "strength": 0.5156853331304491,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 41,
+      "frame": 1177,
+      "time": 19.60925,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 42,
+      "frame": 1205,
+      "time": 20.08526,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 43,
+      "frame": 1234,
+      "time": 20.56127,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 44,
+      "frame": 1262,
+      "time": 21.03728,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 45,
+      "frame": 1291,
+      "time": 21.51329,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 46,
+      "frame": 1319,
+      "time": 21.9893,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 47,
+      "frame": 1348,
+      "time": 22.46531,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 48,
+      "frame": 1376,
+      "time": 22.94132,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 49,
+      "frame": 1405,
+      "time": 23.41732,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 50,
+      "frame": 1434,
+      "time": 23.90494,
+      "strength": 0.21489562779282062,
+      "kind": "onset-supported-beat"
+    },
+    {
+      "index": 51,
+      "frame": 1462,
+      "time": 24.36934,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 52,
+      "frame": 1491,
+      "time": 24.84535,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 53,
+      "frame": 1519,
+      "time": 25.32136,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 54,
+      "frame": 1548,
+      "time": 25.79737,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 55,
+      "frame": 1576,
+      "time": 26.27338,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 56,
+      "frame": 1605,
+      "time": 26.74939,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 57,
+      "frame": 1634,
+      "time": 27.2254,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 58,
+      "frame": 1662,
+      "time": 27.70141,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 59,
+      "frame": 1691,
+      "time": 28.17741,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 60,
+      "frame": 1719,
+      "time": 28.65342,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 61,
+      "frame": 1748,
+      "time": 29.12943,
+      "strength": 0,
+      "kind": "estimated-beat"
+    },
+    {
+      "index": 62,
+      "frame": 1776,
+      "time": 29.60544,
+      "strength": 0,
+      "kind": "estimated-beat"
+    }
+  ],
+  "strongBeatCandidates": [
+    {
+      "index": 6,
+      "frame": 173,
+      "time": 2.87927,
+      "strength": 0.3843890170190153,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 14,
+      "frame": 403,
+      "time": 6.72218,
+      "strength": 0.44219881859965876,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 16,
+      "frame": 460,
+      "time": 7.6742,
+      "strength": 0.30721230317427256,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 18,
+      "frame": 519,
+      "time": 8.64943,
+      "strength": 0.37938012341262645,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 19,
+      "frame": 548,
+      "time": 9.13705,
+      "strength": 0.31555810096302644,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 20,
+      "frame": 576,
+      "time": 9.60145,
+      "strength": 0.3228187298436481,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 21,
+      "frame": 605,
+      "time": 10.08907,
+      "strength": 0.30956370000476363,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 22,
+      "frame": 634,
+      "time": 10.56508,
+      "strength": 0.35877634027381416,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 23,
+      "frame": 663,
+      "time": 11.0527,
+      "strength": 0.3186086920212659,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 24,
+      "frame": 691,
+      "time": 11.5171,
+      "strength": 0.406413210223159,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 25,
+      "frame": 720,
+      "time": 12.00472,
+      "strength": 0.34319488440866347,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 26,
+      "frame": 749,
+      "time": 12.48073,
+      "strength": 0.39582115350174657,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 27,
+      "frame": 777,
+      "time": 12.95673,
+      "strength": 0.3271718716157169,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 28,
+      "frame": 806,
+      "time": 13.43274,
+      "strength": 0.30779738200532714,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 29,
+      "frame": 835,
+      "time": 13.92036,
+      "strength": 0.3445151579598044,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 30,
+      "frame": 865,
+      "time": 14.41959,
+      "strength": 0.3419667222723623,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 31,
+      "frame": 893,
+      "time": 14.88399,
+      "strength": 0.41120110906188967,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 34,
+      "frame": 979,
+      "time": 16.32363,
+      "strength": 0.3311030723302512,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 35,
+      "frame": 1009,
+      "time": 16.81125,
+      "strength": 0.30444519532677966,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 38,
+      "frame": 1094,
+      "time": 18.23927,
+      "strength": 0.42417248346222025,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 39,
+      "frame": 1124,
+      "time": 18.72689,
+      "strength": 0.3586502133242495,
+      "kind": "strong-beat-candidate"
+    },
+    {
+      "index": 40,
+      "frame": 1152,
+      "time": 19.2029,
+      "strength": 0.5156853331304491,
+      "kind": "strong-beat-candidate"
+    }
+  ],
+  "phraseCandidates": [
+    {
+      "frame": 60,
+      "change": 0.2464961454825393,
+      "kind": "energy-change-candidate"
+    },
+    {
+      "frame": 180,
+      "change": 0.17487295347303355,
+      "kind": "energy-change-candidate"
+    },
+    {
+      "frame": 300,
+      "change": 0.2122623378974992,
+      "kind": "energy-change-candidate"
+    },
+    {
+      "frame": 420,
+      "change": 0.2829709277469261,
+      "kind": "energy-change-candidate"
+    },
+    {
+      "frame": 540,
+      "change": 0.09160614945474993,
+      "kind": "energy-change-candidate"
+    },
+    {
+      "frame": 660,
+      "change": 0.0346341193095302,
+      "kind": "energy-change-candidate"
+    },
+    {
+      "frame": 870,
+      "change": 0.06080466632195637,
+      "kind": "energy-change-candidate"
+    },
+    {
+      "frame": 990,
+      "change": 0.19936526095245788,
+      "kind": "energy-change-candidate"
+    },
+    {
+      "frame": 1110,
+      "change": 0.2436655671051855,
+      "kind": "energy-change-candidate"
+    },
+    {
+      "frame": 1230,
+      "change": 0.12499586498017981,
+      "kind": "energy-change-candidate"
+    },
+    {
+      "frame": 1350,
+      "change": 0.4095541238375937,
+      "kind": "energy-change-candidate"
+    },
+    {
+      "frame": 1500,
+      "change": 0.0399161574945357,
+      "kind": "energy-change-candidate"
+    },
+    {
+      "frame": 1650,
+      "change": 0.19222640640009336,
+      "kind": "energy-change-candidate"
+    }
+  ],
+  "energy": [
+    {
+      "frame": 0,
+      "rms": 0.6563041573988482
+    },
+    {
+      "frame": 30,
+      "rms": 0.17698873463966613
+    },
+    {
+      "frame": 60,
+      "rms": 0.12777195379091064
+    },
+    {
+      "frame": 90,
+      "rms": 0.21252864728252513
+    },
+    {
+      "frame": 120,
+      "rms": 0.12187349000452542
+    },
+    {
+      "frame": 150,
+      "rms": 0.131747080064471
+    },
+    {
+      "frame": 180,
+      "rms": 0.2663802829502455
+    },
+    {
+      "frame": 210,
+      "rms": 0.33698619406481806
+    },
+    {
+      "frame": 240,
+      "rms": 0.6276678102241082
+    },
+    {
+      "frame": 270,
+      "rms": 0.14598840557475767
+    },
+    {
+      "frame": 300,
+      "rms": 0.1352794736712573
+    },
+    {
+      "frame": 330,
+      "rms": 0.2138520663326102
+    },
+    {
+      "frame": 360,
+      "rms": 0.10500213438122238
+    },
+    {
+      "frame": 390,
+      "rms": 0.16525850559202068
+    },
+    {
+      "frame": 420,
+      "rms": 0.2946638275561764
+    },
+    {
+      "frame": 450,
+      "rms": 0.5415386679109189
+    },
+    {
+      "frame": 480,
+      "rms": 0.4476508464530033
+    },
+    {
+      "frame": 510,
+      "rms": 0.21535974020788273
+    },
+    {
+      "frame": 540,
+      "rms": 0.24460906795700332
+    },
+    {
+      "frame": 570,
+      "rms": 0.2351892197943828
+    },
+    {
+      "frame": 600,
+      "rms": 0.14968252205863528
+    },
+    {
+      "frame": 630,
+      "rms": 0.24762280341874918
+    },
+    {
+      "frame": 660,
+      "rms": 0.35736320737087107
+    },
+    {
+      "frame": 690,
+      "rms": 0.10921035672557378
+    },
+    {
+      "frame": 720,
+      "rms": 0.09527512752819715
+    },
+    {
+      "frame": 750,
+      "rms": 0.09310948457426939
+    },
+    {
+      "frame": 780,
+      "rms": 0.08359227646076373
+    },
+    {
+      "frame": 810,
+      "rms": 0.08145606727747978
+    },
+    {
+      "frame": 840,
+      "rms": 0.06888402538713587
+    },
+    {
+      "frame": 870,
+      "rms": 0.06694069559431122
+    },
+    {
+      "frame": 900,
+      "rms": 0.20500872971421716
+    },
+    {
+      "frame": 930,
+      "rms": 0.6295815007627181
+    },
+    {
+      "frame": 960,
+      "rms": 0.24032489363974144
+    },
+    {
+      "frame": 990,
+      "rms": 0.20733143789799785
+    },
+    {
+      "frame": 1020,
+      "rms": 0.26384443459954593
+    },
+    {
+      "frame": 1050,
+      "rms": 0.1631814625157043
+    },
+    {
+      "frame": 1080,
+      "rms": 0.20858709694898217
+    },
+    {
+      "frame": 1110,
+      "rms": 0.31692877830120353
+    },
+    {
+      "frame": 1140,
+      "rms": 0.5421709153738539
+    },
+    {
+      "frame": 1170,
+      "rms": 0.48758623704180654
+    },
+    {
+      "frame": 1200,
+      "rms": 0.1581937180858712
+    },
+    {
+      "frame": 1230,
+      "rms": 0.1921704780421799
+    },
+    {
+      "frame": 1260,
+      "rms": 0.2036177471251382
+    },
+    {
+      "frame": 1290,
+      "rms": 0.10748947586674018
+    },
+    {
+      "frame": 1320,
+      "rms": 0.20813816216871414
+    },
+    {
+      "frame": 1350,
+      "rms": 0.3391374562093463
+    },
+    {
+      "frame": 1380,
+      "rms": 0.7955984295012956
+    },
+    {
+      "frame": 1410,
+      "rms": 0.6324153822861368
+    },
+    {
+      "frame": 1440,
+      "rms": 0.6214722487217889
+    },
+    {
+      "frame": 1470,
+      "rms": 0.6442436648761494
+    },
+    {
+      "frame": 1500,
+      "rms": 0.6045818907911683
+    },
+    {
+      "frame": 1530,
+      "rms": 0.5813017078176985
+    },
+    {
+      "frame": 1560,
+      "rms": 0.6369052659081208
+    },
+    {
+      "frame": 1590,
+      "rms": 0.6478968569505668
+    },
+    {
+      "frame": 1620,
+      "rms": 0.7836912219864901
+    },
+    {
+      "frame": 1650,
+      "rms": 0.5259791790497699
+    },
+    {
+      "frame": 1680,
+      "rms": 0.5211560870871005
+    },
+    {
+      "frame": 1710,
+      "rms": 0.5718162630066352
+    },
+    {
+      "frame": 1740,
+      "rms": 0.5234490676070265
+    },
+    {
+      "frame": 1770,
+      "rms": 0.5047407635014545
+    }
+  ],
+  "warnings": [
+    "Strong beats, energy changes and musical climax require audition; this detector does not establish downbeat meter or semantic musical climax."
+  ]
+}

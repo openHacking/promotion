@@ -1,0 +1,146 @@
+{
+  "fps": 60,
+  "durationPerClip": 6,
+  "framesPerClip": 360,
+  "clips": 16,
+  "audio": "none; internal mechanical studies",
+  "replacementLabels": [
+    "Sketch",
+    "Build",
+    "Measure",
+    "Publish"
+  ],
+  "replacementAccent": "#81d6c2",
+  "review": "Encoded contact sheets visually inspected; aggregation overlap fixed; essential claims must not use morph/spatial texture labels",
+  "motionEvaluation": "Pure frame poses; non-monotonic evaluation tests pass",
+  "encodedChecks": [
+    {
+      "file": "aggregate-replacement.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "331eb6a6a5b6df8ca6be89ed8f82036c84caef20be9c1b379643987e27c7bb20",
+      "passed": true
+    },
+    {
+      "file": "aggregate.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "093323316abd7440cccda626dfddd21393a5633f55ec79765f3f89fe88c4ddff",
+      "passed": true
+    },
+    {
+      "file": "expand-replacement.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "b9c7e1eecf873601bff0456c09e5674cf30eb668a195c32f567bfdc8361192b7",
+      "passed": true
+    },
+    {
+      "file": "expand.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "dae96c554f4e3c33727db0b44ef44cb86e2b12e511e2dd9d67231b7d79f442f9",
+      "passed": true
+    },
+    {
+      "file": "filter-replacement.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "5ee483999d743d3368aaea7793e93c739190ed7c86193228d1d3603e45e458b5",
+      "passed": true
+    },
+    {
+      "file": "filter.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "a6d22288392cd1acc21723a64d374f3be550ee37169cc3b11b9e97ee25c428e8",
+      "passed": true
+    },
+    {
+      "file": "flow-replacement.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "ea9072a07fb2e0aee5cd5cf9f973465bc67e8d0a81217053dd0aa4f58c634ff8",
+      "passed": true
+    },
+    {
+      "file": "flow.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "00a332b1f591dcab4cdd208ab55a06bc5b6c6cad044e2ce15ad90995aafde2d2",
+      "passed": true
+    },
+    {
+      "file": "morph-replacement.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "281179ada42f4b1a94a9500a9e270288791beabd8bf63ba2955daa2006b4ae2c",
+      "passed": true
+    },
+    {
+      "file": "morph.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "6ecbc9833d371ae2d25b6342885824893bbc77873b913d4d32645ab202f90d4b",
+      "passed": true
+    },
+    {
+      "file": "path-replacement.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "6a6f3769790d20c52affe1f4489b884cf9dc56d4301fde555055145e3c72cb0d",
+      "passed": true
+    },
+    {
+      "file": "path.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "4d40a80ba2502070683257a3202094503602e7b36a4d338a440f8b128ce35451",
+      "passed": true
+    },
+    {
+      "file": "spatial-replacement.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "d25aaca52431ed887ce24c6439583da403fda795b38da96fd16bfe9542389a98",
+      "passed": true
+    },
+    {
+      "file": "spatial.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "bd72a70f8a5d7b3d9c704155cf2e3a095849724264236485f6bcfff17c298225",
+      "passed": true
+    },
+    {
+      "file": "type-replacement.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "bc1e4bf174ad82d9c0e4cdfb4f4b66e32ef6de6f5cd3b3b0015ded96bcc1abc1",
+      "passed": true
+    },
+    {
+      "file": "type.mp4",
+      "frames": 360,
+      "fps": 60,
+      "duration": 6.0,
+      "sha256": "8b8ed1fbd9842c5f0e78b040b54865c6179aa1e52bdee2942dea63a8c1661fd0",
+      "passed": true
+    }
+  ]
+}

@@ -15,3 +15,7 @@ References: [Jitter templates](https://jitter.video/templates/), [Orbit cards](h
 Design the object chain: stimulus → response → transfer → reading hold. Vary motion mechanisms and shot scale; avoid a succession of nearly identical panels. Use overshoot selectively, not on factual text or every object. Do not mistake an easing preset for narrative. Keep action bursts short and reserve stable holds for evidence. A moving screenshot is editorial presentation, not evidence that an action actually occurred.
 
 Review the encoded transition before the full render. Reject cut-off cards, unreadable labels, exposed masks, static empty intervals, unmotivated movement, and unsupported product claims. Listen separately; an audio stream or peak check is not a listening pass.
+
+## Typography and transformation checks
+
+For local variable fonts, register the supported weight range on `FontFace`; otherwise heavy kinetic typography may render at the default axis. Inspect encoded glyph weight before building a whole film around it. During a source-to-preview transformation, retire syntax and divider layers before the enlarged result crosses their region. Keep the result identity; overlapping text is not continuity. Validate fan extents at the maximum rotation in each format, not only at the settled pose. See the [MarkPress case](../examples/markpress-mg/README.md) for these mechanisms and review evidence.

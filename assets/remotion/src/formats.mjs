@@ -1,5 +1,5 @@
 export const FORMATS={landscape:{width:1920,height:1080},portrait:{width:1080,height:1920}};
-export function resolveFormat(config,name){if(!name)return config;if(!FORMATS[name])throw new Error('Format must be landscape or portrait');if(config.template&&config.template!=='discovery'&&(config.width!==FORMATS[name].width||config.height!==FORMATS[name].height))throw new Error('Canvas-only format overrides are disabled; use discovery or an independently authored scene config');return {...config,...FORMATS[name],format:name};}
+export function resolveFormat(config,name){if(!name)return config;if(!FORMATS[name])throw new Error('Format must be landscape or portrait');if(config.template&&!['discovery','architecture'].includes(config.template)&&(config.width!==FORMATS[name].width||config.height!==FORMATS[name].height))throw new Error('Canvas-only format overrides are disabled; use discovery or an independently authored scene config');return {...config,...FORMATS[name],format:name};}
 export function discoveryLayout(width,height,safe={}){
  const portrait=height>width,pad=width*.065;
  const inset={top:safe.top??height*.055,right:safe.right??width*.065,bottom:safe.bottom??height*.075,left:safe.left??pad};

@@ -8,3 +8,9 @@ __pycache__/
 !.env.example
 ._*
 _site/
+
+private-analysis/
+
+# Local dependency links and intermediate render stems
+node_modules
+.internal/

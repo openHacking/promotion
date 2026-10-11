@@ -1,0 +1,136 @@
+{
+  "engine": "hyperframes",
+  "method": "Same browser page, non-monotonic time seeks, screenshot SHA256",
+  "order": [
+    258,
+    0,
+    198,
+    42,
+    359,
+    138,
+    273,
+    90,
+    12,
+    240,
+    42,
+    258,
+    0,
+    138,
+    359,
+    198,
+    273,
+    90,
+    12,
+    240
+  ],
+  "checks": [
+    {
+      "frame": 258,
+      "hash": "020be1a96024d481481189c9d40191b0f80fef0f2122c4f8c6893d9cfdb82162",
+      "equal": true
+    },
+    {
+      "frame": 0,
+      "hash": "5ecdd89e62d42d552545a8c0f0ff3fd0f5c3d8c49790da95c27b86e187436153",
+      "equal": true
+    },
+    {
+      "frame": 198,
+      "hash": "6c6853bdc814f5394b270c1e21912d505764a5401be6698466ae794e176c1ef1",
+      "equal": true
+    },
+    {
+      "frame": 42,
+      "hash": "acd3ac32a2457a45776cef76358a953fbf53d541d6df6028288290373a257950",
+      "equal": true
+    },
+    {
+      "frame": 359,
+      "hash": "85e42692ecc3287bfe8973200a775e09f680870a601fac00aa83ba0dcff75a75",
+      "equal": true
+    },
+    {
+      "frame": 138,
+      "hash": "889abbc93aac62a25203fad965879294920bdabe1eb5f6330999deea04310751",
+      "equal": true
+    },
+    {
+      "frame": 273,
+      "hash": "85e42692ecc3287bfe8973200a775e09f680870a601fac00aa83ba0dcff75a75",
+      "equal": true
+    },
+    {
+      "frame": 90,
+      "hash": "20ebce850682a80d087ca8cdab1dd363be556678cbca8b988a7ceaf5c4376122",
+      "equal": true
+    },
+    {
+      "frame": 12,
+      "hash": "b5f443149309f6cb1fb03579dafa58e6777afaa065e2592f7d72eaed1af22bad",
+      "equal": true
+    },
+    {
+      "frame": 240,
+      "hash": "d6d15ffdf555b67324788008fb7bcfcc7628ef5dcfe73558a35d50eeeac3d518",
+      "equal": true
+    },
+    {
+      "frame": 42,
+      "hash": "acd3ac32a2457a45776cef76358a953fbf53d541d6df6028288290373a257950",
+      "equal": true
+    },
+    {
+      "frame": 258,
+      "hash": "020be1a96024d481481189c9d40191b0f80fef0f2122c4f8c6893d9cfdb82162",
+      "equal": true
+    },
+    {
+      "frame": 0,
+      "hash": "5ecdd89e62d42d552545a8c0f0ff3fd0f5c3d8c49790da95c27b86e187436153",
+      "equal": true
+    },
+    {
+      "frame": 138,
+      "hash": "889abbc93aac62a25203fad965879294920bdabe1eb5f6330999deea04310751",
+      "equal": true
+    },
+    {
+      "frame": 359,
+      "hash": "85e42692ecc3287bfe8973200a775e09f680870a601fac00aa83ba0dcff75a75",
+      "equal": true
+    },
+    {
+      "frame": 198,
+      "hash": "6c6853bdc814f5394b270c1e21912d505764a5401be6698466ae794e176c1ef1",
+      "equal": true
+    },
+    {
+      "frame": 273,
+      "hash": "85e42692ecc3287bfe8973200a775e09f680870a601fac00aa83ba0dcff75a75",
+      "equal": true
+    },
+    {
+      "frame": 90,
+      "hash": "20ebce850682a80d087ca8cdab1dd363be556678cbca8b988a7ceaf5c4376122",
+      "equal": true
+    },
+    {
+      "frame": 12,
+      "hash": "b5f443149309f6cb1fb03579dafa58e6777afaa065e2592f7d72eaed1af22bad",
+      "equal": true
+    },
+    {
+      "frame": 240,
+      "hash": "d6d15ffdf555b67324788008fb7bcfcc7628ef5dcfe73558a35d50eeeac3d518",
+      "equal": true
+    }
+  ],
+  "bounds": {
+    "x": 410,
+    "y": 340,
+    "width": 1400,
+    "height": 520
+  },
+  "targetBounds": true,
+  "fonts": "loaded"
+}

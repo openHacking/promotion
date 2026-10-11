@@ -1,0 +1,364 @@
+{
+  "source": "video.86605038.mp4",
+  "sha256": "866050388d924e61ba95cc391fbde3dbd23becc92dde3bb3d15a699c21ed7ae7",
+  "decodedFrames": 900,
+  "coverage": "all-frame overview; exact easing and full-resolution microdetails not claimed",
+  "intervals": [
+    {
+      "frames": [
+        0,
+        99
+      ],
+      "pts": [
+        0.0,
+        1.65
+      ],
+      "subjectAndAction": "Radial petals grow, rings thicken, then radial shape contracts.",
+      "adaptation": "Create density and scale contrast from a single motif.",
+      "failure": "This is a motion-designer reference, not a product capability demo.",
+      "consecutiveEvidence": [
+        "frames-000.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        99,
+        198
+      ],
+      "pts": [
+        1.65,
+        3.3
+      ],
+      "subjectAndAction": "Disk expands into masked title; type compresses and reflows.",
+      "adaptation": "Let graphic expansion reveal large type.",
+      "failure": "A strong kinetic title still needs a readable landing.",
+      "consecutiveEvidence": [
+        "frames-000.jpg",
+        "frames-001.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        198,
+        249
+      ],
+      "pts": [
+        3.3,
+        4.15
+      ],
+      "subjectAndAction": "Letters reduce to dots; dots become repeated easing rows.",
+      "adaptation": "Use abstraction to bridge typography and motion grammar.",
+      "failure": "Identity can disappear if no stable anchor remains.",
+      "consecutiveEvidence": [
+        "frames-001.jpg",
+        "frames-002.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        249,
+        312
+      ],
+      "pts": [
+        4.15,
+        5.2
+      ],
+      "subjectAndAction": "Rows show differing timings; six dots have different motion behavior.",
+      "adaptation": "Compare motion qualities on the same geometry.",
+      "failure": "Exact cubic curves cannot be recovered reliably from a clip.",
+      "consecutiveEvidence": [
+        "frames-002.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        312,
+        345
+      ],
+      "pts": [
+        5.2,
+        5.75
+      ],
+      "subjectAndAction": "Rows collapse into a selected dot.",
+      "adaptation": "One survivor becomes the next primary subject.",
+      "failure": "Collapse without selection semantics is an arbitrary pile.",
+      "consecutiveEvidence": [
+        "frames-002.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        345,
+        450
+      ],
+      "pts": [
+        5.75,
+        7.5
+      ],
+      "subjectAndAction": "Dot triggers blue wipe; circle morphs through polygon/star/square.",
+      "adaptation": "Use silhouette continuity for geometric transformation.",
+      "failure": "Shape changes need an expressive purpose.",
+      "consecutiveEvidence": [
+        "frames-002.jpg",
+        "frames-003.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        450,
+        588
+      ],
+      "pts": [
+        7.5,
+        9.8
+      ],
+      "subjectAndAction": "Square leads to patterned squiggles and a wave, then collapses.",
+      "adaptation": "Alternate sparse and dense graphic passages.",
+      "failure": "Pattern texture can overpower information.",
+      "consecutiveEvidence": [
+        "frames-003.jpg",
+        "frames-004.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        588,
+        672
+      ],
+      "pts": [
+        9.8,
+        11.2
+      ],
+      "subjectAndAction": "Point grid becomes a deforming sphere/torus study.",
+      "adaptation": "Use depth and deformation to demonstrate form.",
+      "failure": "A shader must be deterministic and cannot replace product proof.",
+      "consecutiveEvidence": [
+        "frames-004.jpg",
+        "frames-005.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        672,
+        774
+      ],
+      "pts": [
+        11.2,
+        12.9
+      ],
+      "subjectAndAction": "Rapid typographic variants emphasize easing principles.",
+      "adaptation": "Create a short typographic crescendo.",
+      "failure": "Do not use fast variants for essential product copy.",
+      "consecutiveEvidence": [
+        "frames-005.jpg",
+        "frames-006.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    },
+    {
+      "frames": [
+        774,
+        899
+      ],
+      "pts": [
+        12.9,
+        14.983333
+      ],
+      "subjectAndAction": "Dot zoom, radial return, logo settle.",
+      "adaptation": "Return the opening motif to establish a complete arc.",
+      "failure": "Looped decoration without new meaning weakens a CTA.",
+      "consecutiveEvidence": [
+        "frames-006.jpg",
+        "frames-007.jpg"
+      ],
+      "preparation": "Inspect frames before entry; no separate anticipation claimed when not visible",
+      "acceleration": "Qualitative motion only; exact displacement/easing not measured for this overview interval",
+      "landing": "Exact landing frame not established unless listed in enlargedContinuousEvidence",
+      "overshoot": "Not asserted unless independently measurable",
+      "recovery": "Not independently timed in overview; see enlarged evidence where available",
+      "readingHold": "Not independently timed in overview; do not assume every interval stops",
+      "handoff": "Described in the following interval"
+    }
+  ],
+  "listening": "not-performed",
+  "enlargedContinuousEvidence": {
+    "id": "claude-morph",
+    "frames": [
+      345,
+      450
+    ],
+    "resolution": "320x180 (comparison includes both halves); original PTS retained",
+    "phases": [
+      {
+        "phase": "preparation",
+        "frames": [
+          345,
+          350
+        ],
+        "observation": "Centered blue circle with orbiting dots.",
+        "pts": [
+          5.75,
+          5.833333
+        ]
+      },
+      {
+        "phase": "change",
+        "frames": [
+          351,
+          362
+        ],
+        "observation": "Circle expands with contour traces.",
+        "pts": [
+          5.85,
+          6.033333
+        ]
+      },
+      {
+        "phase": "morph",
+        "frames": [
+          366,
+          375
+        ],
+        "observation": "Rounded triangular silhouette replaces circle while center is preserved.",
+        "pts": [
+          6.1,
+          6.25
+        ]
+      },
+      {
+        "phase": "rotation",
+        "frames": [
+          376,
+          392
+        ],
+        "observation": "Triangle continues rotating; no stationary reading hold.",
+        "pts": [
+          6.266667,
+          6.533333
+        ]
+      },
+      {
+        "phase": "morph",
+        "frames": [
+          395,
+          404
+        ],
+        "observation": "Triangle becomes star; orbit elements change shape.",
+        "pts": [
+          6.583333,
+          6.733333
+        ]
+      },
+      {
+        "phase": "morph",
+        "frames": [
+          423,
+          441
+        ],
+        "observation": "Star becomes square.",
+        "pts": [
+          7.05,
+          7.35
+        ]
+      },
+      {
+        "phase": "landing",
+        "frames": [
+          442,
+          449
+        ],
+        "observation": "Square silhouette established, rotation persists.",
+        "pts": [
+          7.366667,
+          7.483333
+        ]
+      },
+      {
+        "phase": "handoff",
+        "frames": [
+          450,
+          450
+        ],
+        "observation": "Background cuts to black pattern segment; exact easing and overshoot not established.",
+        "pts": [
+          7.5,
+          7.5
+        ]
+      }
+    ],
+    "consecutiveEvidence": [
+      "claude-morph/interval-000.jpg",
+      "claude-morph/interval-001.jpg",
+      "claude-morph/interval-002.jpg",
+      "claude-morph/interval-003.jpg",
+      "claude-morph/interval-004.jpg"
+    ],
+    "pts": [
+      5.75,
+      7.5
+    ]
+  },
+  "frameIndex": "claude-motion-frames.json"
+}

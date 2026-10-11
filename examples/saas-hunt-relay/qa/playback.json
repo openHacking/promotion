@@ -1,0 +1,20 @@
+[
+  {
+    "format": "landscape",
+    "sha256": "c1d8f63ff3f54b275f417dabf19bd31af40cdbe55fbd8992310564d7be431d9a",
+    "duration": 30,
+    "currentTime": 30,
+    "ended": true,
+    "method": "In-app browser playback of the delivery encode; URL carries the file hash prefix",
+    "listening": "not-performed"
+  },
+  {
+    "format": "portrait",
+    "sha256": "0c974f911d0af80d5edcc2a40d2c111210d63d0694094025e4ab7a3efec7ba8f",
+    "duration": 30,
+    "currentTime": 30,
+    "ended": true,
+    "method": "In-app browser playback of the delivery encode; URL carries the file hash prefix",
+    "listening": "not-performed"
+  }
+]

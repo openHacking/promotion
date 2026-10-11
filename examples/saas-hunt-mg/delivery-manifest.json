@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "name": "video.mp4",
+      "sha256": "1c9bb55f8611ccd0e5632de3aa79c564e50268e02b1e8288a549298cf537388a",
+      "bytes": 4862564
+    },
+    {
+      "name": "portrait-video.mp4",
+      "sha256": "bfd4f8da2e48d886e5a92da5d8a87f7e722712134273b1f6a26aa8f40aec0cf5",
+      "bytes": 4861335
+    },
+    {
+      "name": "cover.png",
+      "sha256": "fd7759713261937ab478f18e12914a7959b2638292c27e40e69d48ca7a65e23c",
+      "bytes": 360136
+    },
+    {
+      "name": "portrait-cover.png",
+      "sha256": "702e499ece3b50825817bfc1abd6d5d9914ed48cf88b91bed49a9f773873dd43",
+      "bytes": 361367
+    },
+    {
+      "name": "soundtrack.wav",
+      "sha256": "ddc44f1e968ae3c133bcac554a7c45d10484222536993ed0d1ba2118f67afb46",
+      "bytes": 5760044
+    },
+    {
+      "name": "editable-project.zip",
+      "sha256": "fce2c5c169d4d441bc32495498452072001ba307ada1c691f543dbcff7bea236",
+      "bytes": 40560739
+    }
+  ]
+}

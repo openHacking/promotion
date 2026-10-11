@@ -1,0 +1,22 @@
+{
+  "change": "Closing URL and attribution placement",
+  "visual": "Encoded frame 1750 reviewed in landscape and portrait: markpress.pro visible; no music attribution in frame.",
+  "checks": [
+    "No /en suffix in display config or main Film component",
+    "No music credit text in main Film closing frame",
+    "Kevin MacLeod and CC BY 4.0 links present in main and case galleries"
+  ],
+  "files": [
+    {
+      "format": "landscape",
+      "sha256": "114d48ac734a5ac7957b0435ac16bf2b0ed334350b288ab0a6957e3b30924e09",
+      "image": "landscape/closing.png"
+    },
+    {
+      "format": "portrait",
+      "sha256": "179fa77563ca53a60df15ac3037f2f02600baea5e540c8972a3768575c2791cb",
+      "image": "portrait/closing.png"
+    }
+  ],
+  "listening": "not-performed; soundtrack unchanged"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "promotion-composition",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "node scripts/preview.mjs",
+    "render": "node scripts/render-markpress.mjs",
+    "check": "node scripts/check.mjs out/landscape/video.mp4",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test scripts/config.test.mjs scripts/audio.test.mjs scripts/scene-motion.test.mjs scripts/mg-config.test.mjs scripts/music-analysis.test.mjs scripts/formats.test.mjs scripts/transitions.test.mjs scripts/discovery-config.test.mjs scripts/architecture-config.test.mjs scripts/phrase-motion.test.mjs scripts/markpress.test.mjs",
+    "analyze-music": "node scripts/music-analysis.mjs",
+    "render-studies": "node scripts/render-studies.mjs",
+    "review-poses": "node scripts/review-poses.mjs",
+    "package-review": "node scripts/package-review.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "esbuild": "0.28.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.534",
+    "shaders": "4.0.4"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.16",
+    "@types/react-dom": "19.1.9",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "transfer",
+    "seconds": 57.515547875,
+    "sourceFrameRange": [
+      0,
+      599
+    ],
+    "music": {
+      "file": "Carefree.mp3",
+      "offset": 32,
+      "listening": "not-performed"
+    },
+    "seek": [
+      {
+        "frame": 340,
+        "sha256": "eed8c74f4326359cd7f88bc14eafef25f8f67072274b98a948c096b8be79707f"
+      },
+      {
+        "frame": 0,
+        "sha256": "dbec3d3d94cc76ec5da14b54918c7fd34d213ea3aba3ada37ed2d3b7ea95d9fe"
+      },
+      {
+        "frame": 180,
+        "sha256": "9e5e7d3d6ccea420b3e4aece9c52431c58d8182d67422fb0c3f528641be4102f"
+      },
+      {
+        "frame": 599,
+        "sha256": "fbd12c594af4c323bf10f0421bfb19ac327fbbeacd0781d053ad49a1c6262843"
+      },
+      {
+        "frame": 340,
+        "sha256": "eed8c74f4326359cd7f88bc14eafef25f8f67072274b98a948c096b8be79707f"
+      }
+    ],
+    "repeatEqual": true
+  },
+  {
+    "id": "ribbon",
+    "seconds": 57.207165333,
+    "sourceFrameRange": [
+      132,
+      731
+    ],
+    "music": {
+      "file": "Cipher2.mp3",
+      "offset": 27.8,
+      "listening": "not-performed"
+    },
+    "seek": [
+      {
+        "frame": 472,
+        "sha256": "6d1dcecb3a8a603fdeb8a34d42f82bedbb0a2806091c0f0effa80d9df0c948f3"
+      },
+      {
+        "frame": 132,
+        "sha256": "f3c2938362aaf479b62808036c0d72544f0d3e51eb8d32b199f02ce4ade5e06d"
+      },
+      {
+        "frame": 312,
+        "sha256": "11c0833b343c2329231c4c74a3a4745043b41a28592f47d96b9c5ed3a0a10896"
+      },
+      {
+        "frame": 731,
+        "sha256": "b23d9dee71f17f1516049af02ccc27f6ba84d6c3b3a0178db00b1077b41ef41c"
+      },
+      {
+        "frame": 472,
+        "sha256": "6d1dcecb3a8a603fdeb8a34d42f82bedbb0a2806091c0f0effa80d9df0c948f3"
+      }
+    ],
+    "repeatEqual": true
+  },
+  {
+    "id": "atlas",
+    "seconds": 56.502237416999996,
+    "sourceFrameRange": [
+      132,
+      731
+    ],
+    "music": {
+      "file": "Funkorama.mp3",
+      "offset": 22.2,
+      "listening": "not-performed"
+    },
+    "seek": [
+      {
+        "frame": 472,
+        "sha256": "f58ef1ad49070e8255a7f876775dbb32fd4b9b16b2512fa5d5d80e91b89e76d3"
+      },
+      {
+        "frame": 132,
+        "sha256": "99b616c210865104a13aa9fd9c1f67639ca263e861a4948366a599fba0594c67"
+      },
+      {
+        "frame": 312,
+        "sha256": "018d5c8463d279a560b618e8a04481935e27f4cb6e4c2be4878cb8cfe90f9919"
+      },
+      {
+        "frame": 731,
+        "sha256": "f08a12856374b35445c33f00254c27113f2d3b6c1de1b942be28bc7a02a83988"
+      },
+      {
+        "frame": 472,
+        "sha256": "f58ef1ad49070e8255a7f876775dbb32fd4b9b16b2512fa5d5d80e91b89e76d3"
+      }
+    ],
+    "repeatEqual": true
+  },
+  {
+    "id": "aperture",
+    "seconds": 60.43597291599998,
+    "sourceFrameRange": [
+      132,
+      731
+    ],
+    "music": {
+      "file": "Carefree.mp3",
+      "offset": 34.2,
+      "listening": "not-performed"
+    },
+    "seek": [
+      {
+        "frame": 472,
+        "sha256": "00fc2cd1db3a235464f6abf8f0cc74e04776cdd6744296b4fbbee983e5dcff4c"
+      },
+      {
+        "frame": 132,
+        "sha256": "df6f9dc864338c5819ae417b927ba5148ea6d50bc784565bb8875e8646f3f545"
+      },
+      {
+        "frame": 312,
+        "sha256": "c5fd37a9c98a8844908a4cb21f08c1c12b3eb675dbf033c6aeb99248ba062662"
+      },
+      {
+        "frame": 731,
+        "sha256": "f4bcef0fd59ebc3e134237e837d48541889dee1ffffc062801e30517675293b5"
+      },
+      {
+        "frame": 472,
+        "sha256": "00fc2cd1db3a235464f6abf8f0cc74e04776cdd6744296b4fbbee983e5dcff4c"
+      }
+    ],
+    "repeatEqual": true
+  }
+]

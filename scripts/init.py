@@ -5,7 +5,7 @@ from pathlib import Path
 p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('destination',type=Path)
 p.add_argument('--template',choices=['minimal','window','command','workflow','discovery'],default='minimal')
-p.add_argument('--engine',choices=['remotion','html'],default='remotion')
+p.add_argument('--engine',choices=['remotion','html','hyperframes'],default='remotion')
 p.add_argument('--motion',choices=['standard','dynamic'],default=None)
 p.add_argument('--shader',action='store_true')
 p.add_argument('--music',choices=['procedural','energetic'],default=None)
@@ -15,6 +15,18 @@ p.add_argument('--duration',type=float,default=40)
 p.add_argument('--format',choices=['landscape','portrait'],default='landscape')
 p.add_argument('--fps',type=int,choices=[30,60],default=60)
 a=p.parse_args()
+if a.engine=='hyperframes':
+ if a.template!='minimal' or a.format!='landscape' or a.shader or a.background or a.motion or a.music:p.error('Hyperframes starter supports minimal landscape without shaders or background plates')
+ if a.destination.exists():p.error('Destination already exists; choose a new directory.')
+ if a.fps!=60 or not 8<=a.duration<=300 or abs(a.duration*a.fps-round(a.duration*a.fps))>1e-6:p.error('Hyperframes starter requires frame-aligned 8–300 seconds at 60fps')
+ source=Path(__file__).resolve().parent.parent/'assets/hyperframes'
+ shutil.copytree(source,a.destination,ignore=shutil.ignore_patterns('node_modules','out','.cache','gsap.min.js','composition.html','index.html','soundtrack.wav'))
+ config=json.loads((a.destination/'config.json').read_text());config['duration']=a.duration
+ if a.brand:config['brand']=a.brand
+ (a.destination/'config.json').write_text(json.dumps(config,indent=2)+'\n')
+ (a.destination/'.gitignore').write_text('node_modules/\nout/\npublic/gsap.min.js\nindex.html\npublic/soundtrack.wav\n')
+ print('Hyperframes source ready. Bundled audio is draft material. Run npm ci, npm run studio, npm run render, and npm run check.')
+ raise SystemExit(0)
 if a.template=='discovery' and (a.engine!='remotion' or a.duration<24):p.error('Discovery requires Remotion and at least 24 seconds')
 if a.format!='landscape' and (a.engine!='remotion' or a.template!='discovery'):p.error('Non-landscape starters require the responsive discovery template')
 if a.music is None:a.music='energetic' if a.engine=='remotion' else 'procedural'
@@ -46,8 +58,9 @@ try:
   config['sceneDurations']=[1.2,3,3,2.8,2]
   config['motionStyle']=a.motion or ('dynamic' if a.template=='window' else 'standard');config['shader']=a.shader
   if a.music=='energetic':
-   shutil.copytree(skill/'assets/music',a.destination/'public/music')
+   shutil.copytree(skill/'assets/music',a.destination/'public/music',dirs_exist_ok=True)
    config['audio'].update(mode='file',source='music/energetic-electro.ogg',license='CC0-1.0',bpm=125,musicVolume=.25,sfxVolume=.85,duckAmount=.35)
+   config['audio']['selectionStatus']='draft'
    config['audio']['credit']='Energetic Electro Tune — TinyWorlds';config['audio']['sourcePage']='https://opengameart.org/content/energetic-electro-tune'
  if a.background:
   filename='background-plate'+a.background.suffix.lower();shutil.copy(a.background,a.destination/'public'/filename)
@@ -67,6 +80,7 @@ try:
  (a.destination/'config.json').write_text(json.dumps(config,ensure_ascii=False,indent=2)+'\n')
  (a.destination/'.gitignore').write_text('node_modules/\nout/\n')
  print(str(a.destination.resolve()))
+ print('Bundled audio is draft material. Select and audition a score before release.')
  print('Next: npm ci; npm run '+('studio' if a.engine=='remotion' else 'preview')+'; npm run render')
 except Exception:
  # Only clean the new directory this invocation created, never an existing project.
