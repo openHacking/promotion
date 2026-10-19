@@ -1,5 +1,7 @@
 # Promotion
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 **Turn your product into a video people can understand.**
 
 Promotion is an Agent Skill for creating editable launch videos, software demos, and workflow promos from a website, project folder, screenshots, or recordings. Your agent designs the story, animates the product, synchronizes sound, and renders an MP4 locally.
