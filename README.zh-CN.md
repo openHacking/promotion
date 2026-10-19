@@ -49,7 +49,7 @@ dsh plugin --profile web add github:openHacking/promotion
 dsh web
 ```
 
-dsh 会下载插件包并安装依赖，无需手动拉取源码或构建插件。宿主提供文件访问、命令执行和技能加载能力。已验证的宿主版本为 `0.1.0-rc.6` 和 `0.2.0-rc.2`；客户端按钮和入口随版本而异。
+dsh 会下载插件包并安装依赖，无需手动拉取源码或构建插件。宿主提供文件访问、命令执行和技能加载能力。已验证的宿主版本为 `0.1.0-rc.6`、`0.2.0-rc.2` 和 `0.2.1-rc.2`；客户端按钮和入口随版本而异。
 
 版本固定、profile 要求、更新和卸载方式，见 [dsh 安装文档（英文）](docs/installation.md#deepseek-harness-dsh)。
 

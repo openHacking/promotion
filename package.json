@@ -1,6 +1,6 @@
 {
   "name": "dsh-promotion",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Editable product videos with the Promotion skill for DeepSeek Harness",
   "type": "module",
   "main": "./dsh/index.mjs",
@@ -12,10 +12,12 @@
   },
   "engines": {
     "node": ">=22",
-    "dsh": "0.1.0-rc.6 || 0.2.0-rc.2"
+    "dsh": "0.1.0-rc.6 || 0.2.0-rc.2 || 0.2.1-rc.2"
   },
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" }
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
   },
   "files": [
     "dsh/index.mjs",

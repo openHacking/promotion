@@ -13,7 +13,7 @@ npm test
 
 Python helpers can be checked with `python3 -m py_compile scripts/init.py scripts/install.py scripts/example.py` from the repository root. Run the official skill validator when available. Render changes need actual frame inspection, not only type checks.
 
-For the dsh bundle, run `npm ci`, `npm run typecheck`, and `npm test` at the repository root. To exercise an installed host, set `DSH_PACKAGE` to that host's `@deepseek-ai/dsh/package.json` and run `npm run test:dsh`. This packs the actual bundle, initializes a Remotion project from the archive, and checks profile installation/removal plus skill loading, precedence, and disposal using the host's real registry. It uses a temporary `DSH_HOME` and does not contact a model. CI runs this against both declared host versions. Keep runtime resources in the package allowlist and keep the nested npm ignore rules in sync for assets and examples.
+For the dsh bundle, run `npm ci`, `npm run typecheck`, and `npm test` at the repository root. To exercise an installed host, set `DSH_PACKAGE` to that host's `@deepseek-ai/dsh/package.json` and run `npm run test:dsh`. This packs the actual bundle, initializes a Remotion project from the archive, and checks profile installation/removal plus skill loading, precedence, and disposal using the host's real registry. It uses a temporary `DSH_HOME` and does not contact a model. CI runs this against all declared host versions. Keep runtime resources in the package allowlist and keep the nested npm ignore rules in sync for assets and examples.
 
 ## Templates
 

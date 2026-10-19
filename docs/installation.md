@@ -20,7 +20,7 @@ The installer excludes Git metadata, dependencies, build output, and caches. It 
 
 Promotion also ships as the native `dsh-promotion` bundle. It contributes a packaged skill provider to the host's existing `ctx.skills` registry. The instructions remain in the root `SKILL.md`; scripts, templates, fonts, music, references, and examples are local resources relative to that file.
 
-Tested versions: `0.1.0-rc.6` and `0.2.0-rc.2`. Node.js 22+ and pnpm are required for the dsh CLI. See the official [bundle installation guide](https://deepseek-harness.github.io/deepseek-harness/develop/basic/publish).
+Tested versions: `0.1.0-rc.6`, `0.2.0-rc.2`, and `0.2.1-rc.2`. Node.js 22+ and pnpm are required for the dsh CLI. See the official [bundle installation guide](https://deepseek-harness.github.io/deepseek-harness/develop/basic/publish).
 
 ### Install in the client
 
@@ -67,7 +67,7 @@ To distribute an archive from a checkout:
 
 ```sh
 npm pack
-dsh plugin --profile web add ./dsh-promotion-0.1.0.tgz
+dsh plugin --profile web add ./dsh-promotion-0.1.1.tgz
 ```
 
 The archive includes the existing example media and source archives, so it is large. It excludes `node_modules`, render output directories, caches, and private analysis. Installing the plugin does not install the video projects' dependencies; run `npm ci` inside each initialized video project as usual.

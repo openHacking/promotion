@@ -49,7 +49,7 @@ dsh plugin --profile web add github:openHacking/promotion
 dsh web
 ```
 
-dsh downloads the bundle and installs its dependencies; no manual clone or build is required. The host supplies filesystem access, command execution, and skill loading. Tested host versions are `0.1.0-rc.6` and `0.2.0-rc.2`; client controls depend on the installed dsh version.
+dsh downloads the bundle and installs its dependencies; no manual clone or build is required. The host supplies filesystem access, command execution, and skill loading. Tested host versions are `0.1.0-rc.6`, `0.2.0-rc.2`, and `0.2.1-rc.2`; client controls depend on the installed dsh version.
 
 See [dsh installation](docs/installation.md#deepseek-harness-dsh) for version pinning, profile requirements, updates, and removal.
 
