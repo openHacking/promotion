@@ -19,31 +19,41 @@ In a skill-enabled agent such as Codex, ask:
 
 > Install the Promotion skill from https://github.com/openHacking/promotion.
 
-From a local checkout:
-
-```sh
-python3 scripts/install.py
-```
-
-This installs `promotion` into `~/.codex/skills/promotion` (or the configured `CODEX_HOME`). Restart or start a new agent session if its skill catalog does not refresh automatically.
-
-Skills CLI users can install with:
+Or install directly from GitHub with the Skills CLI:
 
 ```sh
 npx skills add openHacking/promotion --skill promotion -g
 ```
 
-See [installation and migration](docs/installation.md) for other agents and local Skills CLI installation.
+Select your agent in the CLI, then start a fresh agent session if its skill catalog does not refresh automatically. No manual clone is required.
 
-### Update
+See [installation and migration](docs/installation.md) for local development, other agents, and migration.
 
-Ask your agent to update Promotion from the same source, or run from the updated checkout:
+### DeepSeek Harness (dsh)
+
+In the dsh client:
+
+1. Open **Plugins** in the sidebar and click **Add plugin**.
+2. Paste `github:openHacking/promotion` into the package field and click **Install**.
+3. When installation finishes, click **Enable now**. Restart the client if prompted.
+4. In a session, enter `/promotion` followed by your video brief.
+
+Use the sidebar's Plugins page; the plugin inventory under Settings is read-only. See the [official client installation guide](https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/client/ui-plugin-manager/README.md#installing-a-bundle).
+
+Alternatively, install into an existing Web profile from the command line:
 
 ```sh
-python3 scripts/install.py --replace
+dsh plugin --profile web add github:openHacking/promotion
+dsh web
 ```
 
-The installer backs up the previous version outside the active skills directory.
+dsh downloads the bundle and installs its dependencies; no manual clone or build is required. The host supplies filesystem access, command execution, and skill loading. Tested host versions are `0.1.0-rc.6` and `0.2.0-rc.2`; client controls depend on the installed dsh version.
+
+See [dsh installation](docs/installation.md#deepseek-harness-dsh) for version pinning, profile requirements, updates, and removal.
+
+### Update a skill installation
+
+Ask your agent to update Promotion from the same GitHub source. For local development installations, see [update instructions](docs/installation.md#updating).
 
 ## Try it
 

@@ -13,3 +13,20 @@ jobs:
       - run: npm run typecheck && npm test
         working-directory: assets/remotion
       - run: python3 -m py_compile scripts/init.py scripts/install.py
+  dsh:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        version: ['0.1.0-rc.6', '0.2.0-rc.2']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run typecheck && npm test
+      - run: npm install --global pnpm@10.22.0
+      - run: npm install --prefix "$RUNNER_TEMP/dsh-host" "@deepseek-ai/dsh@${{ matrix.version }}" --no-audit --no-fund
+      - run: npm run test:dsh
+        env:
+          DSH_PACKAGE: ${{ runner.temp }}/dsh-host/node_modules/@deepseek-ai/dsh/package.json

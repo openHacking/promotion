@@ -2,6 +2,8 @@
 
 The repository root is an installable Agent Skill. SKILL.md selects the workflow; references supply motion, audio, engine, and QA guidance only when needed. User setup and examples live in docs and README.
 
+The root npm package is also a DeepSeek Harness bundle. Its Cordis patch mounts a provider that reads the same SKILL.md and registers it with the host's existing skill registry at bundled rank 600. The resource base is the installed package directory, so references and initialization scripts work from linked checkouts and unpacked archives. The host owns discovery precedence, invocation, and provider disposal; the bundle does not introduce video-specific tools or duplicate host services.
+
 scripts/init.py copies a standalone starter into an isolated production folder. That folder owns config.json, src choreography, public assets, dependencies, and output. The Remotion starter renders ProductFilm using one frame clock. Conventional templates use five phases; BrowserStory uses a matching arbitrary-length shot array. The HTML starter retains the explicit ready/seek contract.
 
 The configuration validator checks frame alignment, local paths and realpath confinement, copy constraints, shot structure, optional UI-shell bounds, and shared event IDs. Rendering, QA, and audio use the same validated configuration. The browser asset pipeline waits for fonts and image decoding.

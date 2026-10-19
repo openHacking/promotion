@@ -1,0 +1,9 @@
+**/node_modules/
+**/out/
+**/.cache/
+**/.internal/
+**/__pycache__/
+**/.DS_Store
+**/._*
+**/.env*
+**/*.partial.mp4

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "module": "NodeNext",
+    "target": "ES2022",
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": ["dsh/index.mjs"]
+}

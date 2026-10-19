@@ -1,0 +1,47 @@
+{
+  "name": "dsh-promotion",
+  "version": "0.1.0",
+  "description": "Editable product videos with the Promotion skill for DeepSeek Harness",
+  "type": "module",
+  "main": "./dsh/index.mjs",
+  "exports": "./dsh/index.mjs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openHacking/promotion.git"
+  },
+  "engines": {
+    "node": ">=22",
+    "dsh": "0.1.0-rc.6 || 0.2.0-rc.2"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "files": [
+    "dsh/index.mjs",
+    "cordis.patch.yml",
+    "SKILL.md",
+    "THIRD_PARTY_NOTICES.md",
+    "scripts/*.py",
+    "scripts/*.mjs",
+    "references/",
+    "docs/",
+    "assets/",
+    "examples/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test dsh/*.test.mjs",
+    "test:dsh": "node dsh/verify-host.mjs"
+  },
+  "dependencies": {
+    "js-yaml": "4.3.2"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "4.0.4",
+    "@deepseek-ai/dsh-skill": "0.2.0-rc.2",
+    "@types/js-yaml": "4.0.9",
+    "@types/node": "22.19.0",
+    "typescript": "5.9.3"
+  }
+}
